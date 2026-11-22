@@ -15,7 +15,7 @@ data/processed/*.csv
 # The Random Forest and hybrid pickles are tens of MB. Commit them only if the
 # deployment target needs them (see README "Deployment"); the JSON metadata and
 # metrics are small and are committed.
-models/saved_models/*.joblib
+# models/saved_models/*.joblib
 !models/saved_models/.gitkeep
 
 # ---- Python --------------------------------------------------------------
