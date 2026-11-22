@@ -1,0 +1,168 @@
+{
+  "comparison": [
+    {
+      "Rank_by_MAE": 1,
+      "model_key": "xgboost",
+      "Approach": "Boosting - XGBoost",
+      "MAE": 71.49856327805193,
+      "RMSE": 119.87841356356702,
+      "R2": 0.9698212862452872,
+      "MAPE_pct": 13.668700588049015,
+      "n_test_obs": 5006
+    },
+    {
+      "Rank_by_MAE": 2,
+      "model_key": "stacking",
+      "Approach": "Stacking - RF + XGB + LR (Ridge meta)",
+      "MAE": 73.37387839132772,
+      "RMSE": 115.8626814240902,
+      "R2": 0.9718092972527387,
+      "MAPE_pct": 14.908840645587121,
+      "n_test_obs": 5006
+    },
+    {
+      "Rank_by_MAE": 3,
+      "model_key": "random_forest",
+      "Approach": "Bagging - Random Forest",
+      "MAE": 73.92297429481188,
+      "RMSE": 121.49310027143683,
+      "R2": 0.9690028345808268,
+      "MAPE_pct": 13.959766923809175,
+      "n_test_obs": 5006
+    },
+    {
+      "Rank_by_MAE": 4,
+      "model_key": "hybrid",
+      "Approach": "Hybrid - Random Forest + ARIMA",
+      "MAE": 92.28860383402913,
+      "RMSE": 164.25901277733547,
+      "R2": 0.9433399219452925,
+      "MAPE_pct": 15.878184384291503,
+      "n_test_obs": 5006
+    }
+  ],
+  "best_by_mae": {
+    "metric": "MAE",
+    "best_model_key": "xgboost",
+    "best_model": "Boosting - XGBoost",
+    "best_value": 71.49856327805193,
+    "all_metrics": {
+      "MAE": 71.49856327805193,
+      "RMSE": 119.87841356356702,
+      "R2": 0.9698212862452872,
+      "MAPE_pct": 13.668700588049015
+    },
+    "runner_up": "Stacking - RF + XGB + LR (Ridge meta)",
+    "runner_up_value": 73.37387839132772,
+    "margin": 1.8753151132757893,
+    "margin_pct": 2.56
+  },
+  "best_by_rmse": {
+    "metric": "RMSE",
+    "best_model_key": "stacking",
+    "best_model": "Stacking - RF + XGB + LR (Ridge meta)",
+    "best_value": 115.8626814240902,
+    "all_metrics": {
+      "MAE": 73.37387839132772,
+      "RMSE": 115.8626814240902,
+      "R2": 0.9718092972527387,
+      "MAPE_pct": 14.908840645587121
+    },
+    "runner_up": "Boosting - XGBoost",
+    "runner_up_value": 119.87841356356702,
+    "margin": 4.015732139476825,
+    "margin_pct": 3.35
+  },
+  "best_by_r2": {
+    "metric": "R2",
+    "best_model_key": "stacking",
+    "best_model": "Stacking - RF + XGB + LR (Ridge meta)",
+    "best_value": 0.9718092972527387,
+    "all_metrics": {
+      "MAE": 73.37387839132772,
+      "RMSE": 115.8626814240902,
+      "R2": 0.9718092972527387,
+      "MAPE_pct": 14.908840645587121
+    },
+    "runner_up": "Boosting - XGBoost",
+    "runner_up_value": 0.9698212862452872,
+    "margin": -0.0019880110074514956,
+    "margin_pct": -0.2
+  },
+  "hybrid_summary": {
+    "model": "Hybrid: Random Forest (level) + per-series ARIMA (residuals)",
+    "rf_params": {
+      "max_depth": 20,
+      "max_features": 0.7,
+      "min_samples_leaf": 1,
+      "n_estimators": 300
+    },
+    "min_residuals_for_arima": 12,
+    "n_oof_folds": 4,
+    "n_training_rows_with_oof": 14740,
+    "n_training_rows_without_oof": 3688,
+    "oof_residual_summary": {
+      "n_residuals": 14740,
+      "mean": 39.98031871825218,
+      "std": 179.58787078771684,
+      "mae_of_oof_predictions": 87.31989675598335
+    },
+    "forecast_origin_month": "2024-12-01",
+    "n_series_with_arima": 634,
+    "n_series_without_arima": 495,
+    "arima_order_counts": {
+      "(0, 0, 0)": 283,
+      "(0, 0, 1)": 118,
+      "(0, 0, 2)": 75,
+      "(1, 0, 0)": 66,
+      "(2, 0, 1)": 47,
+      "(2, 0, 0)": 35,
+      "(1, 0, 1)": 10
+    },
+    "candidate_orders": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        1
+      ]
+    ],
+    "order_selection": "lowest AIC among candidates, all with d=0",
+    "leakage_controls": [
+      "Residuals come from TimeSeriesSplit out-of-fold predictions, not in-sample fits.",
+      "ARIMA is fitted to training residuals only.",
+      "Forecast origin is the last training month; test month k uses the k-step forecast.",
+      "No test or validation actual is used to produce the correction."
+    ]
+  },
+  "interpretation": "On the held-out test months the best approach by MAE is **Boosting - XGBoost** (MAE 71.50 LKR, RMSE 119.88, R\u00b2 0.970).\n\nIt is 1.88 LKR (2.6%) ahead of the next approach, Stacking - RF + XGB + LR (Ridge meta).\n\nThe ranking is metric-dependent: Stacking - RF + XGB + LR (Ridge meta) wins on RMSE (115.86). Because RMSE squares the errors, that means it keeps its largest misses smaller, while the MAE winner is better on the typical observation.\n\nBoosting beats bagging here (71.50 against 73.92 LKR MAE): sequentially correcting residuals extracts more from the lag features than averaging independent bootstrap trees does.\n\nStacking does not beat its best base learner. That happens when the base models' errors are highly correlated - a blend of two models that are wrong on the same rows cannot fix those rows - and when the linear base learner drags the blend on the extreme prices.\n\nThe hybrid is **worse** than its own Random Forest component (92.29 against 73.92 LKR MAE, a loss of 18.37). The ARIMA correction is adding error rather than removing it. The mechanism is sound but the conditions here work against it: the residual forecast is anchored on the last training month and has to reach four to nine months forward, and at that distance an ARIMA forecast has decayed to the mean of the training residuals. If those residuals are not centred on zero - and out-of-fold residuals from an inflationary series are not, because folds fitted on earlier, cheaper months under-predict later ones - then the correction becomes a near-constant bias added to every predicted month. An ARIMA residual model could be fitted for 634 of 1,129 series (56%); the rest had fewer than 12 training residuals and fall back to the plain forest, so on those rows the hybrid and the forest are identical by construction."
+}

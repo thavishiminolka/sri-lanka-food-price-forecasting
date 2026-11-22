@@ -1,0 +1,26 @@
+{
+  "train_end": "2024-12-31",
+  "val_end": "2025-03-31",
+  "n_train": 18428,
+  "n_val": 2754,
+  "n_test": 5006,
+  "pct_train": 70.4,
+  "pct_val": 10.5,
+  "pct_test": 19.1,
+  "train_period": "2004-04-01 .. 2024-12-01",
+  "val_period": "2025-01-01 .. 2025-03-01",
+  "test_period": "2025-04-01 .. 2025-09-01",
+  "train_series": 1403,
+  "val_series": 998,
+  "test_series": 1043,
+  "test_months": [
+    "2025-04-01",
+    "2025-05-01",
+    "2025-06-01",
+    "2025-07-01",
+    "2025-08-01",
+    "2025-09-01"
+  ],
+  "shuffled": false,
+  "note": "Test series not present in training are predicted from their own lag features; the categorical encoder maps any unseen category to -1."
+}

@@ -1,0 +1,3679 @@
+{
+  "summary": {
+    "model": "Hybrid: Random Forest (level) + per-series ARIMA (residuals)",
+    "rf_params": {
+      "max_depth": 20,
+      "max_features": 0.7,
+      "min_samples_leaf": 1,
+      "n_estimators": 300
+    },
+    "min_residuals_for_arima": 12,
+    "n_oof_folds": 4,
+    "n_training_rows_with_oof": 14740,
+    "n_training_rows_without_oof": 3688,
+    "oof_residual_summary": {
+      "n_residuals": 14740,
+      "mean": 39.98031871825218,
+      "std": 179.58787078771684,
+      "mae_of_oof_predictions": 87.31989675598335
+    },
+    "forecast_origin_month": "2024-12-01",
+    "n_series_with_arima": 634,
+    "n_series_without_arima": 495,
+    "arima_order_counts": {
+      "(0, 0, 0)": 283,
+      "(0, 0, 1)": 118,
+      "(0, 0, 2)": 75,
+      "(1, 0, 0)": 66,
+      "(2, 0, 1)": 47,
+      "(2, 0, 0)": 35,
+      "(1, 0, 1)": 10
+    },
+    "candidate_orders": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        1
+      ]
+    ],
+    "order_selection": "lowest AIC among candidates, all with d=0",
+    "leakage_controls": [
+      "Residuals come from TimeSeriesSplit out-of-fold predictions, not in-sample fits.",
+      "ARIMA is fitted to training residuals only.",
+      "Forecast origin is the last training month; test month k uses the k-step forecast.",
+      "No test or validation actual is used to produce the correction."
+    ]
+  },
+  "per_series": [
+    {
+      "series_id": "Wheat flour | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 1383.96,
+      "n_residuals": 215,
+      "resid_std": 11.194036711562163,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (white) | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 1413.94,
+      "n_residuals": 205,
+      "resid_std": 11.851959700442547,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Batticaloa | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 504.36,
+      "n_residuals": 78,
+      "resid_std": 6.870453389869664,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (red nadu) | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 1)",
+      "aic": 444.72,
+      "n_residuals": 76,
+      "resid_std": 5.583824844979076,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Trincomalee | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 436.78,
+      "n_residuals": 76,
+      "resid_std": 6.586199604198644,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Ampara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 448.74,
+      "n_residuals": 75,
+      "resid_std": 7.165353460069226,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Vavuniya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 422.97,
+      "n_residuals": 75,
+      "resid_std": 6.622294755541093,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Jaffna | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 518.7,
+      "n_residuals": 71,
+      "resid_std": 9.61881724429726,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | National Average | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 1)",
+      "aic": 273.21,
+      "n_residuals": 66,
+      "resid_std": 3.8936715516418463,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Mannar | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 360.14,
+      "n_residuals": 61,
+      "resid_std": 7.472936385989301,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (red nadu) | Jaffna | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 538.3,
+      "n_residuals": 60,
+      "resid_std": 21.820907228500772,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (red nadu) | Trincomalee | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 386.58,
+      "n_residuals": 60,
+      "resid_std": 7.776083926689156,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (red nadu) | Batticaloa | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 1)",
+      "aic": 427.0,
+      "n_residuals": 59,
+      "resid_std": 8.933546328788864,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (red nadu) | Vavuniya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 1)",
+      "aic": 371.17,
+      "n_residuals": 59,
+      "resid_std": 7.723902590102644,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Mulaitivu | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 1)",
+      "aic": 345.65,
+      "n_residuals": 54,
+      "resid_std": 5.968808869821223,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Kilinochchi | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 330.25,
+      "n_residuals": 52,
+      "resid_std": 6.6812318922537655,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (red nadu) | Mannar | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 260.82,
+      "n_residuals": 46,
+      "resid_std": 5.1897265161800386,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Sugar | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 345.37,
+      "n_residuals": 44,
+      "resid_std": 24.467865332575084,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (red nadu) | Kilinochchi | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 190.31,
+      "n_residuals": 36,
+      "resid_std": 4.4863335076097295,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Cowpeas (whole, average) | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 445.75,
+      "n_residuals": 35,
+      "resid_std": 133.18743612536008,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (red nadu) | Ampara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 206.33,
+      "n_residuals": 33,
+      "resid_std": 6.0207792371120465,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 233.55,
+      "n_residuals": 32,
+      "resid_std": 9.755457072087905,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (red nadu) | Mulaitivu | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 180.4,
+      "n_residuals": 31,
+      "resid_std": 4.664217278608729,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fuel (diesel) | National Average | L | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 164.59,
+      "n_residuals": 25,
+      "resid_std": 11.86565069143359,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fuel (petrol-gasoline) | National Average | L | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 221.94,
+      "n_residuals": 25,
+      "resid_std": 22.09463018077823,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | Anuradhapura | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 164.5,
+      "n_residuals": 24,
+      "resid_std": 8.398943919315823,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | Kandy | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 162.48,
+      "n_residuals": 24,
+      "resid_std": 7.922809980239456,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | Monaragala | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 184.46,
+      "n_residuals": 24,
+      "resid_std": 10.38795910697213,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | Nuwara Eliya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 172.52,
+      "n_residuals": 24,
+      "resid_std": 8.100059375169758,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | Puttalam | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 157.58,
+      "n_residuals": 24,
+      "resid_std": 6.889395030182939,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | Trincomalee | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 168.16,
+      "n_residuals": 24,
+      "resid_std": 7.642838105324517,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 281.17,
+      "n_residuals": 23,
+      "resid_std": 100.1389625657209,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | Badulla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 166.08,
+      "n_residuals": 23,
+      "resid_std": 8.57722365470244,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | Gampaha | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 163.8,
+      "n_residuals": 23,
+      "resid_std": 8.20220551921659,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | Matale | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 168.04,
+      "n_residuals": 23,
+      "resid_std": 8.779934725429419,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | Polonnaruwa | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 150.73,
+      "n_residuals": 23,
+      "resid_std": 7.90003534910962,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | Ampara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 152.18,
+      "n_residuals": 22,
+      "resid_std": 7.019471535711471,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | Kalutara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 157.31,
+      "n_residuals": 22,
+      "resid_std": 7.888656615429664,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Colombo City | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 147.51,
+      "n_residuals": 21,
+      "resid_std": 7.983391166534602,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | Batticaloa | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 132.82,
+      "n_residuals": 21,
+      "resid_std": 5.198109714314654,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | Kilinochchi | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 139.93,
+      "n_residuals": 21,
+      "resid_std": 6.156495267369872,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | Mannar | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 150.35,
+      "n_residuals": 21,
+      "resid_std": 7.889638261178869,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | Rathnapura | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 142.6,
+      "n_residuals": 21,
+      "resid_std": 6.89531148212094,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Sugar | National Average | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 118.09,
+      "n_residuals": 21,
+      "resid_std": 5.383353637887373,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | Vavuniya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 123.79,
+      "n_residuals": 19,
+      "resid_std": 7.268550394459023,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Anuradhapura | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 80.67,
+      "n_residuals": 19,
+      "resid_std": 1.9674453934393785,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Badulla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 78.66,
+      "n_residuals": 19,
+      "resid_std": 1.8161206268165755,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Galle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 71.84,
+      "n_residuals": 19,
+      "resid_std": 1.6762609175504588,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Gampaha | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 72.67,
+      "n_residuals": 19,
+      "resid_std": 1.904197735517519,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Hambantota | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 85.39,
+      "n_residuals": 19,
+      "resid_std": 2.1654741031640787,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fuel (diesel) | Colombo City | L | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 124.11,
+      "n_residuals": 18,
+      "resid_std": 6.804494764075051,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fuel (petrol-gasoline) | Colombo City | L | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 122.76,
+      "n_residuals": 18,
+      "resid_std": 7.069563321816128,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | Hambantota | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 116.89,
+      "n_residuals": 18,
+      "resid_std": 5.567593515044317,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Rice (long grain) | Matara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 117.77,
+      "n_residuals": 18,
+      "resid_std": 5.704935370102068,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, fresh) | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 208.25,
+      "n_residuals": 17,
+      "resid_std": 100.5121689805046,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Kalutara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 60.69,
+      "n_residuals": 17,
+      "resid_std": 1.5979987134149125,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Kandy | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 71.57,
+      "n_residuals": 17,
+      "resid_std": 1.7655787638121083,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Kurunegala | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 70.56,
+      "n_residuals": 17,
+      "resid_std": 1.7135418030999574,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Matale | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 81.62,
+      "n_residuals": 17,
+      "resid_std": 2.844316224395087,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Matara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 72.91,
+      "n_residuals": 17,
+      "resid_std": 1.836615932725864,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Monaragala | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 72.44,
+      "n_residuals": 17,
+      "resid_std": 1.8907794064643872,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Nuwara Eliya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 69.6,
+      "n_residuals": 17,
+      "resid_std": 1.6749825398005391,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Polonnaruwa | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 96.15,
+      "n_residuals": 17,
+      "resid_std": 3.6652094737394467,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Puttalam | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 50.08,
+      "n_residuals": 17,
+      "resid_std": 1.290944912140775,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Wheat flour | Rathnapura | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 103.52,
+      "n_residuals": 17,
+      "resid_std": 5.2368019177126035,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Coconut | Trincomalee | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 108.05,
+      "n_residuals": 16,
+      "resid_std": 6.971020204011834,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Coconut | Vavuniya | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 96.47,
+      "n_residuals": 16,
+      "resid_std": 4.471472058218554,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Cowpeas (whole, average) | Ampara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 194.47,
+      "n_residuals": 16,
+      "resid_std": 93.05170430880962,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Cowpeas (whole, average) | Anuradhapura | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 190.31,
+      "n_residuals": 16,
+      "resid_std": 91.85233277019196,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Cowpeas (whole, average) | Dehiattakandiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 202.48,
+      "n_residuals": 16,
+      "resid_std": 123.89365919872077,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Cowpeas (whole, average) | Embilipitiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 201.01,
+      "n_residuals": 16,
+      "resid_std": 114.1740898169004,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Cowpeas (whole, average) | Galle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 197.67,
+      "n_residuals": 16,
+      "resid_std": 102.84698268604077,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Cowpeas (whole, average) | Hanguranketha | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 168.36,
+      "n_residuals": 16,
+      "resid_std": 58.642381544969524,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Cowpeas (whole, average) | Jaffna | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 187.99,
+      "n_residuals": 16,
+      "resid_std": 99.68214014694843,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Cowpeas (whole, average) | Kandy | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 184.73,
+      "n_residuals": 16,
+      "resid_std": 70.82254057017103,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Cowpeas (whole, average) | Kegalle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 190.96,
+      "n_residuals": 16,
+      "resid_std": 107.33191391636889,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Cowpeas (whole, average) | Kilinochchi | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 179.66,
+      "n_residuals": 16,
+      "resid_std": 73.65594870920862,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Cowpeas (whole, average) | Mannar | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 174.4,
+      "n_residuals": 16,
+      "resid_std": 65.7312009770259,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Cowpeas (whole, average) | Matale | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 191.8,
+      "n_residuals": 16,
+      "resid_std": 85.60629753495063,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Cowpeas (whole, average) | Matara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 178.21,
+      "n_residuals": 16,
+      "resid_std": 64.47093459198341,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Cowpeas (whole, average) | Meegoda(DEC) | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 183.5,
+      "n_residuals": 16,
+      "resid_std": 66.04939493397421,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Cowpeas (whole, average) | Monaragala | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 193.24,
+      "n_residuals": 16,
+      "resid_std": 102.9347174637687,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Cowpeas (whole, average) | Trincomalee | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 191.93,
+      "n_residuals": 16,
+      "resid_std": 86.13831522333786,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Ampara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 192.81,
+      "n_residuals": 16,
+      "resid_std": 100.91857253635172,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Anuradhapura | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 206.37,
+      "n_residuals": 16,
+      "resid_std": 134.9640266029041,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Badulla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 199.09,
+      "n_residuals": 16,
+      "resid_std": 107.51923849137593,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 202.01,
+      "n_residuals": 16,
+      "resid_std": 117.79586359939853,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Dammbagalla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 198.87,
+      "n_residuals": 16,
+      "resid_std": 117.83573981562404,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Dehiattakandiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 199.95,
+      "n_residuals": 16,
+      "resid_std": 112.24953796516726,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Embilipitiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 206.44,
+      "n_residuals": 16,
+      "resid_std": 139.1284502451858,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Galle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 204.62,
+      "n_residuals": 16,
+      "resid_std": 127.81591028814319,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Hambantota | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 209.51,
+      "n_residuals": 16,
+      "resid_std": 148.90686460768111,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Hanguranketha | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 194.98,
+      "n_residuals": 16,
+      "resid_std": 94.54318506181617,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Jaffna | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 205.69,
+      "n_residuals": 16,
+      "resid_std": 132.46943643845523,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Kandy | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 212.63,
+      "n_residuals": 16,
+      "resid_std": 164.12929542645085,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Kegalle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 195.06,
+      "n_residuals": 16,
+      "resid_std": 119.84524175713494,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Keppetipola (DEC} | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 201.11,
+      "n_residuals": 16,
+      "resid_std": 114.50510207105759,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Kilinochchi | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 198.0,
+      "n_residuals": 16,
+      "resid_std": 115.59838758604471,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Mannar | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 198.22,
+      "n_residuals": 16,
+      "resid_std": 117.36056709574736,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Matale | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 191.23,
+      "n_residuals": 16,
+      "resid_std": 109.30091819091902,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Matara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 210.23,
+      "n_residuals": 16,
+      "resid_std": 152.26520108770168,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Meegoda(DEC) | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 210.14,
+      "n_residuals": 16,
+      "resid_std": 151.85222968435002,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Monaragala | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 202.63,
+      "n_residuals": 16,
+      "resid_std": 120.10110764623403,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Nuwara Eliya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 197.04,
+      "n_residuals": 16,
+      "resid_std": 100.84365335338404,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Puttalam | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 202.54,
+      "n_residuals": 16,
+      "resid_std": 128.09996700654142,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Trincomalee | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 195.17,
+      "n_residuals": 16,
+      "resid_std": 99.90530564519847,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggplants | Vavuniya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 198.86,
+      "n_residuals": 16,
+      "resid_std": 106.75604248797686,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Ampara | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 109.85,
+      "n_residuals": 16,
+      "resid_std": 7.889156742266517,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Anuradhapura | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 108.92,
+      "n_residuals": 16,
+      "resid_std": 7.96228409780728,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Badulla | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 111.95,
+      "n_residuals": 16,
+      "resid_std": 8.06372903693083,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Dammbagalla | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 110.14,
+      "n_residuals": 16,
+      "resid_std": 7.8178942609112685,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Dehiattakandiya | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 108.03,
+      "n_residuals": 16,
+      "resid_std": 7.871903001659158,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Embilipitiya | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 110.01,
+      "n_residuals": 16,
+      "resid_std": 8.306970467149632,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Galle | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 108.27,
+      "n_residuals": 16,
+      "resid_std": 8.041172088728816,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Hambantota | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 106.1,
+      "n_residuals": 16,
+      "resid_std": 7.207741513642295,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Hanguranketha | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 111.05,
+      "n_residuals": 16,
+      "resid_std": 6.865513975425441,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Jaffna | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 111.94,
+      "n_residuals": 16,
+      "resid_std": 7.939115930424673,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Kandy | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 108.76,
+      "n_residuals": 16,
+      "resid_std": 7.87617991050145,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Kegalle | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 107.51,
+      "n_residuals": 16,
+      "resid_std": 7.490609663483239,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Keppetipola (DEC} | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 110.88,
+      "n_residuals": 16,
+      "resid_std": 7.9089367707620495,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Kilinochchi | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 110.35,
+      "n_residuals": 16,
+      "resid_std": 7.664658074649101,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Mannar | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 110.74,
+      "n_residuals": 16,
+      "resid_std": 7.885859587590649,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Matale | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 108.49,
+      "n_residuals": 16,
+      "resid_std": 7.6307605195116,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Matara | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 104.35,
+      "n_residuals": 16,
+      "resid_std": 7.823206952261764,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Meegoda(DEC) | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 107.56,
+      "n_residuals": 16,
+      "resid_std": 7.4576723225305726,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Monaragala | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 111.51,
+      "n_residuals": 16,
+      "resid_std": 7.970595119355023,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Nuwara Eliya | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 112.54,
+      "n_residuals": 16,
+      "resid_std": 7.7873383238198075,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Puttalam | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 97.08,
+      "n_residuals": 16,
+      "resid_std": 7.535208183682207,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Trincomalee | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 104.13,
+      "n_residuals": 16,
+      "resid_std": 7.056241117675622,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Eggs | Vavuniya | Unit | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 112.23,
+      "n_residuals": 16,
+      "resid_std": 7.670239274584118,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Ampara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 194.4,
+      "n_residuals": 16,
+      "resid_std": 112.13381662537479,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Anuradhapura | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 195.27,
+      "n_residuals": 16,
+      "resid_std": 118.21220273981896,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Badulla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 198.47,
+      "n_residuals": 16,
+      "resid_std": 137.98819193740496,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 183.01,
+      "n_residuals": 16,
+      "resid_std": 98.48322092610884,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Dammbagalla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 184.93,
+      "n_residuals": 16,
+      "resid_std": 72.04850047643093,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Dehiattakandiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 202.46,
+      "n_residuals": 16,
+      "resid_std": 136.900559401262,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Embilipitiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 190.72,
+      "n_residuals": 16,
+      "resid_std": 102.29075157625765,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Galle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 196.85,
+      "n_residuals": 16,
+      "resid_std": 100.23252661864991,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Hambantota | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 221.78,
+      "n_residuals": 16,
+      "resid_std": 249.5630192290157,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Hanguranketha | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 231.35,
+      "n_residuals": 16,
+      "resid_std": 311.35053061540947,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Jaffna | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 210.38,
+      "n_residuals": 16,
+      "resid_std": 216.4835748912753,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Kandy | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 189.53,
+      "n_residuals": 16,
+      "resid_std": 107.93720139424352,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Kegalle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 1)",
+      "aic": 183.68,
+      "n_residuals": 16,
+      "resid_std": 126.33064058159252,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Keppetipola (DEC} | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 182.14,
+      "n_residuals": 16,
+      "resid_std": 73.41678819198806,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Kilinochchi | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 164.61,
+      "n_residuals": 16,
+      "resid_std": 37.66859674944567,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Mannar | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 189.83,
+      "n_residuals": 16,
+      "resid_std": 133.60157039633248,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Matale | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 184.35,
+      "n_residuals": 16,
+      "resid_std": 88.21030006371066,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Matara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 164.13,
+      "n_residuals": 16,
+      "resid_std": 64.28960134614108,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Meegoda(DEC) | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 198.83,
+      "n_residuals": 16,
+      "resid_std": 106.655764259343,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Monaragala | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 190.12,
+      "n_residuals": 16,
+      "resid_std": 95.06797818964263,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Nuwara Eliya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 172.44,
+      "n_residuals": 16,
+      "resid_std": 46.75599676603735,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Puttalam | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 219.7,
+      "n_residuals": 16,
+      "resid_std": 221.9644467809096,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, katta) | Trincomalee | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 194.31,
+      "n_residuals": 16,
+      "resid_std": 120.52151175167319,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Anuradhapura | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 189.43,
+      "n_residuals": 16,
+      "resid_std": 79.51174179731967,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Badulla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 192.44,
+      "n_residuals": 16,
+      "resid_std": 92.17587082417612,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 190.0,
+      "n_residuals": 16,
+      "resid_std": 82.11626780976204,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Dammbagalla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 183.75,
+      "n_residuals": 16,
+      "resid_std": 71.78963591111463,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Dehiattakandiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 187.97,
+      "n_residuals": 16,
+      "resid_std": 78.8284550835335,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Embilipitiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 182.36,
+      "n_residuals": 16,
+      "resid_std": 63.73037253484476,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Galle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 176.95,
+      "n_residuals": 16,
+      "resid_std": 54.40845859984228,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Hambantota | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 186.59,
+      "n_residuals": 16,
+      "resid_std": 75.41499584802848,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Hanguranketha | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 188.79,
+      "n_residuals": 16,
+      "resid_std": 77.93683577078485,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Jaffna | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 190.22,
+      "n_residuals": 16,
+      "resid_std": 101.3603798890708,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Kandy | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 183.35,
+      "n_residuals": 16,
+      "resid_std": 67.77698980354427,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Kegalle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 184.78,
+      "n_residuals": 16,
+      "resid_std": 68.74327951119923,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Keppetipola (DEC} | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 179.43,
+      "n_residuals": 16,
+      "resid_std": 58.165359132233085,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Kilinochchi | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 173.7,
+      "n_residuals": 16,
+      "resid_std": 48.63301309082915,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Mannar | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 190.23,
+      "n_residuals": 16,
+      "resid_std": 81.51140158996222,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Matale | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 184.34,
+      "n_residuals": 16,
+      "resid_std": 67.80829308293053,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Matara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 187.76,
+      "n_residuals": 16,
+      "resid_std": 75.45771530995111,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Meegoda(DEC) | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 189.57,
+      "n_residuals": 16,
+      "resid_std": 83.7678204648093,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Monaragala | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 188.65,
+      "n_residuals": 16,
+      "resid_std": 77.58833411895094,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Nuwara Eliya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 177.98,
+      "n_residuals": 16,
+      "resid_std": 57.0354875607666,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Puttalam | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 184.25,
+      "n_residuals": 16,
+      "resid_std": 67.6095627505024,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (dry, sprats) | Trincomalee | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 182.48,
+      "n_residuals": 16,
+      "resid_std": 63.970923949288526,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (goldstripe sardinella) | Anuradhapura | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 195.46,
+      "n_residuals": 16,
+      "resid_std": 95.99625014988025,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (goldstripe sardinella) | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 198.59,
+      "n_residuals": 16,
+      "resid_std": 105.8539970638334,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (goldstripe sardinella) | Embilipitiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 205.83,
+      "n_residuals": 16,
+      "resid_std": 142.6835427422335,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (goldstripe sardinella) | Kandy | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 188.63,
+      "n_residuals": 16,
+      "resid_std": 80.05813583343695,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (goldstripe sardinella) | Keppetipola (DEC} | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 177.62,
+      "n_residuals": 16,
+      "resid_std": 54.96045615009206,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (goldstripe sardinella) | Kilinochchi | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 184.89,
+      "n_residuals": 16,
+      "resid_std": 72.1423276644404,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (goldstripe sardinella) | Mannar | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 202.13,
+      "n_residuals": 16,
+      "resid_std": 119.81909974203066,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (goldstripe sardinella) | Matale | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 194.68,
+      "n_residuals": 16,
+      "resid_std": 98.62322031157466,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (goldstripe sardinella) | Meegoda(DEC) | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 199.28,
+      "n_residuals": 16,
+      "resid_std": 116.6951773524149,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (goldstripe sardinella) | Monaragala | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 191.18,
+      "n_residuals": 16,
+      "resid_std": 95.90298826592188,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (goldstripe sardinella) | Nuwara Eliya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 188.04,
+      "n_residuals": 16,
+      "resid_std": 76.12992838410787,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (goldstripe sardinella) | Puttalam | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 199.3,
+      "n_residuals": 16,
+      "resid_std": 108.21614558615964,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (goldstripe sardinella) | Trincomalee | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 1)",
+      "aic": 197.32,
+      "n_residuals": 16,
+      "resid_std": 103.51860358105102,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (goldstripe sardinella) | Vavuniya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 206.47,
+      "n_residuals": 16,
+      "resid_std": 135.3906453393698,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (jack) | Anuradhapura | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 197.93,
+      "n_residuals": 16,
+      "resid_std": 117.85929552067267,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (jack) | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 205.83,
+      "n_residuals": 16,
+      "resid_std": 149.80380233459147,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (jack) | Dammbagalla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 206.74,
+      "n_residuals": 16,
+      "resid_std": 152.06888502636625,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (jack) | Jaffna | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 212.13,
+      "n_residuals": 16,
+      "resid_std": 186.24394483322354,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (jack) | Kandy | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 197.56,
+      "n_residuals": 16,
+      "resid_std": 102.51036824648958,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (jack) | Kegalle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 217.27,
+      "n_residuals": 16,
+      "resid_std": 189.7282757707386,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (jack) | Kilinochchi | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 199.55,
+      "n_residuals": 16,
+      "resid_std": 109.08496365953768,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (jack) | Mannar | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 200.13,
+      "n_residuals": 16,
+      "resid_std": 111.06407820252339,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (jack) | Matale | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 209.39,
+      "n_residuals": 16,
+      "resid_std": 156.87029751024664,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (jack) | Puttalam | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 207.45,
+      "n_residuals": 16,
+      "resid_std": 139.5927178985741,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (jack) | Trincomalee | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 219.87,
+      "n_residuals": 16,
+      "resid_std": 213.67373515685912,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (jack) | Vavuniya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 225.19,
+      "n_residuals": 16,
+      "resid_std": 243.0270802420315,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (sail fish) | Anuradhapura | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 182.96,
+      "n_residuals": 16,
+      "resid_std": 76.38130335488323,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (sail fish) | Badulla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 206.89,
+      "n_residuals": 16,
+      "resid_std": 137.73252640653865,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (sail fish) | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 208.85,
+      "n_residuals": 16,
+      "resid_std": 152.483714053697,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (sail fish) | Dammbagalla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 204.04,
+      "n_residuals": 16,
+      "resid_std": 125.51276657572865,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (sail fish) | Embilipitiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 196.01,
+      "n_residuals": 16,
+      "resid_std": 146.1885454927375,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (sail fish) | Galle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 214.12,
+      "n_residuals": 16,
+      "resid_std": 173.11105816193785,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (sail fish) | Kandy | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 205.36,
+      "n_residuals": 16,
+      "resid_std": 145.14757536564642,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (sail fish) | Kegalle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 223.35,
+      "n_residuals": 16,
+      "resid_std": 233.52247564188474,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (sail fish) | Keppetipola (DEC} | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 209.81,
+      "n_residuals": 16,
+      "resid_std": 191.06883458228825,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (sail fish) | Matale | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 192.6,
+      "n_residuals": 16,
+      "resid_std": 97.8254500739952,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (sail fish) | Matara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 190.27,
+      "n_residuals": 16,
+      "resid_std": 83.37991224721085,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (sail fish) | Meegoda(DEC) | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 227.88,
+      "n_residuals": 16,
+      "resid_std": 264.36418808127684,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (sail fish) | Monaragala | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 199.12,
+      "n_residuals": 16,
+      "resid_std": 116.49057457560572,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (sail fish) | Nuwara Eliya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 210.22,
+      "n_residuals": 16,
+      "resid_std": 152.23686635162701,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (sail fish) | Vavuniya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 210.32,
+      "n_residuals": 16,
+      "resid_std": 160.04645460696605,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Anuradhapura | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 211.58,
+      "n_residuals": 16,
+      "resid_std": 188.17601946052633,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Badulla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 210.45,
+      "n_residuals": 16,
+      "resid_std": 168.79053480132924,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 212.95,
+      "n_residuals": 16,
+      "resid_std": 165.81431499998558,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Dammbagalla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 187.6,
+      "n_residuals": 16,
+      "resid_std": 113.9814619420074,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Dehiattakandiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 218.91,
+      "n_residuals": 16,
+      "resid_std": 199.75284740947944,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Embilipitiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 209.03,
+      "n_residuals": 16,
+      "resid_std": 146.6825230468925,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Galle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 212.03,
+      "n_residuals": 16,
+      "resid_std": 161.12020895417854,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Hambantota | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 226.15,
+      "n_residuals": 16,
+      "resid_std": 260.5733750428893,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Jaffna | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 202.17,
+      "n_residuals": 16,
+      "resid_std": 135.5351705212485,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Kandy | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 199.43,
+      "n_residuals": 16,
+      "resid_std": 115.35952757589216,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Kegalle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 207.14,
+      "n_residuals": 16,
+      "resid_std": 138.26944710383142,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Keppetipola (DEC} | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 212.36,
+      "n_residuals": 16,
+      "resid_std": 162.7579434975165,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Kilinochchi | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 194.22,
+      "n_residuals": 16,
+      "resid_std": 92.45684246696183,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Mannar | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 185.88,
+      "n_residuals": 16,
+      "resid_std": 77.98495687481892,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Matale | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 215.79,
+      "n_residuals": 16,
+      "resid_std": 192.83714772169196,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Matara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 207.78,
+      "n_residuals": 16,
+      "resid_std": 149.46004624088528,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Monaragala | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 197.24,
+      "n_residuals": 16,
+      "resid_std": 117.01837677894072,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Nuwara Eliya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 214.91,
+      "n_residuals": 16,
+      "resid_std": 176.29295752485922,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Puttalam | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 190.4,
+      "n_residuals": 16,
+      "resid_std": 86.53848795953965,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Trincomalee | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 215.38,
+      "n_residuals": 16,
+      "resid_std": 189.80825787929638,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (skipjack tuna) | Vavuniya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 210.41,
+      "n_residuals": 16,
+      "resid_std": 153.14431431936944,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (trenched sardinella) | Anuradhapura | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 204.04,
+      "n_residuals": 16,
+      "resid_std": 125.49912955592363,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (trenched sardinella) | Badulla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 190.66,
+      "n_residuals": 16,
+      "resid_std": 82.60961995122662,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (trenched sardinella) | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 192.8,
+      "n_residuals": 16,
+      "resid_std": 88.32283508077106,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (trenched sardinella) | Dammbagalla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 192.89,
+      "n_residuals": 16,
+      "resid_std": 108.42001534507149,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (trenched sardinella) | Galle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 213.08,
+      "n_residuals": 16,
+      "resid_std": 166.4843036843021,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (trenched sardinella) | Jaffna | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 205.12,
+      "n_residuals": 16,
+      "resid_std": 131.62069739804866,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (trenched sardinella) | Kandy | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 202.87,
+      "n_residuals": 16,
+      "resid_std": 121.00940723026942,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (trenched sardinella) | Kegalle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 199.99,
+      "n_residuals": 16,
+      "resid_std": 114.83560243956094,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (trenched sardinella) | Matale | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 196.73,
+      "n_residuals": 16,
+      "resid_std": 99.92021009221142,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (trenched sardinella) | Puttalam | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 193.56,
+      "n_residuals": 16,
+      "resid_std": 90.4498652199258,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (trenched sardinella) | Trincomalee | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 213.91,
+      "n_residuals": 16,
+      "resid_std": 173.17466891622135,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (trenched sardinella) | Vavuniya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 213.94,
+      "n_residuals": 16,
+      "resid_std": 171.02405051780778,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (yellowfin tuna) | Anuradhapura | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 241.73,
+      "n_residuals": 16,
+      "resid_std": 407.5126795969062,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (yellowfin tuna) | Badulla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 216.43,
+      "n_residuals": 16,
+      "resid_std": 184.870119655893,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (yellowfin tuna) | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 202.62,
+      "n_residuals": 16,
+      "resid_std": 120.06219725629144,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (yellowfin tuna) | Dammbagalla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 209.65,
+      "n_residuals": 16,
+      "resid_std": 149.55840362057484,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (yellowfin tuna) | Embilipitiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 200.18,
+      "n_residuals": 16,
+      "resid_std": 112.55317939660259,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (yellowfin tuna) | Galle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 210.61,
+      "n_residuals": 16,
+      "resid_std": 163.88329473701015,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (yellowfin tuna) | Hambantota | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 212.07,
+      "n_residuals": 16,
+      "resid_std": 179.8983051674,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (yellowfin tuna) | Kandy | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 213.2,
+      "n_residuals": 16,
+      "resid_std": 167.08845466718793,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (yellowfin tuna) | Kegalle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 218.01,
+      "n_residuals": 16,
+      "resid_std": 194.2136760113299,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (yellowfin tuna) | Keppetipola (DEC} | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 212.2,
+      "n_residuals": 16,
+      "resid_std": 161.94667980869247,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (yellowfin tuna) | Matale | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 209.67,
+      "n_residuals": 16,
+      "resid_std": 159.88009074446242,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (yellowfin tuna) | Matara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 202.03,
+      "n_residuals": 16,
+      "resid_std": 117.86713072637997,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (yellowfin tuna) | Monaragala | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 214.96,
+      "n_residuals": 16,
+      "resid_std": 176.55311079763663,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (yellowfin tuna) | Nuwara Eliya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 220.93,
+      "n_residuals": 16,
+      "resid_std": 212.75294228213895,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (yellowfin tuna) | Puttalam | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 216.22,
+      "n_residuals": 16,
+      "resid_std": 183.62783828019363,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (yellowfin tuna) | Trincomalee | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 198.7,
+      "n_residuals": 16,
+      "resid_std": 132.71803298610686,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Fish (yellowfin tuna) | Vavuniya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 197.42,
+      "n_residuals": 16,
+      "resid_std": 117.4985990256485,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Ampara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 147.61,
+      "n_residuals": 16,
+      "resid_std": 23.730890714773622,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Anuradhapura | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 146.02,
+      "n_residuals": 16,
+      "resid_std": 25.58313444296507,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Badulla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 153.99,
+      "n_residuals": 16,
+      "resid_std": 26.263888882042167,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 150.35,
+      "n_residuals": 16,
+      "resid_std": 25.344730529582176,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Dammbagalla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 143.83,
+      "n_residuals": 16,
+      "resid_std": 22.24605295677729,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Dehiattakandiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 146.08,
+      "n_residuals": 16,
+      "resid_std": 22.03525605785228,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Embilipitiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 151.52,
+      "n_residuals": 16,
+      "resid_std": 27.344416995900982,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Galle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 156.24,
+      "n_residuals": 16,
+      "resid_std": 28.17790854648429,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Hambantota | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 145.94,
+      "n_residuals": 16,
+      "resid_std": 22.270296507789006,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Hanguranketha | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 147.39,
+      "n_residuals": 16,
+      "resid_std": 23.98566589313049,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Jaffna | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 142.95,
+      "n_residuals": 16,
+      "resid_std": 19.10883118630425,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Kandy | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 136.59,
+      "n_residuals": 16,
+      "resid_std": 21.761848008394523,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Kegalle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 152.13,
+      "n_residuals": 16,
+      "resid_std": 24.779662103734047,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Keppetipola (DEC} | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 150.6,
+      "n_residuals": 16,
+      "resid_std": 23.625934931609603,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Kilinochchi | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 145.83,
+      "n_residuals": 16,
+      "resid_std": 23.966678473970326,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Mannar | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 152.78,
+      "n_residuals": 16,
+      "resid_std": 26.217199462823448,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Matale | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 145.95,
+      "n_residuals": 16,
+      "resid_std": 23.538525754813513,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Matara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 153.67,
+      "n_residuals": 16,
+      "resid_std": 26.006204414419432,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Meegoda(DEC) | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 147.0,
+      "n_residuals": 16,
+      "resid_std": 23.510992341604084,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Monaragala | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 150.0,
+      "n_residuals": 16,
+      "resid_std": 23.18525226539544,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Nuwara Eliya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 151.31,
+      "n_residuals": 16,
+      "resid_std": 24.411297382563454,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Puttalam | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 147.87,
+      "n_residuals": 16,
+      "resid_std": 21.82009465411158,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Trincomalee | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 144.56,
+      "n_residuals": 16,
+      "resid_std": 23.515101621023064,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Lentils | Vavuniya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 150.42,
+      "n_residuals": 16,
+      "resid_std": 24.407203345275903,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Anuradhapura | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 184.3,
+      "n_residuals": 16,
+      "resid_std": 72.33464640153902,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Badulla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 181.4,
+      "n_residuals": 16,
+      "resid_std": 69.00805078707162,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 184.01,
+      "n_residuals": 16,
+      "resid_std": 71.30215201132013,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Dammbagalla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 182.22,
+      "n_residuals": 16,
+      "resid_std": 69.99941003312824,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Dehiattakandiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 187.93,
+      "n_residuals": 16,
+      "resid_std": 75.86834024648874,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Embilipitiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 182.65,
+      "n_residuals": 16,
+      "resid_std": 70.7971260973033,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Galle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 193.76,
+      "n_residuals": 16,
+      "resid_std": 91.0229084179208,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Hambantota | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 182.15,
+      "n_residuals": 16,
+      "resid_std": 82.86722603277869,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Hanguranketha | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 199.17,
+      "n_residuals": 16,
+      "resid_std": 107.7976462555223,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Jaffna | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 187.92,
+      "n_residuals": 16,
+      "resid_std": 105.62847259188365,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Kandy | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 191.35,
+      "n_residuals": 16,
+      "resid_std": 84.41536024561745,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Kegalle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 183.06,
+      "n_residuals": 16,
+      "resid_std": 65.14179903047949,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Keppetipola (DEC} | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 1)",
+      "aic": 185.13,
+      "n_residuals": 16,
+      "resid_std": 70.38989987281403,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Kilinochchi | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 189.1,
+      "n_residuals": 16,
+      "resid_std": 78.68760515343133,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Mannar | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 201.19,
+      "n_residuals": 16,
+      "resid_std": 114.79443353519011,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Matale | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 187.99,
+      "n_residuals": 16,
+      "resid_std": 84.66608113345075,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Matara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 190.6,
+      "n_residuals": 16,
+      "resid_std": 90.1379482025997,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Meegoda(DEC) | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 188.72,
+      "n_residuals": 16,
+      "resid_std": 77.74422753823248,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Monaragala | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 1)",
+      "aic": 191.27,
+      "n_residuals": 16,
+      "resid_std": 84.32139945195152,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Nuwara Eliya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 179.99,
+      "n_residuals": 16,
+      "resid_std": 61.147964946308385,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Puttalam | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 202.04,
+      "n_residuals": 16,
+      "resid_std": 117.89597414880693,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Trincomalee | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 181.72,
+      "n_residuals": 16,
+      "resid_std": 62.47774921883519,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Meat (chicken, broiler) | Vavuniya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 191.27,
+      "n_residuals": 16,
+      "resid_std": 88.3260950920893,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Ampara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 201.21,
+      "n_residuals": 16,
+      "resid_std": 114.86970898411005,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Anuradhapura | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 198.94,
+      "n_residuals": 16,
+      "resid_std": 107.0271866016146,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Badulla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 204.96,
+      "n_residuals": 16,
+      "resid_std": 129.15315465797653,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Dammbagalla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 195.28,
+      "n_residuals": 16,
+      "resid_std": 95.46001266065063,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Dehiattakandiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 200.09,
+      "n_residuals": 16,
+      "resid_std": 110.93392100193442,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Embilipitiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 201.0,
+      "n_residuals": 16,
+      "resid_std": 114.11988345108648,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Galle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 205.86,
+      "n_residuals": 16,
+      "resid_std": 132.85010220402725,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Hambantota | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 203.35,
+      "n_residuals": 16,
+      "resid_std": 122.8089355295111,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Hanguranketha | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 203.29,
+      "n_residuals": 16,
+      "resid_std": 122.6021574964708,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Jaffna | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 202.94,
+      "n_residuals": 16,
+      "resid_std": 121.24769492738234,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Kandy | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 197.86,
+      "n_residuals": 16,
+      "resid_std": 103.45226436053733,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Kegalle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 202.05,
+      "n_residuals": 16,
+      "resid_std": 117.93251088730503,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Keppetipola (DEC} | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 197.52,
+      "n_residuals": 16,
+      "resid_std": 102.3747310436151,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Kilinochchi | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 208.74,
+      "n_residuals": 16,
+      "resid_std": 145.35594005389686,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Mannar | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 195.16,
+      "n_residuals": 16,
+      "resid_std": 95.09988394102149,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Matale | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 201.13,
+      "n_residuals": 16,
+      "resid_std": 114.60127820671717,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Matara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 204.0,
+      "n_residuals": 16,
+      "resid_std": 125.34318330153698,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Meegoda(DEC) | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 205.71,
+      "n_residuals": 16,
+      "resid_std": 132.2304138949528,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Monaragala | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 200.03,
+      "n_residuals": 16,
+      "resid_std": 110.72820236407955,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Nuwara Eliya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 196.41,
+      "n_residuals": 16,
+      "resid_std": 98.87987513658831,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Puttalam | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 201.67,
+      "n_residuals": 16,
+      "resid_std": 116.54555761198473,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Trincomalee | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 202.68,
+      "n_residuals": 16,
+      "resid_std": 120.27555226628088,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (imported) | Vavuniya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 208.97,
+      "n_residuals": 16,
+      "resid_std": 146.40713376744796,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (red) | Dammbagalla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 198.44,
+      "n_residuals": 16,
+      "resid_std": 105.36429005607752,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (red) | Jaffna | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 173.9,
+      "n_residuals": 16,
+      "resid_std": 48.92760315991742,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (red) | Kilinochchi | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 0)",
+      "aic": 177.22,
+      "n_residuals": 16,
+      "resid_std": 68.40579153611296,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (red, local) | Jaffna | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 172.13,
+      "n_residuals": 16,
+      "resid_std": 46.2980863943131,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Onions (red, local) | Puttalam | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 202.41,
+      "n_residuals": 16,
+      "resid_std": 119.2830631190385,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Ampara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 152.64,
+      "n_residuals": 16,
+      "resid_std": 25.17674030035805,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Anuradhapura | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 164.46,
+      "n_residuals": 16,
+      "resid_std": 39.40098384650212,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Badulla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 180.21,
+      "n_residuals": 16,
+      "resid_std": 60.819560329632935,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 165.39,
+      "n_residuals": 16,
+      "resid_std": 43.7688592298133,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Dammbagalla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 170.06,
+      "n_residuals": 16,
+      "resid_std": 43.401451203698045,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Dehiattakandiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 152.21,
+      "n_residuals": 16,
+      "resid_std": 25.63079135013096,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Embilipitiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 172.42,
+      "n_residuals": 16,
+      "resid_std": 50.14289615035311,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Galle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 165.0,
+      "n_residuals": 16,
+      "resid_std": 37.05309187634511,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Hambantota | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 170.08,
+      "n_residuals": 16,
+      "resid_std": 45.22610784803972,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Hanguranketha | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 173.42,
+      "n_residuals": 16,
+      "resid_std": 52.03136573158356,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Jaffna | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 162.3,
+      "n_residuals": 16,
+      "resid_std": 34.052408011592824,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Kandy | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 175.56,
+      "n_residuals": 16,
+      "resid_std": 60.071389638567084,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Kegalle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 180.9,
+      "n_residuals": 16,
+      "resid_std": 63.614390876171896,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Keppetipola (DEC} | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 169.2,
+      "n_residuals": 16,
+      "resid_std": 43.51463248997547,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Kilinochchi | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 168.17,
+      "n_residuals": 16,
+      "resid_std": 44.467399970274926,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Mannar | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 161.32,
+      "n_residuals": 16,
+      "resid_std": 41.75256883191406,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Matale | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 175.86,
+      "n_residuals": 16,
+      "resid_std": 52.02542702149423,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Matara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 163.17,
+      "n_residuals": 16,
+      "resid_std": 41.01239008961373,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Meegoda(DEC) | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 171.39,
+      "n_residuals": 16,
+      "resid_std": 46.5067350529107,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Monaragala | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 161.79,
+      "n_residuals": 16,
+      "resid_std": 39.068589847899965,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Nuwara Eliya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 169.88,
+      "n_residuals": 16,
+      "resid_std": 45.45495052936038,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Puttalam | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 162.28,
+      "n_residuals": 16,
+      "resid_std": 35.86615816928074,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Trincomalee | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 158.4,
+      "n_residuals": 16,
+      "resid_std": 31.437498942718825,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Papaya | Vavuniya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 165.39,
+      "n_residuals": 16,
+      "resid_std": 37.50061134546919,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Pineapples | Anuradhapura | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 204.14,
+      "n_residuals": 16,
+      "resid_std": 129.73424380192554,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Pineapples | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 198.3,
+      "n_residuals": 16,
+      "resid_std": 108.24309067554391,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Pineapples | Dammbagalla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 182.76,
+      "n_residuals": 16,
+      "resid_std": 66.97300283433037,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Pineapples | Dehiattakandiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 192.74,
+      "n_residuals": 16,
+      "resid_std": 88.15838813352576,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Pineapples | Embilipitiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 2)",
+      "aic": 180.77,
+      "n_residuals": 16,
+      "resid_std": 66.01260772312185,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Pineapples | Hambantota | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 197.82,
+      "n_residuals": 16,
+      "resid_std": 103.33662292956454,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Pineapples | Hanguranketha | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 198.02,
+      "n_residuals": 16,
+      "resid_std": 118.34574488581868,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Pineapples | Jaffna | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 200.2,
+      "n_residuals": 16,
+      "resid_std": 111.29544290899746,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Pineapples | Kandy | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 179.73,
+      "n_residuals": 16,
+      "resid_std": 58.71111102821879,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Pineapples | Kegalle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 181.1,
+      "n_residuals": 16,
+      "resid_std": 61.27668295547721,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Pineapples | Keppetipola (DEC} | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 192.47,
+      "n_residuals": 16,
+      "resid_std": 96.33871929640272,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Pineapples | Kilinochchi | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 204.66,
+      "n_residuals": 16,
+      "resid_std": 127.96163930262014,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Pineapples | Mannar | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 208.36,
+      "n_residuals": 16,
+      "resid_std": 149.01952493096164,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Pineapples | Matale | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 204.93,
+      "n_residuals": 16,
+      "resid_std": 138.70058129066945,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Pineapples | Matara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 192.71,
+      "n_residuals": 16,
+      "resid_std": 93.33315893208001,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Pineapples | Meegoda(DEC) | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 204.17,
+      "n_residuals": 16,
+      "resid_std": 126.02808714967817,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Pineapples | Nuwara Eliya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(2, 0, 1)",
+      "aic": 198.79,
+      "n_residuals": 16,
+      "resid_std": 114.09853612860448,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Pineapples | Trincomalee | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 208.18,
+      "n_residuals": 16,
+      "resid_std": 142.8537834105378,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Pineapples | Vavuniya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 1)",
+      "aic": 201.11,
+      "n_residuals": 16,
+      "resid_std": 122.70665762612485,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Potatoes (imported) | Ampara | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 164.61,
+      "n_residuals": 16,
+      "resid_std": 37.45000610153536,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Potatoes (imported) | Anuradhapura | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 157.83,
+      "n_residuals": 16,
+      "resid_std": 29.614194465497892,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Potatoes (imported) | Badulla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 159.02,
+      "n_residuals": 16,
+      "resid_std": 30.737852098060685,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Potatoes (imported) | Colombo City | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 151.91,
+      "n_residuals": 16,
+      "resid_std": 24.615061762621895,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Potatoes (imported) | Dammbagalla | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 161.03,
+      "n_residuals": 16,
+      "resid_std": 32.72854307893003,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Potatoes (imported) | Dehiattakandiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 158.66,
+      "n_residuals": 16,
+      "resid_std": 30.396685020656445,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Potatoes (imported) | Embilipitiya | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 151.18,
+      "n_residuals": 16,
+      "resid_std": 24.060964085502597,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Potatoes (imported) | Galle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 159.21,
+      "n_residuals": 16,
+      "resid_std": 30.91551728360067,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Potatoes (imported) | Hambantota | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 156.23,
+      "n_residuals": 16,
+      "resid_std": 28.167019873305534,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Potatoes (imported) | Hanguranketha | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 153.18,
+      "n_residuals": 16,
+      "resid_std": 25.612715134430474,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Potatoes (imported) | Jaffna | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 152.9,
+      "n_residuals": 16,
+      "resid_std": 25.381806072533657,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Potatoes (imported) | Kandy | KG | Retail",
+      "arima_fitted": true,
+      "order": "(1, 0, 0)",
+      "aic": 163.3,
+      "n_residuals": 16,
+      "resid_std": 35.262964786977584,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Potatoes (imported) | Kegalle | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 158.94,
+      "n_residuals": 16,
+      "resid_std": 30.663444941000645,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Potatoes (imported) | Keppetipola (DEC} | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 158.32,
+      "n_residuals": 16,
+      "resid_std": 30.071205027499552,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Potatoes (imported) | Kilinochchi | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 158.36,
+      "n_residuals": 16,
+      "resid_std": 30.109580596152217,
+      "reason_skipped": NaN
+    },
+    {
+      "series_id": "Potatoes (imported) | Mannar | KG | Retail",
+      "arima_fitted": true,
+      "order": "(0, 0, 0)",
+      "aic": 153.4,
+      "n_residuals": 16,
+      "resid_std": 25.782697908286046,
+      "reason_skipped": NaN
+    }
+  ]
+}

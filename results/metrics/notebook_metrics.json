@@ -1,0 +1,418 @@
+{
+  "comparison": [
+    {
+      "Rank_by_MAE": 1,
+      "model_key": "stacking",
+      "Approach": "Stacking - RF + XGB + LR (Ridge meta)",
+      "MAE": 71.92141779953185,
+      "RMSE": 114.95203222188341,
+      "R2": 0.9722506982941092,
+      "MAPE_pct": 14.350995700651422,
+      "n_test_obs": 5006
+    },
+    {
+      "Rank_by_MAE": 2,
+      "model_key": "random_forest",
+      "Approach": "Bagging - Random Forest",
+      "MAE": 73.3929367673126,
+      "RMSE": 120.95305621096644,
+      "R2": 0.9692777906113701,
+      "MAPE_pct": 13.802836381637823,
+      "n_test_obs": 5006
+    },
+    {
+      "Rank_by_MAE": 3,
+      "model_key": "xgboost",
+      "Approach": "Boosting - XGBoost",
+      "MAE": 73.67955529294107,
+      "RMSE": 121.25515253069541,
+      "R2": 0.9691241333656708,
+      "MAPE_pct": 14.144250034712828,
+      "n_test_obs": 5006
+    },
+    {
+      "Rank_by_MAE": 4,
+      "model_key": "hybrid",
+      "Approach": "Hybrid - Random Forest + ARIMA",
+      "MAE": 91.7816549339719,
+      "RMSE": 163.26183876753993,
+      "R2": 0.9440257711776536,
+      "MAPE_pct": 15.742126002510053,
+      "n_test_obs": 5006
+    }
+  ],
+  "best_by_mae": {
+    "metric": "MAE",
+    "best_model_key": "stacking",
+    "best_model": "Stacking - RF + XGB + LR (Ridge meta)",
+    "best_value": 71.92141779953185,
+    "all_metrics": {
+      "MAE": 71.92141779953185,
+      "RMSE": 114.95203222188341,
+      "R2": 0.9722506982941092,
+      "MAPE_pct": 14.350995700651422
+    },
+    "runner_up": "Bagging - Random Forest",
+    "runner_up_value": 73.3929367673126,
+    "margin": 1.471518967780753,
+    "margin_pct": 2.0
+  },
+  "best_by_rmse": {
+    "metric": "RMSE",
+    "best_model_key": "stacking",
+    "best_model": "Stacking - RF + XGB + LR (Ridge meta)",
+    "best_value": 114.95203222188341,
+    "all_metrics": {
+      "MAE": 71.92141779953185,
+      "RMSE": 114.95203222188341,
+      "R2": 0.9722506982941092,
+      "MAPE_pct": 14.350995700651422
+    },
+    "runner_up": "Bagging - Random Forest",
+    "runner_up_value": 120.95305621096644,
+    "margin": 6.0010239890830235,
+    "margin_pct": 4.96
+  },
+  "best_by_r2": {
+    "metric": "R2",
+    "best_model_key": "stacking",
+    "best_model": "Stacking - RF + XGB + LR (Ridge meta)",
+    "best_value": 0.9722506982941092,
+    "all_metrics": {
+      "MAE": 71.92141779953185,
+      "RMSE": 114.95203222188341,
+      "R2": 0.9722506982941092,
+      "MAPE_pct": 14.350995700651422
+    },
+    "runner_up": "Bagging - Random Forest",
+    "runner_up_value": 0.9692777906113701,
+    "margin": -0.0029729076827390566,
+    "margin_pct": -0.31
+  },
+  "test_metrics": {
+    "random_forest": {
+      "MAE": 73.3929367673126,
+      "RMSE": 120.95305621096644,
+      "R2": 0.9692777906113701,
+      "MAPE_pct": 13.802836381637823,
+      "n_obs": 5006
+    },
+    "xgboost": {
+      "MAE": 73.67955529294107,
+      "RMSE": 121.25515253069541,
+      "R2": 0.9691241333656708,
+      "MAPE_pct": 14.144250034712828,
+      "n_obs": 5006
+    },
+    "stacking": {
+      "MAE": 71.92141779953185,
+      "RMSE": 114.95203222188341,
+      "R2": 0.9722506982941092,
+      "MAPE_pct": 14.350995700651422,
+      "n_obs": 5006
+    },
+    "hybrid": {
+      "MAE": 91.7816549339719,
+      "RMSE": 163.26183876753993,
+      "R2": 0.9440257711776536,
+      "MAPE_pct": 15.742126002510053,
+      "n_obs": 5006
+    }
+  },
+  "per_test_month": [
+    {
+      "month": "2025-04-01",
+      "model_key": "random_forest",
+      "Approach": "Bagging - Random Forest",
+      "MAE": 81.78717558003494,
+      "RMSE": 127.65695866639618,
+      "R2": 0.9594374921778732,
+      "n_obs": 915
+    },
+    {
+      "month": "2025-04-01",
+      "model_key": "xgboost",
+      "Approach": "Boosting - XGBoost",
+      "MAE": 82.56031875243472,
+      "RMSE": 127.73518059296711,
+      "R2": 0.9593877675152547,
+      "n_obs": 915
+    },
+    {
+      "month": "2025-04-01",
+      "model_key": "stacking",
+      "Approach": "Stacking - RF + XGB + LR (Ridge meta)",
+      "MAE": 82.9829489011539,
+      "RMSE": 126.12106249635346,
+      "R2": 0.960407670742597,
+      "n_obs": 915
+    },
+    {
+      "month": "2025-04-01",
+      "model_key": "hybrid",
+      "Approach": "Hybrid - Random Forest + ARIMA",
+      "MAE": 104.22063426454788,
+      "RMSE": 176.4393127063776,
+      "R2": 0.9225134141634224,
+      "n_obs": 915
+    },
+    {
+      "month": "2025-05-01",
+      "model_key": "random_forest",
+      "Approach": "Bagging - Random Forest",
+      "MAE": 96.86163661314322,
+      "RMSE": 170.9612009913382,
+      "R2": 0.9339913669837532,
+      "n_obs": 833
+    },
+    {
+      "month": "2025-05-01",
+      "model_key": "xgboost",
+      "Approach": "Boosting - XGBoost",
+      "MAE": 94.85985798225539,
+      "RMSE": 169.22808423180052,
+      "R2": 0.9353229065367757,
+      "n_obs": 833
+    },
+    {
+      "month": "2025-05-01",
+      "model_key": "stacking",
+      "Approach": "Stacking - RF + XGB + LR (Ridge meta)",
+      "MAE": 92.11741608056016,
+      "RMSE": 153.11728143239114,
+      "R2": 0.9470514540467131,
+      "n_obs": 833
+    },
+    {
+      "month": "2025-05-01",
+      "model_key": "hybrid",
+      "Approach": "Hybrid - Random Forest + ARIMA",
+      "MAE": 117.72680170209125,
+      "RMSE": 202.07512493002824,
+      "R2": 0.9077786807151876,
+      "n_obs": 833
+    },
+    {
+      "month": "2025-06-01",
+      "model_key": "random_forest",
+      "Approach": "Bagging - Random Forest",
+      "MAE": 76.90291561201354,
+      "RMSE": 123.04400064861957,
+      "R2": 0.9698070430067155,
+      "n_obs": 823
+    },
+    {
+      "month": "2025-06-01",
+      "model_key": "xgboost",
+      "Approach": "Boosting - XGBoost",
+      "MAE": 74.4029758777827,
+      "RMSE": 118.16382842796862,
+      "R2": 0.9721545738670986,
+      "n_obs": 823
+    },
+    {
+      "month": "2025-06-01",
+      "model_key": "stacking",
+      "Approach": "Stacking - RF + XGB + LR (Ridge meta)",
+      "MAE": 75.67448340810255,
+      "RMSE": 120.1675219897162,
+      "R2": 0.9712022224371184,
+      "n_obs": 823
+    },
+    {
+      "month": "2025-06-01",
+      "model_key": "hybrid",
+      "Approach": "Hybrid - Random Forest + ARIMA",
+      "MAE": 89.28864325456429,
+      "RMSE": 152.66390775349876,
+      "R2": 0.9535209212436271,
+      "n_obs": 823
+    },
+    {
+      "month": "2025-07-01",
+      "model_key": "random_forest",
+      "Approach": "Bagging - Random Forest",
+      "MAE": 65.16791386017746,
+      "RMSE": 106.83456523494293,
+      "R2": 0.9779800853426835,
+      "n_obs": 791
+    },
+    {
+      "month": "2025-07-01",
+      "model_key": "xgboost",
+      "Approach": "Boosting - XGBoost",
+      "MAE": 68.65260722974158,
+      "RMSE": 113.27450733368927,
+      "R2": 0.9752453710273843,
+      "n_obs": 791
+    },
+    {
+      "month": "2025-07-01",
+      "model_key": "stacking",
+      "Approach": "Stacking - RF + XGB + LR (Ridge meta)",
+      "MAE": 63.58263269177142,
+      "RMSE": 104.00888367399673,
+      "R2": 0.9791294964424264,
+      "n_obs": 791
+    },
+    {
+      "month": "2025-07-01",
+      "model_key": "hybrid",
+      "Approach": "Hybrid - Random Forest + ARIMA",
+      "MAE": 77.37147903583588,
+      "RMSE": 139.03037214227635,
+      "R2": 0.9627083647305483,
+      "n_obs": 791
+    },
+    {
+      "month": "2025-08-01",
+      "model_key": "random_forest",
+      "Approach": "Bagging - Random Forest",
+      "MAE": 65.77034403152814,
+      "RMSE": 93.0793329943946,
+      "R2": 0.9826695652280673,
+      "n_obs": 756
+    },
+    {
+      "month": "2025-08-01",
+      "model_key": "xgboost",
+      "Approach": "Boosting - XGBoost",
+      "MAE": 68.06276114933074,
+      "RMSE": 97.52758499079498,
+      "R2": 0.9809735452074715,
+      "n_obs": 756
+    },
+    {
+      "month": "2025-08-01",
+      "model_key": "stacking",
+      "Approach": "Stacking - RF + XGB + LR (Ridge meta)",
+      "MAE": 59.795813397674806,
+      "RMSE": 83.12419038489529,
+      "R2": 0.9861784168787572,
+      "n_obs": 756
+    },
+    {
+      "month": "2025-08-01",
+      "model_key": "hybrid",
+      "Approach": "Hybrid - Random Forest + ARIMA",
+      "MAE": 85.16348832914767,
+      "RMSE": 153.04342260891787,
+      "R2": 0.9531475536321623,
+      "n_obs": 756
+    },
+    {
+      "month": "2025-09-01",
+      "model_key": "random_forest",
+      "Approach": "Bagging - Random Forest",
+      "MAE": 53.29136599410342,
+      "RMSE": 81.78825030872527,
+      "R2": 0.9866719011782304,
+      "n_obs": 888
+    },
+    {
+      "month": "2025-09-01",
+      "model_key": "xgboost",
+      "Approach": "Boosting - XGBoost",
+      "MAE": 53.24954002672487,
+      "RMSE": 82.1022504418758,
+      "R2": 0.9865693666863258,
+      "n_obs": 888
+    },
+    {
+      "month": "2025-09-01",
+      "model_key": "stacking",
+      "Approach": "Stacking - RF + XGB + LR (Ridge meta)",
+      "MAE": 55.85114237848223,
+      "RMSE": 84.89626914419831,
+      "R2": 0.9856396977939128,
+      "n_obs": 888
+    },
+    {
+      "month": "2025-09-01",
+      "model_key": "hybrid",
+      "Approach": "Hybrid - Random Forest + ARIMA",
+      "MAE": 75.40728371269337,
+      "RMSE": 145.32674113089186,
+      "R2": 0.9579198345234287,
+      "n_obs": 888
+    }
+  ],
+  "hybrid_summary": {
+    "model": "Hybrid: Random Forest (level) + per-series ARIMA (residuals)",
+    "rf_params": {
+      "max_depth": 20,
+      "max_features": 0.7,
+      "min_samples_leaf": 1,
+      "n_estimators": 300
+    },
+    "min_residuals_for_arima": 12,
+    "n_oof_folds": 4,
+    "n_training_rows_with_oof": 14740,
+    "n_training_rows_without_oof": 3688,
+    "oof_residual_summary": {
+      "n_residuals": 14740,
+      "mean": 39.91506642132852,
+      "std": 179.25267552322984,
+      "mae_of_oof_predictions": 87.29058987740332
+    },
+    "forecast_origin_month": "2024-12-01",
+    "n_series_with_arima": 634,
+    "n_series_without_arima": 495,
+    "arima_order_counts": {
+      "(0, 0, 0)": 280,
+      "(0, 0, 1)": 129,
+      "(1, 0, 0)": 72,
+      "(0, 0, 2)": 71,
+      "(2, 0, 1)": 40,
+      "(2, 0, 0)": 31,
+      "(1, 0, 1)": 11
+    },
+    "candidate_orders": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        1
+      ]
+    ],
+    "order_selection": "lowest AIC among candidates, all with d=0",
+    "leakage_controls": [
+      "Residuals come from TimeSeriesSplit out-of-fold predictions, not in-sample fits.",
+      "ARIMA is fitted to training residuals only.",
+      "Forecast origin is the last training month; test month k uses the k-step forecast.",
+      "No test or validation actual is used to produce the correction."
+    ]
+  },
+  "interpretation": "On the held-out test months the best approach by MAE is **Stacking - RF + XGB + LR (Ridge meta)** (MAE 71.92 LKR, RMSE 114.95, R\u00b2 0.972).\n\nIt is 1.47 LKR (2.0%) ahead of the next approach, Bagging - Random Forest.\n\nMAE and RMSE agree on the ranking, so the winner is better both on the typical observation and on its worst cases.\n\nBagging beats boosting here (73.39 against 73.68 LKR MAE). With a panel this heterogeneous - 42 commodities across 44 markets and four units - variance reduction by averaging is worth more than sequential bias reduction, which can chase noise in the short, thin series.\n\nStacking improves on both of its own tree base learners, which is the expected payoff: the Ridge meta-learner learns a weighting that exploits where the forest and the booster disagree.\n\nThe hybrid is **worse** than its own Random Forest component (91.78 against 73.39 LKR MAE, a loss of 18.39). The ARIMA correction is adding error rather than removing it. The mechanism is sound but the conditions here work against it: the residual forecast is anchored on the last training month and has to reach four to nine months forward, and at that distance an ARIMA forecast has decayed to the mean of the training residuals. If those residuals are not centred on zero - and out-of-fold residuals from an inflationary series are not, because folds fitted on earlier, cheaper months under-predict later ones - then the correction becomes a near-constant bias added to every predicted month. An ARIMA residual model could be fitted for 634 of 1,129 series (56%); the rest had fewer than 12 training residuals and fall back to the plain forest, so on those rows the hybrid and the forest are identical by construction.",
+  "test_period": "2025-04-01 .. 2025-09-01",
+  "n_test_obs": 5006
+}

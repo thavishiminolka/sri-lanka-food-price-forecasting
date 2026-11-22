@@ -1,0 +1,13 @@
+{
+  "n_test_rows": 5006,
+  "n_rows_corrected": 2649,
+  "pct_rows_corrected": 52.92,
+  "corrected_rows_rf_mae": 79.38894623133824,
+  "corrected_rows_hybrid_mae": 114.09575690454383,
+  "correction_mean_lkr": 54.13589451930524,
+  "correction_sd_lkr": 180.3069877174638,
+  "correction_min_lkr": -248.28868169342934,
+  "correction_max_lkr": 1177.9682051756124,
+  "oof_residual_mean_lkr": 39.98031871825218,
+  "corrected_rows_mae_change": -34.706810673205595
+}

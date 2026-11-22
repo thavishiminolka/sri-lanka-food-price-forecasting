@@ -1,0 +1,135 @@
+{
+  "n_rows_input": 34262,
+  "rows_dropped_unparseable_date": 0,
+  "days_of_month_in_source": [
+    15
+  ],
+  "is_monthly_panel": true,
+  "price_newly_unparseable": 0,
+  "usdprice_newly_unparseable": 0,
+  "latitude_newly_unparseable": 0,
+  "longitude_newly_unparseable": 0,
+  "rows_dropped_missing_price": 0,
+  "rows_dropped_nonpositive_price": 0,
+  "admin1_missing_filled": 194,
+  "admin1_fill_value": "National",
+  "admin1_missing_markets": [
+    "National Average"
+  ],
+  "admin2_missing_filled": 194,
+  "admin2_fill_value": "Unknown",
+  "admin2_missing_markets": [
+    "National Average"
+  ],
+  "latitude_missing_left_as_na": 194,
+  "longitude_missing_left_as_na": 194,
+  "currencies_present": [
+    "LKR"
+  ],
+  "single_currency": true,
+  "priceflags_present": [
+    "actual"
+  ],
+  "pricetypes_present": [
+    "Retail",
+    "Wholesale"
+  ],
+  "units_present": [
+    "750 ML",
+    "KG",
+    "L",
+    "Unit"
+  ],
+  "rows_per_unit": {
+    "KG": 31705,
+    "Unit": 1994,
+    "L": 543,
+    "750 ML": 20
+  },
+  "duplicate_full_rows": 0,
+  "rows_in_duplicate_series_month_groups": 0,
+  "n_rows_after_duplicate_handling": 34262,
+  "outlier_rule": "|robust z| > 6.0, where robust z uses the per-series median and median absolute deviation",
+  "n_outliers_flagged": 216,
+  "outliers_removed": 0,
+  "outlier_policy": "Flagged only. Extreme food prices in 2022-2023 reflect Sri Lanka's real inflation episode, so removing them would delete genuine signal.",
+  "largest_positive_outliers": [
+    {
+      "series": "Rice (long grain) | National Average | KG | Retail",
+      "month": "2014-09-01",
+      "price": 82.15,
+      "robust_z": 56.84
+    },
+    {
+      "series": "Wheat flour | Monaragala | KG | Retail",
+      "month": "2015-01-01",
+      "price": 99.44,
+      "robust_z": 52.44
+    },
+    {
+      "series": "Rice (long grain) | National Average | KG | Retail",
+      "month": "2014-06-01",
+      "price": 80.15,
+      "robust_z": 51.65
+    },
+    {
+      "series": "Wheat flour | Monaragala | KG | Retail",
+      "month": "2016-04-01",
+      "price": 98.0,
+      "robust_z": 46.37
+    },
+    {
+      "series": "Wheat flour | Monaragala | KG | Retail",
+      "month": "2016-06-01",
+      "price": 98.0,
+      "robust_z": 46.37
+    },
+    {
+      "series": "Rice (long grain) | National Average | KG | Retail",
+      "month": "2014-08-01",
+      "price": 77.39,
+      "robust_z": 44.49
+    },
+    {
+      "series": "Rice (long grain) | National Average | KG | Retail",
+      "month": "2014-05-01",
+      "price": 77.15,
+      "robust_z": 43.87
+    },
+    {
+      "series": "Wheat flour | Monaragala | KG | Retail",
+      "month": "2016-05-01",
+      "price": 97.17,
+      "robust_z": 42.87
+    },
+    {
+      "series": "Rice (long grain) | National Average | KG | Retail",
+      "month": "2014-04-01",
+      "price": 76.26,
+      "robust_z": 41.56
+    },
+    {
+      "series": "Rice (long grain) | National Average | KG | Retail",
+      "month": "2014-07-01",
+      "price": 74.88,
+      "robust_z": 37.98
+    }
+  ],
+  "n_series": 1444,
+  "obs_per_series": {
+    "min": 1,
+    "median": 26.0,
+    "max": 221,
+    "ge_12": 1242,
+    "ge_24": 967,
+    "ge_36": 25
+  },
+  "n_series_contiguous_monthly": 586,
+  "n_series_with_gaps": 858,
+  "gap_policy": "Gaps are left as gaps. Lags are computed over the observed ordering within each series, and the pipeline records that a lag may therefore span more than one calendar month for series with missing months.",
+  "n_rows_output": 34262,
+  "date_min": "2004-01-01",
+  "date_max": "2025-09-01",
+  "n_commodities": 42,
+  "n_markets": 44
+}

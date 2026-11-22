@@ -1,0 +1,248 @@
+{
+  "shape": [
+    34262,
+    16
+  ],
+  "columns": [
+    "date",
+    "admin1",
+    "admin2",
+    "market",
+    "market_id",
+    "latitude",
+    "longitude",
+    "category",
+    "commodity",
+    "commodity_id",
+    "unit",
+    "priceflag",
+    "pricetype",
+    "currency",
+    "price",
+    "usdprice"
+  ],
+  "dtypes": {
+    "date": "str",
+    "admin1": "str",
+    "admin2": "str",
+    "market": "str",
+    "market_id": "str",
+    "latitude": "str",
+    "longitude": "str",
+    "category": "str",
+    "commodity": "str",
+    "commodity_id": "str",
+    "unit": "str",
+    "priceflag": "str",
+    "pricetype": "str",
+    "currency": "str",
+    "price": "str",
+    "usdprice": "str"
+  },
+  "missing_values": {
+    "date": 0,
+    "admin1": 194,
+    "admin2": 194,
+    "market": 0,
+    "market_id": 0,
+    "latitude": 194,
+    "longitude": 194,
+    "category": 0,
+    "commodity": 0,
+    "commodity_id": 0,
+    "unit": 0,
+    "priceflag": 0,
+    "pricetype": 0,
+    "currency": 0,
+    "price": 0,
+    "usdprice": 0
+  },
+  "missing_pct": {
+    "date": 0.0,
+    "admin1": 0.566,
+    "admin2": 0.566,
+    "market": 0.0,
+    "market_id": 0.0,
+    "latitude": 0.566,
+    "longitude": 0.566,
+    "category": 0.0,
+    "commodity": 0.0,
+    "commodity_id": 0.0,
+    "unit": 0.0,
+    "priceflag": 0.0,
+    "pricetype": 0.0,
+    "currency": 0.0,
+    "price": 0.0,
+    "usdprice": 0.0
+  },
+  "duplicate_rows_full": 0,
+  "memory_mb": 7.81,
+  "date": {
+    "min": "2004-01-15 00:00:00",
+    "max": "2025-09-15 00:00:00",
+    "n_unique": 260,
+    "unparseable": 0,
+    "days_of_month_present": [
+      15
+    ]
+  },
+  "commodity": {
+    "n_unique": 42,
+    "top_values": {
+      "Wheat flour": 1404,
+      "Rice (white)": 1097,
+      "Beans": 1015,
+      "Cabbage": 1015,
+      "Eggplants": 1015,
+      "Pumpkin": 1015,
+      "Snake gourd": 1015,
+      "Tomatoes": 1015,
+      "Carrots": 1014,
+      "Chili (red, dry raw)": 1011,
+      "Potatoes (imported)": 998,
+      "Eggs": 998,
+      "Onions (imported)": 997,
+      "Coconut": 996,
+      "Lentils": 991
+    }
+  },
+  "market": {
+    "n_unique": 44,
+    "top_values": {
+      "Colombo City": 1626,
+      "Vavuniya": 1086,
+      "Trincomalee": 1079,
+      "Batticaloa": 999,
+      "Ampara": 988,
+      "Kandy": 981,
+      "Matale": 974,
+      "Jaffna": 967,
+      "Nuwara Eliya": 965,
+      "Anuradhapura": 963,
+      "Galle": 958,
+      "Kilinochchi": 939,
+      "Monaragala": 933,
+      "Matara": 926,
+      "Kalutara": 923
+    }
+  },
+  "unit": {
+    "n_unique": 4,
+    "top_values": {
+      "KG": 31705,
+      "Unit": 1994,
+      "L": 543,
+      "750 ML": 20
+    }
+  },
+  "pricetype": {
+    "n_unique": 2,
+    "top_values": {
+      "Retail": 33627,
+      "Wholesale": 635
+    }
+  },
+  "currency": {
+    "n_unique": 1,
+    "top_values": {
+      "LKR": 34262
+    }
+  },
+  "priceflag": {
+    "n_unique": 1,
+    "top_values": {
+      "actual": 34262
+    }
+  },
+  "category": {
+    "n_unique": 7,
+    "top_values": {
+      "vegetables and fruits": 12753,
+      "meat, fish and eggs": 9076,
+      "cereals and tubers": 6572,
+      "pulses and nuts": 3825,
+      "miscellaneous food": 1473,
+      "non-food": 543,
+      "oil and fats": 20
+    }
+  },
+  "admin1": {
+    "n_unique": 9,
+    "top_values": {
+      "Western": 5309,
+      "Northern": 4676,
+      "Uva": 4287,
+      "Central": 3997,
+      "Eastern": 3915,
+      "Southern": 3371,
+      "North Central": 3294,
+      "Sabaragamuwa": 2672,
+      "North Western": 2547,
+      "nan": 194
+    }
+  },
+  "admin2": {
+    "n_unique": 25,
+    "top_values": {
+      "Colombo": 2998,
+      "Badulla": 2513,
+      "Anuradhapura": 2401,
+      "Ampara": 1837,
+      "Moneragala": 1774,
+      "Ratnapura": 1763,
+      "Nuwara Eliya": 1750,
+      "Kurunegala": 1625,
+      "Hambantota": 1487,
+      "Gampaha": 1388,
+      "Matale": 1266,
+      "Vavuniya": 1086,
+      "Trincomalee": 1079,
+      "Batticaloa": 999,
+      "Kandy": 981
+    }
+  },
+  "price_numeric": {
+    "unparseable": 0,
+    "min": 11.5,
+    "max": 3735.42,
+    "mean": 610.7593870760609,
+    "median": 337.5,
+    "n_zero_or_negative": 0
+  },
+  "usdprice_numeric": {
+    "unparseable": 0,
+    "min": 0.06,
+    "max": 11.95,
+    "mean": 2.0511972155741054,
+    "median": 1.11,
+    "n_zero_or_negative": 0
+  },
+  "latitude_numeric": {
+    "unparseable": 0,
+    "min": 5.95,
+    "max": 9.66,
+    "mean": 7.465482564283199,
+    "median": 7.25,
+    "n_zero_or_negative": 0
+  },
+  "longitude_numeric": {
+    "unparseable": 0,
+    "min": 79.83,
+    "max": 81.7,
+    "mean": 80.58758042738054,
+    "median": 80.52,
+    "n_zero_or_negative": 0
+  },
+  "duplicate_rows_on_series_and_date": 0,
+  "series": {
+    "definition": "commodity + market + unit + pricetype (one monthly price series each)",
+    "n_series": 1444,
+    "obs_per_series_min": 1,
+    "obs_per_series_median": 26.0,
+    "obs_per_series_max": 221,
+    "series_with_at_least_12_obs": 1242,
+    "series_with_at_least_24_obs": 967,
+    "series_with_at_least_36_obs": 25
+  },
+  "commodities_with_multiple_units": {}
+}

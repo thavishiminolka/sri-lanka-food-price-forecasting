@@ -1,0 +1,1130 @@
+series_id,arima_fitted,order,aic,n_residuals,resid_std,reason_skipped
+Wheat flour | Colombo City | KG | Retail,True,"(1, 0, 0)",1383.96,215,11.194036711562163,
+Rice (white) | Colombo City | KG | Retail,True,"(2, 0, 1)",1413.94,205,11.851959700442547,
+Wheat flour | Batticaloa | KG | Retail,True,"(2, 0, 0)",504.36,78,6.870453389869664,
+Rice (red nadu) | Colombo City | KG | Retail,True,"(1, 0, 1)",444.72,76,5.583824844979076,
+Wheat flour | Trincomalee | KG | Retail,True,"(2, 0, 1)",436.78,76,6.586199604198644,
+Wheat flour | Ampara | KG | Retail,True,"(2, 0, 0)",448.74,75,7.165353460069226,
+Wheat flour | Vavuniya | KG | Retail,True,"(2, 0, 0)",422.97,75,6.622294755541093,
+Wheat flour | Jaffna | KG | Retail,True,"(2, 0, 0)",518.7,71,9.61881724429726,
+Rice (long grain) | National Average | KG | Retail,True,"(1, 0, 1)",273.21,66,3.8936715516418463,
+Wheat flour | Mannar | KG | Retail,True,"(1, 0, 0)",360.14,61,7.472936385989301,
+Rice (red nadu) | Jaffna | KG | Retail,True,"(0, 0, 1)",538.3,60,21.820907228500772,
+Rice (red nadu) | Trincomalee | KG | Retail,True,"(2, 0, 0)",386.58,60,7.776083926689156,
+Rice (red nadu) | Batticaloa | KG | Retail,True,"(1, 0, 1)",427.0,59,8.933546328788864,
+Rice (red nadu) | Vavuniya | KG | Retail,True,"(1, 0, 1)",371.17,59,7.723902590102644,
+Wheat flour | Mulaitivu | KG | Retail,True,"(1, 0, 1)",345.65,54,5.968808869821223,
+Wheat flour | Kilinochchi | KG | Retail,True,"(1, 0, 0)",330.25,52,6.6812318922537655,
+Rice (red nadu) | Mannar | KG | Retail,True,"(2, 0, 0)",260.82,46,5.1897265161800386,
+Sugar | Colombo City | KG | Retail,True,"(2, 0, 0)",345.37,44,24.467865332575084,
+Rice (red nadu) | Kilinochchi | KG | Retail,True,"(1, 0, 0)",190.31,36,4.4863335076097295,
+"Cowpeas (whole, average) | Colombo City | KG | Retail",True,"(0, 0, 0)",445.75,35,133.18743612536008,
+Rice (red nadu) | Ampara | KG | Retail,True,"(1, 0, 0)",206.33,33,6.0207792371120465,
+Rice (long grain) | Colombo City | KG | Retail,True,"(1, 0, 0)",233.55,32,9.755457072087905,
+Rice (red nadu) | Mulaitivu | KG | Retail,True,"(2, 0, 0)",180.4,31,4.664217278608729,
+Fuel (diesel) | National Average | L | Retail,True,"(1, 0, 0)",164.59,25,11.86565069143359,
+Fuel (petrol-gasoline) | National Average | L | Retail,True,"(2, 0, 0)",221.94,25,22.09463018077823,
+Rice (long grain) | Anuradhapura | KG | Retail,True,"(1, 0, 0)",164.5,24,8.398943919315823,
+Rice (long grain) | Kandy | KG | Retail,True,"(1, 0, 0)",162.48,24,7.922809980239456,
+Rice (long grain) | Monaragala | KG | Retail,True,"(0, 0, 0)",184.46,24,10.38795910697213,
+Rice (long grain) | Nuwara Eliya | KG | Retail,True,"(0, 0, 0)",172.52,24,8.100059375169758,
+Rice (long grain) | Puttalam | KG | Retail,True,"(0, 0, 1)",157.58,24,6.889395030182939,
+Rice (long grain) | Trincomalee | KG | Retail,True,"(0, 0, 2)",168.16,24,7.642838105324517,
+Onions (imported) | Colombo City | KG | Retail,True,"(0, 0, 0)",281.17,23,100.1389625657209,
+Rice (long grain) | Badulla | KG | Retail,True,"(0, 0, 2)",166.08,23,8.57722365470244,
+Rice (long grain) | Gampaha | KG | Retail,True,"(1, 0, 0)",163.8,23,8.20220551921659,
+Rice (long grain) | Matale | KG | Retail,True,"(0, 0, 1)",168.04,23,8.779934725429419,
+Rice (long grain) | Polonnaruwa | KG | Retail,True,"(1, 0, 0)",150.73,23,7.90003534910962,
+Rice (long grain) | Ampara | KG | Retail,True,"(0, 0, 0)",152.18,22,7.019471535711471,
+Rice (long grain) | Kalutara | KG | Retail,True,"(0, 0, 0)",157.31,22,7.888656615429664,
+Eggs | Colombo City | Unit | Retail,True,"(2, 0, 0)",147.51,21,7.983391166534602,
+Rice (long grain) | Batticaloa | KG | Retail,True,"(0, 0, 0)",132.82,21,5.198109714314654,
+Rice (long grain) | Kilinochchi | KG | Retail,True,"(0, 0, 0)",139.93,21,6.156495267369872,
+Rice (long grain) | Mannar | KG | Retail,True,"(0, 0, 0)",150.35,21,7.889638261178869,
+Rice (long grain) | Rathnapura | KG | Retail,True,"(2, 0, 1)",142.6,21,6.89531148212094,
+Sugar | National Average | KG | Retail,True,"(0, 0, 2)",118.09,21,5.383353637887373,
+Rice (long grain) | Vavuniya | KG | Retail,True,"(0, 0, 2)",123.79,19,7.268550394459023,
+Wheat flour | Anuradhapura | KG | Retail,True,"(0, 0, 1)",80.67,19,1.9674453934393785,
+Wheat flour | Badulla | KG | Retail,True,"(0, 0, 1)",78.66,19,1.8161206268165755,
+Wheat flour | Galle | KG | Retail,True,"(0, 0, 2)",71.84,19,1.6762609175504588,
+Wheat flour | Gampaha | KG | Retail,True,"(0, 0, 1)",72.67,19,1.904197735517519,
+Wheat flour | Hambantota | KG | Retail,True,"(0, 0, 2)",85.39,19,2.1654741031640787,
+Fuel (diesel) | Colombo City | L | Retail,True,"(0, 0, 0)",124.11,18,6.804494764075051,
+Fuel (petrol-gasoline) | Colombo City | L | Retail,True,"(0, 0, 1)",122.76,18,7.069563321816128,
+Rice (long grain) | Hambantota | KG | Retail,True,"(0, 0, 0)",116.89,18,5.567593515044317,
+Rice (long grain) | Matara | KG | Retail,True,"(0, 0, 0)",117.77,18,5.704935370102068,
+"Meat (chicken, fresh) | Colombo City | KG | Retail",True,"(0, 0, 2)",208.25,17,100.5121689805046,
+Wheat flour | Kalutara | KG | Retail,True,"(0, 0, 1)",60.69,17,1.5979987134149125,
+Wheat flour | Kandy | KG | Retail,True,"(0, 0, 0)",71.57,17,1.7655787638121083,
+Wheat flour | Kurunegala | KG | Retail,True,"(0, 0, 0)",70.56,17,1.7135418030999574,
+Wheat flour | Matale | KG | Retail,True,"(0, 0, 1)",81.62,17,2.844316224395087,
+Wheat flour | Matara | KG | Retail,True,"(0, 0, 0)",72.91,17,1.836615932725864,
+Wheat flour | Monaragala | KG | Retail,True,"(0, 0, 1)",72.44,17,1.8907794064643872,
+Wheat flour | Nuwara Eliya | KG | Retail,True,"(1, 0, 0)",69.6,17,1.6749825398005391,
+Wheat flour | Polonnaruwa | KG | Retail,True,"(1, 0, 0)",96.15,17,3.6652094737394467,
+Wheat flour | Puttalam | KG | Retail,True,"(0, 0, 2)",50.08,17,1.290944912140775,
+Wheat flour | Rathnapura | KG | Retail,True,"(0, 0, 2)",103.52,17,5.2368019177126035,
+Coconut | Trincomalee | Unit | Retail,True,"(2, 0, 0)",108.05,16,6.971020204011834,
+Coconut | Vavuniya | Unit | Retail,True,"(0, 0, 1)",96.47,16,4.471472058218554,
+"Cowpeas (whole, average) | Ampara | KG | Retail",True,"(0, 0, 0)",194.47,16,93.05170430880962,
+"Cowpeas (whole, average) | Anuradhapura | KG | Retail",True,"(2, 0, 1)",190.31,16,91.85233277019196,
+"Cowpeas (whole, average) | Dehiattakandiya | KG | Retail",True,"(1, 0, 0)",202.48,16,123.89365919872077,
+"Cowpeas (whole, average) | Embilipitiya | KG | Retail",True,"(0, 0, 0)",201.01,16,114.1740898169004,
+"Cowpeas (whole, average) | Galle | KG | Retail",True,"(0, 0, 0)",197.67,16,102.84698268604077,
+"Cowpeas (whole, average) | Hanguranketha | KG | Retail",True,"(2, 0, 1)",168.36,16,58.642381544969524,
+"Cowpeas (whole, average) | Jaffna | KG | Retail",True,"(2, 0, 1)",187.99,16,99.68214014694843,
+"Cowpeas (whole, average) | Kandy | KG | Retail",True,"(0, 0, 1)",184.73,16,70.82254057017103,
+"Cowpeas (whole, average) | Kegalle | KG | Retail",True,"(0, 0, 1)",190.96,16,107.33191391636889,
+"Cowpeas (whole, average) | Kilinochchi | KG | Retail",True,"(0, 0, 2)",179.66,16,73.65594870920862,
+"Cowpeas (whole, average) | Mannar | KG | Retail",True,"(2, 0, 1)",174.4,16,65.7312009770259,
+"Cowpeas (whole, average) | Matale | KG | Retail",True,"(0, 0, 0)",191.8,16,85.60629753495063,
+"Cowpeas (whole, average) | Matara | KG | Retail",True,"(0, 0, 1)",178.21,16,64.47093459198341,
+"Cowpeas (whole, average) | Meegoda(DEC) | KG | Retail",True,"(0, 0, 0)",183.5,16,66.04939493397421,
+"Cowpeas (whole, average) | Monaragala | KG | Retail",True,"(2, 0, 1)",193.24,16,102.9347174637687,
+"Cowpeas (whole, average) | Trincomalee | KG | Retail",True,"(0, 0, 1)",191.93,16,86.13831522333786,
+Eggplants | Ampara | KG | Retail,True,"(0, 0, 1)",192.81,16,100.91857253635172,
+Eggplants | Anuradhapura | KG | Retail,True,"(0, 0, 0)",206.37,16,134.9640266029041,
+Eggplants | Badulla | KG | Retail,True,"(0, 0, 0)",199.09,16,107.51923849137593,
+Eggplants | Colombo City | KG | Retail,True,"(0, 0, 0)",202.01,16,117.79586359939853,
+Eggplants | Dammbagalla | KG | Retail,True,"(0, 0, 1)",198.87,16,117.83573981562404,
+Eggplants | Dehiattakandiya | KG | Retail,True,"(0, 0, 1)",199.95,16,112.24953796516726,
+Eggplants | Embilipitiya | KG | Retail,True,"(0, 0, 1)",206.44,16,139.1284502451858,
+Eggplants | Galle | KG | Retail,True,"(0, 0, 0)",204.62,16,127.81591028814319,
+Eggplants | Hambantota | KG | Retail,True,"(0, 0, 0)",209.51,16,148.90686460768111,
+Eggplants | Hanguranketha | KG | Retail,True,"(0, 0, 0)",194.98,16,94.54318506181617,
+Eggplants | Jaffna | KG | Retail,True,"(1, 0, 0)",205.69,16,132.46943643845523,
+Eggplants | Kandy | KG | Retail,True,"(0, 0, 0)",212.63,16,164.12929542645085,
+Eggplants | Kegalle | KG | Retail,True,"(0, 0, 1)",195.06,16,119.84524175713494,
+Eggplants | Keppetipola (DEC} | KG | Retail,True,"(0, 0, 0)",201.11,16,114.50510207105759,
+Eggplants | Kilinochchi | KG | Retail,True,"(0, 0, 1)",198.0,16,115.59838758604471,
+Eggplants | Mannar | KG | Retail,True,"(1, 0, 0)",198.22,16,117.36056709574736,
+Eggplants | Matale | KG | Retail,True,"(0, 0, 1)",191.23,16,109.30091819091902,
+Eggplants | Matara | KG | Retail,True,"(0, 0, 0)",210.23,16,152.26520108770168,
+Eggplants | Meegoda(DEC) | KG | Retail,True,"(0, 0, 0)",210.14,16,151.85222968435002,
+Eggplants | Monaragala | KG | Retail,True,"(0, 0, 0)",202.63,16,120.10110764623403,
+Eggplants | Nuwara Eliya | KG | Retail,True,"(0, 0, 0)",197.04,16,100.84365335338404,
+Eggplants | Puttalam | KG | Retail,True,"(0, 0, 1)",202.54,16,128.09996700654142,
+Eggplants | Trincomalee | KG | Retail,True,"(0, 0, 1)",195.17,16,99.90530564519847,
+Eggplants | Vavuniya | KG | Retail,True,"(0, 0, 0)",198.86,16,106.75604248797686,
+Eggs | Ampara | Unit | Retail,True,"(2, 0, 0)",109.85,16,7.889156742266517,
+Eggs | Anuradhapura | Unit | Retail,True,"(0, 0, 2)",108.92,16,7.96228409780728,
+Eggs | Badulla | Unit | Retail,True,"(0, 0, 2)",111.95,16,8.06372903693083,
+Eggs | Dammbagalla | Unit | Retail,True,"(0, 0, 2)",110.14,16,7.8178942609112685,
+Eggs | Dehiattakandiya | Unit | Retail,True,"(1, 0, 0)",108.03,16,7.871903001659158,
+Eggs | Embilipitiya | Unit | Retail,True,"(1, 0, 0)",110.01,16,8.306970467149632,
+Eggs | Galle | Unit | Retail,True,"(1, 0, 0)",108.27,16,8.041172088728816,
+Eggs | Hambantota | Unit | Retail,True,"(1, 0, 0)",106.1,16,7.207741513642295,
+Eggs | Hanguranketha | Unit | Retail,True,"(0, 0, 0)",111.05,16,6.865513975425441,
+Eggs | Jaffna | Unit | Retail,True,"(1, 0, 0)",111.94,16,7.939115930424673,
+Eggs | Kandy | Unit | Retail,True,"(1, 0, 0)",108.76,16,7.87617991050145,
+Eggs | Kegalle | Unit | Retail,True,"(2, 0, 0)",107.51,16,7.490609663483239,
+Eggs | Keppetipola (DEC} | Unit | Retail,True,"(1, 0, 0)",110.88,16,7.9089367707620495,
+Eggs | Kilinochchi | Unit | Retail,True,"(2, 0, 0)",110.35,16,7.664658074649101,
+Eggs | Mannar | Unit | Retail,True,"(2, 0, 0)",110.74,16,7.885859587590649,
+Eggs | Matale | Unit | Retail,True,"(2, 0, 0)",108.49,16,7.6307605195116,
+Eggs | Matara | Unit | Retail,True,"(1, 0, 0)",104.35,16,7.823206952261764,
+Eggs | Meegoda(DEC) | Unit | Retail,True,"(0, 0, 2)",107.56,16,7.4576723225305726,
+Eggs | Monaragala | Unit | Retail,True,"(0, 0, 2)",111.51,16,7.970595119355023,
+Eggs | Nuwara Eliya | Unit | Retail,True,"(2, 0, 0)",112.54,16,7.7873383238198075,
+Eggs | Puttalam | Unit | Retail,True,"(1, 0, 0)",97.08,16,7.535208183682207,
+Eggs | Trincomalee | Unit | Retail,True,"(1, 0, 0)",104.13,16,7.056241117675622,
+Eggs | Vavuniya | Unit | Retail,True,"(1, 0, 0)",112.23,16,7.670239274584118,
+"Fish (dry, katta) | Ampara | KG | Retail",True,"(0, 0, 1)",194.4,16,112.13381662537479,
+"Fish (dry, katta) | Anuradhapura | KG | Retail",True,"(2, 0, 0)",195.27,16,118.21220273981896,
+"Fish (dry, katta) | Badulla | KG | Retail",True,"(0, 0, 1)",198.47,16,137.98819193740496,
+"Fish (dry, katta) | Colombo City | KG | Retail",True,"(1, 0, 0)",183.01,16,98.48322092610884,
+"Fish (dry, katta) | Dammbagalla | KG | Retail",True,"(0, 0, 1)",184.93,16,72.04850047643093,
+"Fish (dry, katta) | Dehiattakandiya | KG | Retail",True,"(1, 0, 0)",202.46,16,136.900559401262,
+"Fish (dry, katta) | Embilipitiya | KG | Retail",True,"(2, 0, 0)",190.72,16,102.29075157625765,
+"Fish (dry, katta) | Galle | KG | Retail",True,"(0, 0, 0)",196.85,16,100.23252661864991,
+"Fish (dry, katta) | Hambantota | KG | Retail",True,"(0, 0, 1)",221.78,16,249.5630192290157,
+"Fish (dry, katta) | Hanguranketha | KG | Retail",True,"(1, 0, 0)",231.35,16,311.35053061540947,
+"Fish (dry, katta) | Jaffna | KG | Retail",True,"(1, 0, 0)",210.38,16,216.4835748912753,
+"Fish (dry, katta) | Kandy | KG | Retail",True,"(1, 0, 0)",189.53,16,107.93720139424352,
+"Fish (dry, katta) | Kegalle | KG | Retail",True,"(1, 0, 1)",183.68,16,126.33064058159252,
+"Fish (dry, katta) | Keppetipola (DEC} | KG | Retail",True,"(0, 0, 2)",182.14,16,73.41678819198806,
+"Fish (dry, katta) | Kilinochchi | KG | Retail",True,"(0, 0, 2)",164.61,16,37.66859674944567,
+"Fish (dry, katta) | Mannar | KG | Retail",True,"(1, 0, 0)",189.83,16,133.60157039633248,
+"Fish (dry, katta) | Matale | KG | Retail",True,"(1, 0, 0)",184.35,16,88.21030006371066,
+"Fish (dry, katta) | Matara | KG | Retail",True,"(1, 0, 0)",164.13,16,64.28960134614108,
+"Fish (dry, katta) | Meegoda(DEC) | KG | Retail",True,"(0, 0, 0)",198.83,16,106.655764259343,
+"Fish (dry, katta) | Monaragala | KG | Retail",True,"(1, 0, 0)",190.12,16,95.06797818964263,
+"Fish (dry, katta) | Nuwara Eliya | KG | Retail",True,"(0, 0, 0)",172.44,16,46.75599676603735,
+"Fish (dry, katta) | Puttalam | KG | Retail",True,"(1, 0, 0)",219.7,16,221.9644467809096,
+"Fish (dry, katta) | Trincomalee | KG | Retail",True,"(1, 0, 0)",194.31,16,120.52151175167319,
+"Fish (dry, sprats) | Anuradhapura | KG | Retail",True,"(0, 0, 0)",189.43,16,79.51174179731967,
+"Fish (dry, sprats) | Badulla | KG | Retail",True,"(0, 0, 2)",192.44,16,92.17587082417612,
+"Fish (dry, sprats) | Colombo City | KG | Retail",True,"(1, 0, 0)",190.0,16,82.11626780976204,
+"Fish (dry, sprats) | Dammbagalla | KG | Retail",True,"(2, 0, 1)",183.75,16,71.78963591111463,
+"Fish (dry, sprats) | Dehiattakandiya | KG | Retail",True,"(0, 0, 2)",187.97,16,78.8284550835335,
+"Fish (dry, sprats) | Embilipitiya | KG | Retail",True,"(0, 0, 0)",182.36,16,63.73037253484476,
+"Fish (dry, sprats) | Galle | KG | Retail",True,"(1, 0, 0)",176.95,16,54.40845859984228,
+"Fish (dry, sprats) | Hambantota | KG | Retail",True,"(2, 0, 0)",186.59,16,75.41499584802848,
+"Fish (dry, sprats) | Hanguranketha | KG | Retail",True,"(0, 0, 0)",188.79,16,77.93683577078485,
+"Fish (dry, sprats) | Jaffna | KG | Retail",True,"(0, 0, 1)",190.22,16,101.3603798890708,
+"Fish (dry, sprats) | Kandy | KG | Retail",True,"(0, 0, 2)",183.35,16,67.77698980354427,
+"Fish (dry, sprats) | Kegalle | KG | Retail",True,"(0, 0, 0)",184.78,16,68.74327951119923,
+"Fish (dry, sprats) | Keppetipola (DEC} | KG | Retail",True,"(0, 0, 0)",179.43,16,58.165359132233085,
+"Fish (dry, sprats) | Kilinochchi | KG | Retail",True,"(0, 0, 0)",173.7,16,48.63301309082915,
+"Fish (dry, sprats) | Mannar | KG | Retail",True,"(0, 0, 0)",190.23,16,81.51140158996222,
+"Fish (dry, sprats) | Matale | KG | Retail",True,"(0, 0, 0)",184.34,16,67.80829308293053,
+"Fish (dry, sprats) | Matara | KG | Retail",True,"(0, 0, 0)",187.76,16,75.45771530995111,
+"Fish (dry, sprats) | Meegoda(DEC) | KG | Retail",True,"(2, 0, 0)",189.57,16,83.7678204648093,
+"Fish (dry, sprats) | Monaragala | KG | Retail",True,"(0, 0, 0)",188.65,16,77.58833411895094,
+"Fish (dry, sprats) | Nuwara Eliya | KG | Retail",True,"(0, 0, 1)",177.98,16,57.0354875607666,
+"Fish (dry, sprats) | Puttalam | KG | Retail",True,"(0, 0, 0)",184.25,16,67.6095627505024,
+"Fish (dry, sprats) | Trincomalee | KG | Retail",True,"(0, 0, 0)",182.48,16,63.970923949288526,
+Fish (goldstripe sardinella) | Anuradhapura | KG | Retail,True,"(0, 0, 0)",195.46,16,95.99625014988025,
+Fish (goldstripe sardinella) | Colombo City | KG | Retail,True,"(0, 0, 0)",198.59,16,105.8539970638334,
+Fish (goldstripe sardinella) | Embilipitiya | KG | Retail,True,"(1, 0, 0)",205.83,16,142.6835427422335,
+Fish (goldstripe sardinella) | Kandy | KG | Retail,True,"(1, 0, 0)",188.63,16,80.05813583343695,
+Fish (goldstripe sardinella) | Keppetipola (DEC} | KG | Retail,True,"(0, 0, 0)",177.62,16,54.96045615009206,
+Fish (goldstripe sardinella) | Kilinochchi | KG | Retail,True,"(0, 0, 1)",184.89,16,72.1423276644404,
+Fish (goldstripe sardinella) | Mannar | KG | Retail,True,"(1, 0, 0)",202.13,16,119.81909974203066,
+Fish (goldstripe sardinella) | Matale | KG | Retail,True,"(1, 0, 0)",194.68,16,98.62322031157466,
+Fish (goldstripe sardinella) | Meegoda(DEC) | KG | Retail,True,"(0, 0, 1)",199.28,16,116.6951773524149,
+Fish (goldstripe sardinella) | Monaragala | KG | Retail,True,"(0, 0, 2)",191.18,16,95.90298826592188,
+Fish (goldstripe sardinella) | Nuwara Eliya | KG | Retail,True,"(0, 0, 0)",188.04,16,76.12992838410787,
+Fish (goldstripe sardinella) | Puttalam | KG | Retail,True,"(0, 0, 0)",199.3,16,108.21614558615964,
+Fish (goldstripe sardinella) | Trincomalee | KG | Retail,True,"(1, 0, 1)",197.32,16,103.51860358105102,
+Fish (goldstripe sardinella) | Vavuniya | KG | Retail,True,"(0, 0, 0)",206.47,16,135.3906453393698,
+Fish (jack) | Anuradhapura | KG | Retail,True,"(2, 0, 1)",197.93,16,117.85929552067267,
+Fish (jack) | Colombo City | KG | Retail,True,"(2, 0, 0)",205.83,16,149.80380233459147,
+Fish (jack) | Dammbagalla | KG | Retail,True,"(0, 0, 2)",206.74,16,152.06888502636625,
+Fish (jack) | Jaffna | KG | Retail,True,"(0, 0, 2)",212.13,16,186.24394483322354,
+Fish (jack) | Kandy | KG | Retail,True,"(0, 0, 0)",197.56,16,102.51036824648958,
+Fish (jack) | Kegalle | KG | Retail,True,"(0, 0, 0)",217.27,16,189.7282757707386,
+Fish (jack) | Kilinochchi | KG | Retail,True,"(0, 0, 0)",199.55,16,109.08496365953768,
+Fish (jack) | Mannar | KG | Retail,True,"(0, 0, 0)",200.13,16,111.06407820252339,
+Fish (jack) | Matale | KG | Retail,True,"(1, 0, 0)",209.39,16,156.87029751024664,
+Fish (jack) | Puttalam | KG | Retail,True,"(0, 0, 0)",207.45,16,139.5927178985741,
+Fish (jack) | Trincomalee | KG | Retail,True,"(0, 0, 1)",219.87,16,213.67373515685912,
+Fish (jack) | Vavuniya | KG | Retail,True,"(0, 0, 0)",225.19,16,243.0270802420315,
+Fish (sail fish) | Anuradhapura | KG | Retail,True,"(0, 0, 1)",182.96,16,76.38130335488323,
+Fish (sail fish) | Badulla | KG | Retail,True,"(1, 0, 0)",206.89,16,137.73252640653865,
+Fish (sail fish) | Colombo City | KG | Retail,True,"(0, 0, 1)",208.85,16,152.483714053697,
+Fish (sail fish) | Dammbagalla | KG | Retail,True,"(0, 0, 0)",204.04,16,125.51276657572865,
+Fish (sail fish) | Embilipitiya | KG | Retail,True,"(0, 0, 2)",196.01,16,146.1885454927375,
+Fish (sail fish) | Galle | KG | Retail,True,"(0, 0, 1)",214.12,16,173.11105816193785,
+Fish (sail fish) | Kandy | KG | Retail,True,"(0, 0, 1)",205.36,16,145.14757536564642,
+Fish (sail fish) | Kegalle | KG | Retail,True,"(0, 0, 1)",223.35,16,233.52247564188474,
+Fish (sail fish) | Keppetipola (DEC} | KG | Retail,True,"(0, 0, 2)",209.81,16,191.06883458228825,
+Fish (sail fish) | Matale | KG | Retail,True,"(0, 0, 1)",192.6,16,97.8254500739952,
+Fish (sail fish) | Matara | KG | Retail,True,"(0, 0, 1)",190.27,16,83.37991224721085,
+Fish (sail fish) | Meegoda(DEC) | KG | Retail,True,"(0, 0, 0)",227.88,16,264.36418808127684,
+Fish (sail fish) | Monaragala | KG | Retail,True,"(0, 0, 2)",199.12,16,116.49057457560572,
+Fish (sail fish) | Nuwara Eliya | KG | Retail,True,"(0, 0, 0)",210.22,16,152.23686635162701,
+Fish (sail fish) | Vavuniya | KG | Retail,True,"(0, 0, 1)",210.32,16,160.04645460696605,
+Fish (skipjack tuna) | Anuradhapura | KG | Retail,True,"(0, 0, 1)",211.58,16,188.17601946052633,
+Fish (skipjack tuna) | Badulla | KG | Retail,True,"(1, 0, 0)",210.45,16,168.79053480132924,
+Fish (skipjack tuna) | Colombo City | KG | Retail,True,"(0, 0, 0)",212.95,16,165.81431499998558,
+Fish (skipjack tuna) | Dammbagalla | KG | Retail,True,"(2, 0, 1)",187.6,16,113.9814619420074,
+Fish (skipjack tuna) | Dehiattakandiya | KG | Retail,True,"(0, 0, 0)",218.91,16,199.75284740947944,
+Fish (skipjack tuna) | Embilipitiya | KG | Retail,True,"(0, 0, 0)",209.03,16,146.6825230468925,
+Fish (skipjack tuna) | Galle | KG | Retail,True,"(0, 0, 0)",212.03,16,161.12020895417854,
+Fish (skipjack tuna) | Hambantota | KG | Retail,True,"(0, 0, 2)",226.15,16,260.5733750428893,
+Fish (skipjack tuna) | Jaffna | KG | Retail,True,"(2, 0, 1)",202.17,16,135.5351705212485,
+Fish (skipjack tuna) | Kandy | KG | Retail,True,"(0, 0, 2)",199.43,16,115.35952757589216,
+Fish (skipjack tuna) | Kegalle | KG | Retail,True,"(0, 0, 0)",207.14,16,138.26944710383142,
+Fish (skipjack tuna) | Keppetipola (DEC} | KG | Retail,True,"(0, 0, 0)",212.36,16,162.7579434975165,
+Fish (skipjack tuna) | Kilinochchi | KG | Retail,True,"(0, 0, 1)",194.22,16,92.45684246696183,
+Fish (skipjack tuna) | Mannar | KG | Retail,True,"(0, 0, 1)",185.88,16,77.98495687481892,
+Fish (skipjack tuna) | Matale | KG | Retail,True,"(0, 0, 2)",215.79,16,192.83714772169196,
+Fish (skipjack tuna) | Matara | KG | Retail,True,"(0, 0, 2)",207.78,16,149.46004624088528,
+Fish (skipjack tuna) | Monaragala | KG | Retail,True,"(0, 0, 1)",197.24,16,117.01837677894072,
+Fish (skipjack tuna) | Nuwara Eliya | KG | Retail,True,"(0, 0, 0)",214.91,16,176.29295752485922,
+Fish (skipjack tuna) | Puttalam | KG | Retail,True,"(0, 0, 2)",190.4,16,86.53848795953965,
+Fish (skipjack tuna) | Trincomalee | KG | Retail,True,"(0, 0, 2)",215.38,16,189.80825787929638,
+Fish (skipjack tuna) | Vavuniya | KG | Retail,True,"(0, 0, 0)",210.41,16,153.14431431936944,
+Fish (trenched sardinella) | Anuradhapura | KG | Retail,True,"(0, 0, 0)",204.04,16,125.49912955592363,
+Fish (trenched sardinella) | Badulla | KG | Retail,True,"(0, 0, 0)",190.66,16,82.60961995122662,
+Fish (trenched sardinella) | Colombo City | KG | Retail,True,"(0, 0, 0)",192.8,16,88.32283508077106,
+Fish (trenched sardinella) | Dammbagalla | KG | Retail,True,"(0, 0, 1)",192.89,16,108.42001534507149,
+Fish (trenched sardinella) | Galle | KG | Retail,True,"(0, 0, 0)",213.08,16,166.4843036843021,
+Fish (trenched sardinella) | Jaffna | KG | Retail,True,"(0, 0, 2)",205.12,16,131.62069739804866,
+Fish (trenched sardinella) | Kandy | KG | Retail,True,"(0, 0, 0)",202.87,16,121.00940723026942,
+Fish (trenched sardinella) | Kegalle | KG | Retail,True,"(2, 0, 1)",199.99,16,114.83560243956094,
+Fish (trenched sardinella) | Matale | KG | Retail,True,"(1, 0, 0)",196.73,16,99.92021009221142,
+Fish (trenched sardinella) | Puttalam | KG | Retail,True,"(0, 0, 0)",193.56,16,90.4498652199258,
+Fish (trenched sardinella) | Trincomalee | KG | Retail,True,"(1, 0, 0)",213.91,16,173.17466891622135,
+Fish (trenched sardinella) | Vavuniya | KG | Retail,True,"(0, 0, 0)",213.94,16,171.02405051780778,
+Fish (yellowfin tuna) | Anuradhapura | KG | Retail,True,"(0, 0, 0)",241.73,16,407.5126795969062,
+Fish (yellowfin tuna) | Badulla | KG | Retail,True,"(0, 0, 0)",216.43,16,184.870119655893,
+Fish (yellowfin tuna) | Colombo City | KG | Retail,True,"(0, 0, 0)",202.62,16,120.06219725629144,
+Fish (yellowfin tuna) | Dammbagalla | KG | Retail,True,"(0, 0, 0)",209.65,16,149.55840362057484,
+Fish (yellowfin tuna) | Embilipitiya | KG | Retail,True,"(0, 0, 2)",200.18,16,112.55317939660259,
+Fish (yellowfin tuna) | Galle | KG | Retail,True,"(2, 0, 1)",210.61,16,163.88329473701015,
+Fish (yellowfin tuna) | Hambantota | KG | Retail,True,"(0, 0, 1)",212.07,16,179.8983051674,
+Fish (yellowfin tuna) | Kandy | KG | Retail,True,"(0, 0, 0)",213.2,16,167.08845466718793,
+Fish (yellowfin tuna) | Kegalle | KG | Retail,True,"(0, 0, 0)",218.01,16,194.2136760113299,
+Fish (yellowfin tuna) | Keppetipola (DEC} | KG | Retail,True,"(0, 0, 0)",212.2,16,161.94667980869247,
+Fish (yellowfin tuna) | Matale | KG | Retail,True,"(0, 0, 2)",209.67,16,159.88009074446242,
+Fish (yellowfin tuna) | Matara | KG | Retail,True,"(0, 0, 0)",202.03,16,117.86713072637997,
+Fish (yellowfin tuna) | Monaragala | KG | Retail,True,"(0, 0, 0)",214.96,16,176.55311079763663,
+Fish (yellowfin tuna) | Nuwara Eliya | KG | Retail,True,"(0, 0, 0)",220.93,16,212.75294228213895,
+Fish (yellowfin tuna) | Puttalam | KG | Retail,True,"(0, 0, 0)",216.22,16,183.62783828019363,
+Fish (yellowfin tuna) | Trincomalee | KG | Retail,True,"(0, 0, 1)",198.7,16,132.71803298610686,
+Fish (yellowfin tuna) | Vavuniya | KG | Retail,True,"(1, 0, 0)",197.42,16,117.4985990256485,
+Lentils | Ampara | KG | Retail,True,"(0, 0, 2)",147.61,16,23.730890714773622,
+Lentils | Anuradhapura | KG | Retail,True,"(0, 0, 1)",146.02,16,25.58313444296507,
+Lentils | Badulla | KG | Retail,True,"(0, 0, 0)",153.99,16,26.263888882042167,
+Lentils | Colombo City | KG | Retail,True,"(2, 0, 1)",150.35,16,25.344730529582176,
+Lentils | Dammbagalla | KG | Retail,True,"(2, 0, 1)",143.83,16,22.24605295677729,
+Lentils | Dehiattakandiya | KG | Retail,True,"(2, 0, 1)",146.08,16,22.03525605785228,
+Lentils | Embilipitiya | KG | Retail,True,"(0, 0, 2)",151.52,16,27.344416995900982,
+Lentils | Galle | KG | Retail,True,"(0, 0, 0)",156.24,16,28.17790854648429,
+Lentils | Hambantota | KG | Retail,True,"(2, 0, 1)",145.94,16,22.270296507789006,
+Lentils | Hanguranketha | KG | Retail,True,"(0, 0, 2)",147.39,16,23.98566589313049,
+Lentils | Jaffna | KG | Retail,True,"(2, 0, 1)",142.95,16,19.10883118630425,
+Lentils | Kandy | KG | Retail,True,"(2, 0, 0)",136.59,16,21.761848008394523,
+Lentils | Kegalle | KG | Retail,True,"(0, 0, 0)",152.13,16,24.779662103734047,
+Lentils | Keppetipola (DEC} | KG | Retail,True,"(0, 0, 0)",150.6,16,23.625934931609603,
+Lentils | Kilinochchi | KG | Retail,True,"(2, 0, 1)",145.83,16,23.966678473970326,
+Lentils | Mannar | KG | Retail,True,"(2, 0, 1)",152.78,16,26.217199462823448,
+Lentils | Matale | KG | Retail,True,"(2, 0, 1)",145.95,16,23.538525754813513,
+Lentils | Matara | KG | Retail,True,"(0, 0, 0)",153.67,16,26.006204414419432,
+Lentils | Meegoda(DEC) | KG | Retail,True,"(0, 0, 2)",147.0,16,23.510992341604084,
+Lentils | Monaragala | KG | Retail,True,"(0, 0, 0)",150.0,16,23.18525226539544,
+Lentils | Nuwara Eliya | KG | Retail,True,"(2, 0, 1)",151.31,16,24.411297382563454,
+Lentils | Puttalam | KG | Retail,True,"(0, 0, 2)",147.87,16,21.82009465411158,
+Lentils | Trincomalee | KG | Retail,True,"(2, 0, 1)",144.56,16,23.515101621023064,
+Lentils | Vavuniya | KG | Retail,True,"(2, 0, 1)",150.42,16,24.407203345275903,
+"Meat (chicken, broiler) | Anuradhapura | KG | Retail",True,"(0, 0, 2)",184.3,16,72.33464640153902,
+"Meat (chicken, broiler) | Badulla | KG | Retail",True,"(2, 0, 1)",181.4,16,69.00805078707162,
+"Meat (chicken, broiler) | Colombo City | KG | Retail",True,"(0, 0, 1)",184.01,16,71.30215201132013,
+"Meat (chicken, broiler) | Dammbagalla | KG | Retail",True,"(0, 0, 1)",182.22,16,69.99941003312824,
+"Meat (chicken, broiler) | Dehiattakandiya | KG | Retail",True,"(0, 0, 0)",187.93,16,75.86834024648874,
+"Meat (chicken, broiler) | Embilipitiya | KG | Retail",True,"(0, 0, 2)",182.65,16,70.7971260973033,
+"Meat (chicken, broiler) | Galle | KG | Retail",True,"(0, 0, 0)",193.76,16,91.0229084179208,
+"Meat (chicken, broiler) | Hambantota | KG | Retail",True,"(2, 0, 0)",182.15,16,82.86722603277869,
+"Meat (chicken, broiler) | Hanguranketha | KG | Retail",True,"(0, 0, 0)",199.17,16,107.7976462555223,
+"Meat (chicken, broiler) | Jaffna | KG | Retail",True,"(0, 0, 2)",187.92,16,105.62847259188365,
+"Meat (chicken, broiler) | Kandy | KG | Retail",True,"(0, 0, 0)",191.35,16,84.41536024561745,
+"Meat (chicken, broiler) | Kegalle | KG | Retail",True,"(0, 0, 0)",183.06,16,65.14179903047949,
+"Meat (chicken, broiler) | Keppetipola (DEC} | KG | Retail",True,"(1, 0, 1)",185.13,16,70.38989987281403,
+"Meat (chicken, broiler) | Kilinochchi | KG | Retail",True,"(0, 0, 0)",189.1,16,78.68760515343133,
+"Meat (chicken, broiler) | Mannar | KG | Retail",True,"(0, 0, 0)",201.19,16,114.79443353519011,
+"Meat (chicken, broiler) | Matale | KG | Retail",True,"(0, 0, 1)",187.99,16,84.66608113345075,
+"Meat (chicken, broiler) | Matara | KG | Retail",True,"(0, 0, 1)",190.6,16,90.1379482025997,
+"Meat (chicken, broiler) | Meegoda(DEC) | KG | Retail",True,"(0, 0, 0)",188.72,16,77.74422753823248,
+"Meat (chicken, broiler) | Monaragala | KG | Retail",True,"(1, 0, 1)",191.27,16,84.32139945195152,
+"Meat (chicken, broiler) | Nuwara Eliya | KG | Retail",True,"(0, 0, 2)",179.99,16,61.147964946308385,
+"Meat (chicken, broiler) | Puttalam | KG | Retail",True,"(0, 0, 0)",202.04,16,117.89597414880693,
+"Meat (chicken, broiler) | Trincomalee | KG | Retail",True,"(0, 0, 0)",181.72,16,62.47774921883519,
+"Meat (chicken, broiler) | Vavuniya | KG | Retail",True,"(0, 0, 1)",191.27,16,88.3260950920893,
+Onions (imported) | Ampara | KG | Retail,True,"(0, 0, 0)",201.21,16,114.86970898411005,
+Onions (imported) | Anuradhapura | KG | Retail,True,"(0, 0, 0)",198.94,16,107.0271866016146,
+Onions (imported) | Badulla | KG | Retail,True,"(0, 0, 0)",204.96,16,129.15315465797653,
+Onions (imported) | Dammbagalla | KG | Retail,True,"(0, 0, 0)",195.28,16,95.46001266065063,
+Onions (imported) | Dehiattakandiya | KG | Retail,True,"(0, 0, 0)",200.09,16,110.93392100193442,
+Onions (imported) | Embilipitiya | KG | Retail,True,"(0, 0, 0)",201.0,16,114.11988345108648,
+Onions (imported) | Galle | KG | Retail,True,"(0, 0, 0)",205.86,16,132.85010220402725,
+Onions (imported) | Hambantota | KG | Retail,True,"(0, 0, 0)",203.35,16,122.8089355295111,
+Onions (imported) | Hanguranketha | KG | Retail,True,"(0, 0, 0)",203.29,16,122.6021574964708,
+Onions (imported) | Jaffna | KG | Retail,True,"(0, 0, 0)",202.94,16,121.24769492738234,
+Onions (imported) | Kandy | KG | Retail,True,"(0, 0, 0)",197.86,16,103.45226436053733,
+Onions (imported) | Kegalle | KG | Retail,True,"(0, 0, 0)",202.05,16,117.93251088730503,
+Onions (imported) | Keppetipola (DEC} | KG | Retail,True,"(0, 0, 0)",197.52,16,102.3747310436151,
+Onions (imported) | Kilinochchi | KG | Retail,True,"(0, 0, 0)",208.74,16,145.35594005389686,
+Onions (imported) | Mannar | KG | Retail,True,"(0, 0, 0)",195.16,16,95.09988394102149,
+Onions (imported) | Matale | KG | Retail,True,"(0, 0, 0)",201.13,16,114.60127820671717,
+Onions (imported) | Matara | KG | Retail,True,"(0, 0, 0)",204.0,16,125.34318330153698,
+Onions (imported) | Meegoda(DEC) | KG | Retail,True,"(0, 0, 0)",205.71,16,132.2304138949528,
+Onions (imported) | Monaragala | KG | Retail,True,"(0, 0, 0)",200.03,16,110.72820236407955,
+Onions (imported) | Nuwara Eliya | KG | Retail,True,"(0, 0, 0)",196.41,16,98.87987513658831,
+Onions (imported) | Puttalam | KG | Retail,True,"(0, 0, 0)",201.67,16,116.54555761198473,
+Onions (imported) | Trincomalee | KG | Retail,True,"(0, 0, 0)",202.68,16,120.27555226628088,
+Onions (imported) | Vavuniya | KG | Retail,True,"(0, 0, 0)",208.97,16,146.40713376744796,
+Onions (red) | Dammbagalla | KG | Retail,True,"(0, 0, 0)",198.44,16,105.36429005607752,
+Onions (red) | Jaffna | KG | Retail,True,"(0, 0, 0)",173.9,16,48.92760315991742,
+Onions (red) | Kilinochchi | KG | Retail,True,"(2, 0, 0)",177.22,16,68.40579153611296,
+"Onions (red, local) | Jaffna | KG | Retail",True,"(0, 0, 0)",172.13,16,46.2980863943131,
+"Onions (red, local) | Puttalam | KG | Retail",True,"(0, 0, 0)",202.41,16,119.2830631190385,
+Papaya | Ampara | KG | Retail,True,"(0, 0, 0)",152.64,16,25.17674030035805,
+Papaya | Anuradhapura | KG | Retail,True,"(2, 0, 1)",164.46,16,39.40098384650212,
+Papaya | Badulla | KG | Retail,True,"(2, 0, 1)",180.21,16,60.819560329632935,
+Papaya | Colombo City | KG | Retail,True,"(0, 0, 1)",165.39,16,43.7688592298133,
+Papaya | Dammbagalla | KG | Retail,True,"(0, 0, 0)",170.06,16,43.401451203698045,
+Papaya | Dehiattakandiya | KG | Retail,True,"(0, 0, 2)",152.21,16,25.63079135013096,
+Papaya | Embilipitiya | KG | Retail,True,"(0, 0, 2)",172.42,16,50.14289615035311,
+Papaya | Galle | KG | Retail,True,"(0, 0, 0)",165.0,16,37.05309187634511,
+Papaya | Hambantota | KG | Retail,True,"(0, 0, 2)",170.08,16,45.22610784803972,
+Papaya | Hanguranketha | KG | Retail,True,"(0, 0, 1)",173.42,16,52.03136573158356,
+Papaya | Jaffna | KG | Retail,True,"(0, 0, 0)",162.3,16,34.052408011592824,
+Papaya | Kandy | KG | Retail,True,"(0, 0, 2)",175.56,16,60.071389638567084,
+Papaya | Kegalle | KG | Retail,True,"(0, 0, 2)",180.9,16,63.614390876171896,
+Papaya | Keppetipola (DEC} | KG | Retail,True,"(0, 0, 2)",169.2,16,43.51463248997547,
+Papaya | Kilinochchi | KG | Retail,True,"(2, 0, 1)",168.17,16,44.467399970274926,
+Papaya | Mannar | KG | Retail,True,"(2, 0, 1)",161.32,16,41.75256883191406,
+Papaya | Matale | KG | Retail,True,"(0, 0, 0)",175.86,16,52.02542702149423,
+Papaya | Matara | KG | Retail,True,"(0, 0, 2)",163.17,16,41.01239008961373,
+Papaya | Meegoda(DEC) | KG | Retail,True,"(0, 0, 2)",171.39,16,46.5067350529107,
+Papaya | Monaragala | KG | Retail,True,"(2, 0, 1)",161.79,16,39.068589847899965,
+Papaya | Nuwara Eliya | KG | Retail,True,"(0, 0, 1)",169.88,16,45.45495052936038,
+Papaya | Puttalam | KG | Retail,True,"(2, 0, 1)",162.28,16,35.86615816928074,
+Papaya | Trincomalee | KG | Retail,True,"(2, 0, 1)",158.4,16,31.437498942718825,
+Papaya | Vavuniya | KG | Retail,True,"(0, 0, 0)",165.39,16,37.50061134546919,
+Pineapples | Anuradhapura | KG | Retail,True,"(0, 0, 1)",204.14,16,129.73424380192554,
+Pineapples | Colombo City | KG | Retail,True,"(2, 0, 1)",198.3,16,108.24309067554391,
+Pineapples | Dammbagalla | KG | Retail,True,"(0, 0, 1)",182.76,16,66.97300283433037,
+Pineapples | Dehiattakandiya | KG | Retail,True,"(0, 0, 0)",192.74,16,88.15838813352576,
+Pineapples | Embilipitiya | KG | Retail,True,"(0, 0, 2)",180.77,16,66.01260772312185,
+Pineapples | Hambantota | KG | Retail,True,"(0, 0, 0)",197.82,16,103.33662292956454,
+Pineapples | Hanguranketha | KG | Retail,True,"(2, 0, 1)",198.02,16,118.34574488581868,
+Pineapples | Jaffna | KG | Retail,True,"(0, 0, 0)",200.2,16,111.29544290899746,
+Pineapples | Kandy | KG | Retail,True,"(0, 0, 0)",179.73,16,58.71111102821879,
+Pineapples | Kegalle | KG | Retail,True,"(0, 0, 0)",181.1,16,61.27668295547721,
+Pineapples | Keppetipola (DEC} | KG | Retail,True,"(2, 0, 1)",192.47,16,96.33871929640272,
+Pineapples | Kilinochchi | KG | Retail,True,"(0, 0, 0)",204.66,16,127.96163930262014,
+Pineapples | Mannar | KG | Retail,True,"(1, 0, 0)",208.36,16,149.01952493096164,
+Pineapples | Matale | KG | Retail,True,"(0, 0, 1)",204.93,16,138.70058129066945,
+Pineapples | Matara | KG | Retail,True,"(2, 0, 1)",192.71,16,93.33315893208001,
+Pineapples | Meegoda(DEC) | KG | Retail,True,"(0, 0, 0)",204.17,16,126.02808714967817,
+Pineapples | Nuwara Eliya | KG | Retail,True,"(2, 0, 1)",198.79,16,114.09853612860448,
+Pineapples | Trincomalee | KG | Retail,True,"(0, 0, 0)",208.18,16,142.8537834105378,
+Pineapples | Vavuniya | KG | Retail,True,"(0, 0, 1)",201.11,16,122.70665762612485,
+Potatoes (imported) | Ampara | KG | Retail,True,"(1, 0, 0)",164.61,16,37.45000610153536,
+Potatoes (imported) | Anuradhapura | KG | Retail,True,"(0, 0, 0)",157.83,16,29.614194465497892,
+Potatoes (imported) | Badulla | KG | Retail,True,"(0, 0, 0)",159.02,16,30.737852098060685,
+Potatoes (imported) | Colombo City | KG | Retail,True,"(0, 0, 0)",151.91,16,24.615061762621895,
+Potatoes (imported) | Dammbagalla | KG | Retail,True,"(0, 0, 0)",161.03,16,32.72854307893003,
+Potatoes (imported) | Dehiattakandiya | KG | Retail,True,"(0, 0, 0)",158.66,16,30.396685020656445,
+Potatoes (imported) | Embilipitiya | KG | Retail,True,"(0, 0, 0)",151.18,16,24.060964085502597,
+Potatoes (imported) | Galle | KG | Retail,True,"(0, 0, 0)",159.21,16,30.91551728360067,
+Potatoes (imported) | Hambantota | KG | Retail,True,"(0, 0, 0)",156.23,16,28.167019873305534,
+Potatoes (imported) | Hanguranketha | KG | Retail,True,"(0, 0, 0)",153.18,16,25.612715134430474,
+Potatoes (imported) | Jaffna | KG | Retail,True,"(0, 0, 0)",152.9,16,25.381806072533657,
+Potatoes (imported) | Kandy | KG | Retail,True,"(1, 0, 0)",163.3,16,35.262964786977584,
+Potatoes (imported) | Kegalle | KG | Retail,True,"(0, 0, 0)",158.94,16,30.663444941000645,
+Potatoes (imported) | Keppetipola (DEC} | KG | Retail,True,"(0, 0, 0)",158.32,16,30.071205027499552,
+Potatoes (imported) | Kilinochchi | KG | Retail,True,"(0, 0, 0)",158.36,16,30.109580596152217,
+Potatoes (imported) | Mannar | KG | Retail,True,"(0, 0, 0)",153.4,16,25.782697908286046,
+Potatoes (imported) | Matale | KG | Retail,True,"(0, 0, 0)",160.94,16,32.638911228356804,
+Potatoes (imported) | Matara | KG | Retail,True,"(0, 0, 0)",158.66,16,30.38982552478668,
+Potatoes (imported) | Meegoda(DEC) | KG | Retail,True,"(0, 0, 0)",154.23,16,26.46483543175603,
+Potatoes (imported) | Monaragala | KG | Retail,True,"(0, 0, 0)",153.17,16,25.60241895945949,
+Potatoes (imported) | Nuwara Eliya | KG | Retail,True,"(0, 0, 0)",164.58,16,36.571032253455925,
+Potatoes (imported) | Puttalam | KG | Retail,True,"(0, 0, 0)",146.61,16,20.855202725756715,
+Potatoes (imported) | Trincomalee | KG | Retail,True,"(0, 0, 0)",156.67,16,28.56334629926842,
+Potatoes (imported) | Vavuniya | KG | Retail,True,"(0, 0, 0)",159.85,16,31.540892585573566,
+Potatoes (local) | Colombo City | KG | Retail,True,"(0, 0, 1)",163.7,16,38.85453877622039,
+Potatoes (local) | Kandy | KG | Retail,True,"(0, 0, 1)",162.97,16,36.989012792932726,
+Potatoes (local) | Meegoda(DEC) | KG | Retail,True,"(0, 0, 0)",174.38,16,49.665300417221324,
+Potatoes (local) | Nuwara Eliya | KG | Retail,True,"(0, 0, 0)",171.89,16,45.95247350956519,
+Potatoes (local) | Puttalam | KG | Retail,True,"(0, 0, 0)",171.99,16,46.09166760791111,
+Pumpkin | Ampara | KG | Retail,True,"(0, 0, 2)",173.25,16,54.312304947279394,
+Pumpkin | Anuradhapura | KG | Retail,True,"(0, 0, 0)",175.85,16,52.00381941848685,
+Pumpkin | Badulla | KG | Retail,True,"(0, 0, 2)",173.5,16,49.345835556601614,
+Pumpkin | Colombo City | KG | Retail,True,"(0, 0, 0)",172.58,16,46.960149976695334,
+Pumpkin | Dammbagalla | KG | Retail,True,"(0, 0, 2)",178.53,16,60.46210715226608,
+Pumpkin | Dehiattakandiya | KG | Retail,True,"(0, 0, 2)",175.53,16,53.75278711557887,
+Pumpkin | Embilipitiya | KG | Retail,True,"(0, 0, 0)",177.47,16,54.70354130325871,
+Pumpkin | Galle | KG | Retail,True,"(2, 0, 0)",174.49,16,52.93162881824801,
+Pumpkin | Hambantota | KG | Retail,True,"(0, 0, 0)",178.07,16,55.73654789516371,
+Pumpkin | Hanguranketha | KG | Retail,True,"(0, 0, 0)",176.65,16,53.32346581463791,
+Pumpkin | Jaffna | KG | Retail,True,"(2, 0, 0)",169.86,16,45.98639512820545,
+Pumpkin | Kandy | KG | Retail,True,"(0, 0, 0)",177.61,16,54.95045732254097,
+Pumpkin | Kegalle | KG | Retail,True,"(0, 0, 0)",179.34,16,58.007244547908364,
+Pumpkin | Keppetipola (DEC} | KG | Retail,True,"(0, 0, 0)",173.82,16,48.80536848140409,
+Pumpkin | Kilinochchi | KG | Retail,True,"(0, 0, 2)",183.45,16,66.25206988068825,
+Pumpkin | Mannar | KG | Retail,True,"(0, 0, 0)",181.31,16,61.67989211926809,
+Pumpkin | Matale | KG | Retail,True,"(0, 0, 0)",173.53,16,48.36608334386088,
+Pumpkin | Matara | KG | Retail,True,"(0, 0, 0)",181.23,16,61.53568760730551,
+Pumpkin | Meegoda(DEC) | KG | Retail,True,"(0, 0, 0)",176.14,16,52.47719236725326,
+Pumpkin | Monaragala | KG | Retail,True,"(2, 0, 0)",174.13,16,51.60920855106781,
+Pumpkin | Nuwara Eliya | KG | Retail,True,"(0, 0, 0)",171.3,16,45.11517982416569,
+Pumpkin | Puttalam | KG | Retail,True,"(0, 0, 0)",171.66,16,45.63027893997254,
+Pumpkin | Trincomalee | KG | Retail,True,"(0, 0, 2)",164.49,16,38.14901217822415,
+Pumpkin | Vavuniya | KG | Retail,True,"(2, 0, 1)",181.41,16,65.65017366132841,
+Rice (long grain) | Mulaitivu | KG | Retail,True,"(1, 0, 0)",102.99,16,5.382342775721256,
+Rice (medium grain) | Ampara | KG | Retail,True,"(0, 0, 1)",128.78,16,13.297137340032,
+Rice (medium grain) | Anuradhapura | KG | Retail,True,"(0, 0, 1)",122.35,16,10.986923472489169,
+Rice (medium grain) | Colombo City | KG | Retail,True,"(0, 0, 1)",123.86,16,11.80125833452348,
+Rice (medium grain) | Dammbagalla | KG | Retail,True,"(0, 0, 1)",120.98,16,11.62937761792227,
+Rice (medium grain) | Dehiattakandiya | KG | Retail,True,"(0, 0, 1)",123.93,16,11.872503246643072,
+Rice (medium grain) | Embilipitiya | KG | Retail,True,"(0, 0, 1)",127.04,16,12.054892204711262,
+Rice (medium grain) | Galle | KG | Retail,True,"(0, 0, 1)",126.28,16,12.238886118942725,
+Rice (medium grain) | Hanguranketha | KG | Retail,True,"(0, 0, 1)",126.46,16,11.892286949695354,
+Rice (medium grain) | Kandy | KG | Retail,True,"(0, 0, 1)",126.4,16,13.348444338114394,
+Rice (medium grain) | Kegalle | KG | Retail,True,"(0, 0, 1)",124.05,16,12.102242682886857,
+Rice (medium grain) | Keppetipola (DEC} | KG | Retail,True,"(0, 0, 1)",123.42,16,12.42724614747358,
+Rice (medium grain) | Kilinochchi | KG | Retail,True,"(0, 0, 1)",128.19,16,13.103271505391845,
+Rice (medium grain) | Mannar | KG | Retail,True,"(0, 0, 1)",126.05,16,12.303116539482357,
+Rice (medium grain) | Matale | KG | Retail,True,"(0, 0, 1)",125.41,16,12.429295928678961,
+Rice (medium grain) | Matara | KG | Retail,True,"(0, 0, 1)",123.93,16,11.734186442982452,
+Rice (medium grain) | Nuwara Eliya | KG | Retail,True,"(0, 0, 2)",89.55,16,3.6603702720562485,
+Rice (medium grain) | Puttalam | KG | Retail,True,"(0, 0, 1)",95.23,16,4.7448707024442545,
+Rice (medium grain) | Trincomalee | KG | Retail,True,"(1, 0, 0)",94.79,16,4.301363670105848,
+Rice (medium grain) | Vavuniya | KG | Retail,True,"(0, 0, 0)",88.37,16,3.379127014347607,
+Rice (white) | Ampara | KG | Retail,True,"(0, 0, 0)",134.21,16,14.155510598780722,
+Rice (white) | Dammbagalla | KG | Retail,True,"(0, 0, 1)",127.24,16,11.872918874321126,
+Rice (white) | Dehiattakandiya | KG | Retail,True,"(0, 0, 1)",124.22,16,11.258268764967292,
+Rice (white) | Embilipitiya | KG | Retail,True,"(0, 0, 2)",107.43,16,6.672290341816404,
+Rice (white) | Galle | KG | Retail,True,"(0, 0, 2)",140.44,16,17.66914196350775,
+Rice (white) | Hambantota | KG | Retail,True,"(0, 0, 0)",115.22,16,7.821022542101391,
+Rice (white) | Kandy | KG | Retail,True,"(0, 0, 2)",127.61,16,12.280042848696134,
+Rice (white) | Kegalle | KG | Retail,True,"(0, 0, 0)",131.89,16,13.166368181588165,
+Rice (white) | Kilinochchi | KG | Retail,True,"(0, 0, 0)",118.02,16,8.53535493391403,
+Rice (white) | Mannar | KG | Retail,True,"(0, 0, 1)",122.89,16,10.588476583745637,
+Rice (white) | Matale | KG | Retail,True,"(0, 0, 0)",118.83,16,8.75496644435575,
+Rice (white) | Matara | KG | Retail,True,"(2, 0, 0)",120.83,16,10.005216123414776,
+Rice (white) | Nuwara Eliya | KG | Retail,True,"(0, 0, 0)",127.54,16,11.491812389509835,
+Rice (white) | Trincomalee | KG | Retail,True,"(0, 0, 0)",115.83,16,7.970659127089898,
+Snake gourd | Ampara | KG | Retail,True,"(0, 0, 0)",165.41,16,37.52513286722374,
+Snake gourd | Anuradhapura | KG | Retail,True,"(0, 0, 0)",170.78,16,44.38413697766942,
+Snake gourd | Badulla | KG | Retail,True,"(0, 0, 1)",174.82,16,57.35210133877331,
+Snake gourd | Colombo City | KG | Retail,True,"(0, 0, 2)",166.02,16,43.5490121110106,
+Snake gourd | Dammbagalla | KG | Retail,True,"(0, 0, 0)",167.63,16,40.22888876371708,
+Snake gourd | Dehiattakandiya | KG | Retail,True,"(0, 0, 0)",175.8,16,51.92077669988434,
+Snake gourd | Embilipitiya | KG | Retail,True,"(0, 0, 0)",180.46,16,60.07300085422952,
+Snake gourd | Galle | KG | Retail,True,"(0, 0, 0)",185.49,16,70.29956706087374,
+Snake gourd | Hambantota | KG | Retail,True,"(0, 0, 0)",182.1,16,63.2315800615908,
+Snake gourd | Hanguranketha | KG | Retail,True,"(0, 0, 0)",177.36,16,54.51958289975434,
+Snake gourd | Jaffna | KG | Retail,True,"(0, 0, 0)",177.97,16,55.576536571248475,
+Snake gourd | Kandy | KG | Retail,True,"(0, 0, 1)",170.66,16,55.373385013442075,
+Snake gourd | Kegalle | KG | Retail,True,"(0, 0, 0)",170.01,16,43.32807570458927,
+Snake gourd | Keppetipola (DEC} | KG | Retail,True,"(0, 0, 0)",178.22,16,55.99686654897021,
+Snake gourd | Kilinochchi | KG | Retail,True,"(0, 0, 0)",164.35,16,36.306293959043536,
+Snake gourd | Mannar | KG | Retail,True,"(0, 0, 1)",179.4,16,64.71484641154603,
+Snake gourd | Matale | KG | Retail,True,"(0, 0, 0)",179.21,16,57.761669025009056,
+Snake gourd | Matara | KG | Retail,True,"(0, 0, 0)",179.14,16,57.63023861895188,
+Snake gourd | Meegoda(DEC) | KG | Retail,True,"(0, 0, 1)",177.34,16,55.698472453056795,
+Snake gourd | Monaragala | KG | Retail,True,"(0, 0, 0)",165.75,16,37.935791261143336,
+Snake gourd | Nuwara Eliya | KG | Retail,True,"(2, 0, 0)",180.01,16,60.67697565688843,
+Snake gourd | Puttalam | KG | Retail,True,"(0, 0, 0)",177.4,16,54.58088804039391,
+Snake gourd | Trincomalee | KG | Retail,True,"(0, 0, 0)",174.1,16,49.24009699411297,
+Snake gourd | Vavuniya | KG | Retail,True,"(0, 0, 0)",177.59,16,54.91062939695453,
+Tomatoes | Ampara | KG | Retail,True,"(0, 0, 0)",212.27,16,162.28409748469636,
+Tomatoes | Anuradhapura | KG | Retail,True,"(0, 0, 0)",206.96,16,137.5044093337764,
+Tomatoes | Badulla | KG | Retail,True,"(0, 0, 0)",210.26,16,152.44191781077728,
+Tomatoes | Colombo City | KG | Retail,True,"(0, 0, 1)",211.41,16,160.67522056589303,
+Tomatoes | Dammbagalla | KG | Retail,True,"(0, 0, 0)",203.94,16,125.1083340737992,
+Tomatoes | Dehiattakandiya | KG | Retail,True,"(0, 0, 0)",208.36,16,143.64276848502018,
+Tomatoes | Embilipitiya | KG | Retail,True,"(0, 0, 1)",207.65,16,152.21502356061336,
+Tomatoes | Galle | KG | Retail,True,"(0, 0, 0)",205.37,16,130.8346234491941,
+Tomatoes | Hambantota | KG | Retail,True,"(0, 0, 1)",203.63,16,129.14788489089375,
+Tomatoes | Hanguranketha | KG | Retail,True,"(0, 0, 0)",201.69,16,116.59713082807511,
+Tomatoes | Jaffna | KG | Retail,True,"(1, 0, 1)",205.25,16,132.50290817996108,
+Tomatoes | Kandy | KG | Retail,True,"(0, 0, 0)",212.22,16,162.0470946169,
+Tomatoes | Kegalle | KG | Retail,True,"(0, 0, 0)",205.82,16,132.67129963485675,
+Tomatoes | Keppetipola (DEC} | KG | Retail,True,"(0, 0, 0)",201.34,16,115.35232801073613,
+Tomatoes | Kilinochchi | KG | Retail,True,"(1, 0, 0)",211.9,16,163.01992681320706,
+Tomatoes | Mannar | KG | Retail,True,"(0, 0, 0)",211.36,16,157.78177527928906,
+Tomatoes | Matale | KG | Retail,True,"(0, 0, 0)",210.08,16,151.572271449027,
+Tomatoes | Matara | KG | Retail,True,"(0, 0, 1)",207.9,16,151.23115903771114,
+Tomatoes | Meegoda(DEC) | KG | Retail,True,"(0, 0, 0)",207.45,16,139.62392832447395,
+Tomatoes | Monaragala | KG | Retail,True,"(0, 0, 0)",204.96,16,129.15564303946672,
+Tomatoes | Nuwara Eliya | KG | Retail,True,"(0, 0, 0)",202.27,16,118.72887310206264,
+Tomatoes | Puttalam | KG | Retail,True,"(0, 0, 0)",208.76,16,145.44212416148034,
+Tomatoes | Trincomalee | KG | Retail,True,"(0, 0, 0)",211.33,16,157.5980351000276,
+Tomatoes | Vavuniya | KG | Retail,True,"(0, 0, 0)",214.26,16,172.74479266416722,
+Coconut | Puttalam | Unit | Retail,True,"(2, 0, 1)",101.38,15,6.677658167229378,
+"Cowpeas (whole, average) | Vavuniya | KG | Retail",True,"(0, 0, 1)",194.74,15,141.90603069286297,
+"Fish (dry, sprats) | Ampara | KG | Retail",True,"(0, 0, 1)",178.39,15,81.30966181124916,
+Fish (goldstripe sardinella) | Galle | KG | Retail,True,"(2, 0, 0)",194.45,15,153.26124636127852,
+Fish (jack) | Embilipitiya | KG | Retail,True,"(0, 0, 0)",185.19,15,101.55502269682755,
+Fish (trenched sardinella) | Dehiattakandiya | KG | Retail,True,"(0, 0, 0)",190.12,15,119.69841882529096,
+Rice (long grain) | Jaffna | KG | Retail,True,"(0, 0, 0)",88.54,15,4.051804332058133,
+Rice (long grain) | Kegalle | KG | Retail,True,"(0, 0, 1)",115.03,15,10.968006762824727,
+Rice (medium grain) | Jaffna | KG | Retail,True,"(1, 0, 0)",119.19,15,11.460519731798831,
+Fish (trenched sardinella) | Keppetipola (DEC} | KG | Retail,True,"(0, 0, 1)",169.25,14,92.89823614657189,
+"Meat (chicken, broiler) | Ampara | KG | Retail",True,"(0, 0, 1)",141.33,14,40.127729266440475,
+Oil (coconut) | Colombo City | 750 ML | Retail,True,"(0, 0, 0)",160.73,14,65.28185817875755,
+Rice (long grain) | Galle | KG | Retail,True,"(0, 0, 2)",95.32,14,6.572150079321971,
+Rice (medium grain) | Monaragala | KG | Retail,True,"(0, 0, 1)",108.95,14,11.349687725556047,
+"Cowpeas (whole, average) | Badulla | KG | Retail",True,"(0, 0, 0)",211.09,13,696.5215656355665,
+Eggplants | Economic Centre-Dambulla | KG | Wholesale,True,"(2, 0, 1)",112.6,13,31.460358834460568,
+Fish (skipjack tuna) | Hanguranketha | KG | Retail,True,"(0, 0, 1)",174.46,13,172.26812680952662,
+Fish (trenched sardinella) | Nuwara Eliya | KG | Retail,True,"(2, 0, 1)",153.0,13,101.89627364772382,
+Pumpkin | Economic Centre-Dambulla | KG | Wholesale,True,"(0, 0, 0)",135.15,13,37.53478702779279,
+Rice (long grain) | Kurunegala | KG | Retail,True,"(1, 0, 0)",88.73,13,8.226189225149284,
+Rice (medium grain) | Badulla | KG | Retail,True,"(0, 0, 2)",100.73,13,11.796601496184413,
+Rice (white) | Anuradhapura | KG | Retail,True,"(0, 0, 1)",84.56,13,5.501206244475564,
+Rice (white) | Jaffna | KG | Retail,True,"(0, 0, 1)",99.75,13,10.11342107011357,
+Rice (white) | Monaragala | KG | Retail,True,"(0, 0, 1)",84.21,13,5.735649628563513,
+Snake gourd | Economic Centre-Dambulla | KG | Wholesale,True,"(1, 0, 0)",130.88,13,33.30860815594117,
+Tomatoes | Economic Centre-Dambulla | KG | Wholesale,True,"(2, 0, 1)",145.13,13,55.31944654093043,
+"Cowpeas (whole, average) | Batticaloa | KG | Retail",True,"(2, 0, 1)",140.63,12,84.8971382884869,
+"Cowpeas (whole, average) | Hambantota | KG | Retail",True,"(0, 0, 0)",148.48,12,99.60859658642248,
+"Cowpeas (whole, average) | Kalutara | KG | Retail",True,"(0, 0, 2)",146.15,12,92.8628007677195,
+Eggplants | Batticaloa | KG | Retail,True,"(0, 0, 1)",143.98,12,91.14501243798387,
+Eggplants | Kalutara | KG | Retail,True,"(0, 0, 0)",157.78,12,146.72424086665944,
+Eggplants | Nikaweratiya | KG | Retail,True,"(0, 0, 1)",157.07,12,144.60830324306278,
+Eggplants | Thambuttegama | KG | Retail,True,"(0, 0, 1)",157.32,12,154.40675163875838,
+Eggs | Batticaloa | Unit | Retail,True,"(1, 0, 0)",70.61,12,4.941041257770022,
+Eggs | Kalutara | Unit | Retail,True,"(0, 0, 1)",83.01,12,6.73709046446997,
+Eggs | Nikaweratiya | Unit | Retail,True,"(1, 0, 0)",85.15,12,7.847317414947052,
+Eggs | Thambuttegama | Unit | Retail,True,"(1, 0, 0)",87.31,12,7.8324975899674305,
+"Fish (dry, katta) | Batticaloa | KG | Retail",True,"(0, 0, 0)",143.42,12,80.66796431041051,
+"Fish (dry, katta) | Kalutara | KG | Retail",True,"(0, 0, 0)",153.34,12,121.93415317258666,
+"Fish (dry, katta) | Nikaweratiya | KG | Retail",True,"(0, 0, 0)",141.41,12,74.1811830710904,
+"Fish (dry, katta) | Vavuniya | KG | Retail",True,"(0, 0, 0)",148.51,12,99.704423079922,
+"Fish (dry, sprats) | Batticaloa | KG | Retail",True,"(0, 0, 0)",143.55,12,81.08397465013786,
+"Fish (dry, sprats) | Kalutara | KG | Retail",True,"(0, 0, 0)",146.21,12,90.59028150723415,
+"Fish (dry, sprats) | Nikaweratiya | KG | Retail",True,"(2, 0, 0)",136.79,12,79.71397756168807,
+"Fish (dry, sprats) | Thambuttegama | KG | Retail",True,"(0, 0, 0)",139.41,12,68.2508833625449,
+Fish (goldstripe sardinella) | Batticaloa | KG | Retail,True,"(1, 0, 0)",151.56,12,128.2869287710527,
+Fish (goldstripe sardinella) | Kalutara | KG | Retail,True,"(0, 0, 2)",153.61,12,126.91974249230358,
+Fish (goldstripe sardinella) | Nikaweratiya | KG | Retail,True,"(0, 0, 1)",152.84,12,130.74145785332664,
+Fish (goldstripe sardinella) | Thambuttegama | KG | Retail,True,"(0, 0, 1)",143.08,12,85.97883230986766,
+Fish (jack) | Badulla | KG | Retail,True,"(0, 0, 1)",155.74,12,135.02724262191674,
+Fish (jack) | Batticaloa | KG | Retail,True,"(0, 0, 2)",146.14,12,94.28728994159297,
+Fish (jack) | Galle | KG | Retail,True,"(0, 0, 0)",163.18,12,183.71219497984478,
+Fish (jack) | Kalutara | KG | Retail,True,"(0, 0, 0)",174.36,12,292.8190900107155,
+Fish (jack) | Nikaweratiya | KG | Retail,True,"(0, 0, 1)",169.45,12,240.34260125257362,
+Fish (sail fish) | Batticaloa | KG | Retail,True,"(0, 0, 0)",158.03,12,148.25497387760547,
+Fish (sail fish) | Hanguranketha | KG | Retail,True,"(2, 0, 0)",160.96,12,169.9654029765315,
+Fish (sail fish) | Kalutara | KG | Retail,True,"(0, 0, 2)",162.49,12,209.6354951313322,
+Fish (skipjack tuna) | Ampara | KG | Retail,True,"(0, 0, 0)",167.93,12,223.96385294706178,
+Fish (skipjack tuna) | Batticaloa | KG | Retail,True,"(2, 0, 1)",158.49,12,208.6140749204465,
+Fish (skipjack tuna) | Kalutara | KG | Retail,True,"(2, 0, 1)",162.03,12,210.42668596852664,
+Fish (skipjack tuna) | Nikaweratiya | KG | Retail,True,"(0, 0, 1)",157.62,12,173.56264911609517,
+Fish (trenched sardinella) | Batticaloa | KG | Retail,True,"(0, 0, 0)",171.56,12,260.5820606623793,
+Fish (trenched sardinella) | Embilipitiya | KG | Retail,True,"(0, 0, 1)",143.47,12,89.19170277124338,
+Fish (trenched sardinella) | Kalutara | KG | Retail,True,"(0, 0, 0)",151.1,12,111.07851922539123,
+Fish (trenched sardinella) | Nikaweratiya | KG | Retail,True,"(0, 0, 0)",144.29,12,83.6253520124118,
+Fish (yellowfin tuna) | Batticaloa | KG | Retail,True,"(2, 0, 0)",143.74,12,83.73084869458968,
+Fish (yellowfin tuna) | Kalutara | KG | Retail,True,"(0, 0, 0)",165.47,12,202.1385269142676,
+Fish (yellowfin tuna) | Nikaweratiya | KG | Retail,True,"(0, 0, 0)",159.48,12,157.51635451338348,
+Lentils | Batticaloa | KG | Retail,True,"(2, 0, 1)",111.22,12,23.024059252415228,
+Lentils | Kalutara | KG | Retail,True,"(0, 0, 0)",116.15,12,25.891225827536772,
+Lentils | Nikaweratiya | KG | Retail,True,"(0, 0, 0)",120.2,12,30.65523346769125,
+Lentils | Thambuttegama | KG | Retail,True,"(0, 0, 1)",113.1,12,25.847701970133233,
+"Meat (chicken, broiler) | Batticaloa | KG | Retail",True,"(1, 0, 0)",143.17,12,91.20241948969992,
+"Meat (chicken, broiler) | Kalutara | KG | Retail",True,"(0, 0, 0)",149.65,12,104.58611233566654,
+"Meat (chicken, broiler) | Nikaweratiya | KG | Retail",True,"(0, 0, 1)",143.39,12,84.92157587705519,
+Onions (imported) | Batticaloa | KG | Retail,True,"(0, 0, 0)",159.29,12,156.2582354056832,
+Onions (imported) | Kalutara | KG | Retail,True,"(0, 0, 0)",152.6,12,118.2281677706098,
+Onions (imported) | Nikaweratiya | KG | Retail,True,"(0, 0, 2)",158.29,12,150.25768325830666,
+Onions (imported) | Thambuttegama | KG | Retail,True,"(0, 0, 2)",149.95,12,117.61891659201382,
+Onions (red) | Batticaloa | KG | Retail,True,"(0, 0, 1)",125.45,12,44.79817379181054,
+Onions (red) | Mannar | KG | Retail,True,"(0, 0, 0)",151.06,12,110.88516011035576,
+Papaya | Batticaloa | KG | Retail,True,"(0, 0, 0)",118.12,12,28.103133216654733,
+Papaya | Kalutara | KG | Retail,True,"(0, 0, 0)",131.03,12,48.13261754425886,
+Papaya | Nikaweratiya | KG | Retail,True,"(0, 0, 0)",130.86,12,47.786605621005315,
+Papaya | Thambuttegama | KG | Retail,True,"(0, 0, 0)",137.65,12,63.433030227630866,
+Pineapples | Batticaloa | KG | Retail,True,"(0, 0, 0)",155.68,12,134.44932718869805,
+Potatoes (imported) | Batticaloa | KG | Retail,True,"(0, 0, 0)",123.31,12,34.88663738468677,
+Potatoes (imported) | Kalutara | KG | Retail,True,"(0, 0, 2)",112.74,12,26.04535696289767,
+Potatoes (imported) | Nikaweratiya | KG | Retail,True,"(0, 0, 0)",113.46,12,23.144471426821706,
+Potatoes (imported) | Thambuttegama | KG | Retail,True,"(0, 0, 0)",114.94,12,24.62104622715083,
+Potatoes (local) | Galle | KG | Retail,True,"(0, 0, 0)",128.97,12,44.16593812846603,
+Potatoes (local) | Kalutara | KG | Retail,True,"(0, 0, 0)",129.64,12,45.43409983656524,
+Pumpkin | Batticaloa | KG | Retail,True,"(0, 0, 0)",134.28,12,55.12171989856836,
+Pumpkin | Kalutara | KG | Retail,True,"(0, 0, 0)",133.28,12,52.865996697350006,
+Pumpkin | Nikaweratiya | KG | Retail,True,"(0, 0, 0)",132.51,12,51.18502831368017,
+Pumpkin | Thambuttegama | KG | Retail,True,"(0, 0, 0)",133.35,12,53.01134270617131,
+Rice (medium grain) | Batticaloa | KG | Retail,True,"(0, 0, 1)",94.7,12,11.96493583192595,
+Rice (medium grain) | Nikaweratiya | KG | Retail,True,"(0, 0, 2)",102.25,12,20.983489033457474,
+Rice (medium grain) | Thambuttegama | KG | Retail,True,"(0, 0, 1)",55.42,12,2.262984017776045,
+Rice (red nadu) | National Average | KG | Retail,True,"(0, 0, 1)",54.66,12,2.4368396143296387,
+Rice (white) | Batticaloa | KG | Retail,True,"(0, 0, 1)",87.22,12,8.027712872187735,
+Rice (white) | Kalutara | KG | Retail,True,"(2, 0, 0)",83.06,12,8.76756688510193,
+Rice (white) | Keppetipola (DEC} | KG | Retail,True,"(1, 0, 0)",93.93,12,10.474339874062435,
+Rice (white) | Meegoda(DEC) | KG | Retail,True,"(0, 0, 1)",86.14,12,8.120559243793055,
+Rice (white) | Nikaweratiya | KG | Retail,True,"(0, 0, 0)",101.65,12,14.151082414527233,
+Rice (white) | Puttalam | KG | Retail,True,"(1, 0, 0)",99.82,12,13.859398115676063,
+Snake gourd | Batticaloa | KG | Retail,True,"(0, 0, 2)",131.35,12,50.944176666433705,
+Snake gourd | Kalutara | KG | Retail,True,"(0, 0, 0)",139.63,12,68.87057047819243,
+Snake gourd | Nikaweratiya | KG | Retail,True,"(0, 0, 0)",134.15,12,54.82211009442571,
+Snake gourd | Thambuttegama | KG | Retail,True,"(0, 0, 0)",130.12,12,46.34082039291254,
+Tomatoes | Batticaloa | KG | Retail,True,"(0, 0, 0)",162.3,12,177.12095594250266,
+Tomatoes | Kalutara | KG | Retail,True,"(0, 0, 0)",157.96,12,147.80361804087607,
+Tomatoes | Nikaweratiya | KG | Retail,True,"(0, 0, 0)",157.12,12,142.7345305490799,
+Tomatoes | Thambuttegama | KG | Retail,True,"(0, 0, 0)",155.82,12,135.20766644244057,
+Wheat flour | National Average | KG | Retail,True,"(0, 0, 0)",54.76,12,2.0058482572860505,
+Coconut | Rathnapura | Unit | Retail,False,,,11,,only 11 residuals
+"Cowpeas (whole, average) | Bandarawela | KG | Retail",False,,,11,,only 11 residuals
+"Cowpeas (whole, average) | Polonnaruwa | KG | Retail",False,,,11,,only 11 residuals
+"Cowpeas (whole, average) | Rathnapura | KG | Retail",False,,,11,,only 11 residuals
+Eggplants | Bandarawela | KG | Retail,False,,,11,,only 11 residuals
+Eggplants | Galenbindunuwewa | KG | Retail,False,,,11,,only 11 residuals
+Eggplants | Kurunegala | KG | Retail,False,,,11,,only 11 residuals
+Eggplants | Polonnaruwa | KG | Retail,False,,,11,,only 11 residuals
+Eggplants | Rathnapura | KG | Retail,False,,,11,,only 11 residuals
+Eggs | Bandarawela | Unit | Retail,False,,,11,,only 11 residuals
+Eggs | Galenbindunuwewa | Unit | Retail,False,,,11,,only 11 residuals
+Eggs | Kurunegala | Unit | Retail,False,,,11,,only 11 residuals
+Eggs | Polonnaruwa | Unit | Retail,False,,,11,,only 11 residuals
+Eggs | Rathnapura | Unit | Retail,False,,,11,,only 11 residuals
+"Fish (dry, katta) | Bandarawela | KG | Retail",False,,,11,,only 11 residuals
+"Fish (dry, katta) | Galenbindunuwewa | KG | Retail",False,,,11,,only 11 residuals
+"Fish (dry, katta) | Kurunegala | KG | Retail",False,,,11,,only 11 residuals
+"Fish (dry, katta) | Polonnaruwa | KG | Retail",False,,,11,,only 11 residuals
+"Fish (dry, katta) | Rathnapura | KG | Retail",False,,,11,,only 11 residuals
+"Fish (dry, sprats) | Bandarawela | KG | Retail",False,,,11,,only 11 residuals
+"Fish (dry, sprats) | Galenbindunuwewa | KG | Retail",False,,,11,,only 11 residuals
+"Fish (dry, sprats) | Kurunegala | KG | Retail",False,,,11,,only 11 residuals
+"Fish (dry, sprats) | Polonnaruwa | KG | Retail",False,,,11,,only 11 residuals
+"Fish (dry, sprats) | Rathnapura | KG | Retail",False,,,11,,only 11 residuals
+Fish (goldstripe sardinella) | Bandarawela | KG | Retail,False,,,11,,only 11 residuals
+Fish (goldstripe sardinella) | Galenbindunuwewa | KG | Retail,False,,,11,,only 11 residuals
+Fish (goldstripe sardinella) | Hanguranketha | KG | Retail,False,,,11,,only 11 residuals
+Fish (goldstripe sardinella) | Kurunegala | KG | Retail,False,,,11,,only 11 residuals
+Fish (jack) | Fish market-Peliyagoda | KG | Retail,False,,,11,,only 11 residuals
+Fish (jack) | Galenbindunuwewa | KG | Retail,False,,,11,,only 11 residuals
+Fish (jack) | Keppetipola (DEC} | KG | Retail,False,,,11,,only 11 residuals
+Fish (jack) | Polonnaruwa | KG | Retail,False,,,11,,only 11 residuals
+Fish (sail fish) | Bandarawela | KG | Retail,False,,,11,,only 11 residuals
+Fish (sail fish) | Galenbindunuwewa | KG | Retail,False,,,11,,only 11 residuals
+Fish (sail fish) | Kurunegala | KG | Retail,False,,,11,,only 11 residuals
+Fish (sail fish) | Nikaweratiya | KG | Retail,False,,,11,,only 11 residuals
+Fish (sail fish) | Polonnaruwa | KG | Retail,False,,,11,,only 11 residuals
+Fish (sail fish) | Rathnapura | KG | Retail,False,,,11,,only 11 residuals
+Fish (skipjack tuna) | Bandarawela | KG | Retail,False,,,11,,only 11 residuals
+Fish (skipjack tuna) | Fish market-Peliyagoda | KG | Retail,False,,,11,,only 11 residuals
+Fish (skipjack tuna) | Galenbindunuwewa | KG | Retail,False,,,11,,only 11 residuals
+Fish (skipjack tuna) | Polonnaruwa | KG | Retail,False,,,11,,only 11 residuals
+Fish (skipjack tuna) | Rathnapura | KG | Retail,False,,,11,,only 11 residuals
+Fish (trenched sardinella) | Galenbindunuwewa | KG | Retail,False,,,11,,only 11 residuals
+Fish (trenched sardinella) | Kurunegala | KG | Retail,False,,,11,,only 11 residuals
+Fish (trenched sardinella) | Monaragala | KG | Retail,False,,,11,,only 11 residuals
+Fish (trenched sardinella) | Polonnaruwa | KG | Retail,False,,,11,,only 11 residuals
+Fish (yellowfin tuna) | Ampara | KG | Retail,False,,,11,,only 11 residuals
+Fish (yellowfin tuna) | Bandarawela | KG | Retail,False,,,11,,only 11 residuals
+Fish (yellowfin tuna) | Dehiattakandiya | KG | Retail,False,,,11,,only 11 residuals
+Fish (yellowfin tuna) | Fish market-Peliyagoda | KG | Retail,False,,,11,,only 11 residuals
+Fish (yellowfin tuna) | Galenbindunuwewa | KG | Retail,False,,,11,,only 11 residuals
+Fish (yellowfin tuna) | Kurunegala | KG | Retail,False,,,11,,only 11 residuals
+Fish (yellowfin tuna) | Polonnaruwa | KG | Retail,False,,,11,,only 11 residuals
+Fish (yellowfin tuna) | Rathnapura | KG | Retail,False,,,11,,only 11 residuals
+Lentils | Bandarawela | KG | Retail,False,,,11,,only 11 residuals
+Lentils | Galenbindunuwewa | KG | Retail,False,,,11,,only 11 residuals
+Lentils | Kurunegala | KG | Retail,False,,,11,,only 11 residuals
+Lentils | Polonnaruwa | KG | Retail,False,,,11,,only 11 residuals
+Lentils | Rathnapura | KG | Retail,False,,,11,,only 11 residuals
+"Meat (chicken, broiler) | Bandarawela | KG | Retail",False,,,11,,only 11 residuals
+"Meat (chicken, broiler) | Galenbindunuwewa | KG | Retail",False,,,11,,only 11 residuals
+"Meat (chicken, broiler) | Kurunegala | KG | Retail",False,,,11,,only 11 residuals
+"Meat (chicken, broiler) | Polonnaruwa | KG | Retail",False,,,11,,only 11 residuals
+"Meat (chicken, broiler) | Rathnapura | KG | Retail",False,,,11,,only 11 residuals
+"Meat (chicken, broiler) | Thambuttegama | KG | Retail",False,,,11,,only 11 residuals
+Onions (imported) | Bandarawela | KG | Retail,False,,,11,,only 11 residuals
+Onions (imported) | Galenbindunuwewa | KG | Retail,False,,,11,,only 11 residuals
+Onions (imported) | Kurunegala | KG | Retail,False,,,11,,only 11 residuals
+Onions (imported) | Polonnaruwa | KG | Retail,False,,,11,,only 11 residuals
+Onions (imported) | Rathnapura | KG | Retail,False,,,11,,only 11 residuals
+Onions (red) | Embilipitiya | KG | Retail,False,,,11,,only 11 residuals
+Onions (red) | Vavuniya | KG | Retail,False,,,11,,only 11 residuals
+Papaya | Bandarawela | KG | Retail,False,,,11,,only 11 residuals
+Papaya | Galenbindunuwewa | KG | Retail,False,,,11,,only 11 residuals
+Papaya | Kurunegala | KG | Retail,False,,,11,,only 11 residuals
+Papaya | Polonnaruwa | KG | Retail,False,,,11,,only 11 residuals
+Papaya | Rathnapura | KG | Retail,False,,,11,,only 11 residuals
+Pineapples | Bandarawela | KG | Retail,False,,,11,,only 11 residuals
+Pineapples | Galenbindunuwewa | KG | Retail,False,,,11,,only 11 residuals
+Pineapples | Polonnaruwa | KG | Retail,False,,,11,,only 11 residuals
+Pineapples | Rathnapura | KG | Retail,False,,,11,,only 11 residuals
+Pineapples | Thambuttegama | KG | Retail,False,,,11,,only 11 residuals
+Potatoes (imported) | Bandarawela | KG | Retail,False,,,11,,only 11 residuals
+Potatoes (imported) | Galenbindunuwewa | KG | Retail,False,,,11,,only 11 residuals
+Potatoes (imported) | Kurunegala | KG | Retail,False,,,11,,only 11 residuals
+Potatoes (imported) | Polonnaruwa | KG | Retail,False,,,11,,only 11 residuals
+Potatoes (imported) | Rathnapura | KG | Retail,False,,,11,,only 11 residuals
+Potatoes (local) | Batticaloa | KG | Retail,False,,,11,,only 11 residuals
+Potatoes (local) | Kegalle | KG | Retail,False,,,11,,only 11 residuals
+Potatoes (local) | Matara | KG | Retail,False,,,11,,only 11 residuals
+Pumpkin | Bandarawela | KG | Retail,False,,,11,,only 11 residuals
+Pumpkin | Galenbindunuwewa | KG | Retail,False,,,11,,only 11 residuals
+Pumpkin | Kurunegala | KG | Retail,False,,,11,,only 11 residuals
+Pumpkin | Polonnaruwa | KG | Retail,False,,,11,,only 11 residuals
+Pumpkin | Rathnapura | KG | Retail,False,,,11,,only 11 residuals
+Rice (medium grain) | Galenbindunuwewa | KG | Retail,False,,,11,,only 11 residuals
+Rice (medium grain) | Kurunegala | KG | Retail,False,,,11,,only 11 residuals
+Rice (medium grain) | Meegoda(DEC) | KG | Retail,False,,,11,,only 11 residuals
+Rice (medium grain) | Polonnaruwa | KG | Retail,False,,,11,,only 11 residuals
+Rice (white) | Galenbindunuwewa | KG | Retail,False,,,11,,only 11 residuals
+Rice (white) | Kurunegala | KG | Retail,False,,,11,,only 11 residuals
+Rice (white) | Polonnaruwa | KG | Retail,False,,,11,,only 11 residuals
+Rice (white) | Rathnapura | KG | Retail,False,,,11,,only 11 residuals
+Snake gourd | Bandarawela | KG | Retail,False,,,11,,only 11 residuals
+Snake gourd | Galenbindunuwewa | KG | Retail,False,,,11,,only 11 residuals
+Snake gourd | Kurunegala | KG | Retail,False,,,11,,only 11 residuals
+Snake gourd | Polonnaruwa | KG | Retail,False,,,11,,only 11 residuals
+Snake gourd | Rathnapura | KG | Retail,False,,,11,,only 11 residuals
+Tomatoes | Bandarawela | KG | Retail,False,,,11,,only 11 residuals
+Tomatoes | Galenbindunuwewa | KG | Retail,False,,,11,,only 11 residuals
+Tomatoes | Kurunegala | KG | Retail,False,,,11,,only 11 residuals
+Tomatoes | Polonnaruwa | KG | Retail,False,,,11,,only 11 residuals
+Tomatoes | Rathnapura | KG | Retail,False,,,11,,only 11 residuals
+Coconut | Tissamaharama | Unit | Retail,False,,,10,,only 10 residuals
+"Cowpeas (whole, average) | Kurunegala | KG | Retail",False,,,10,,only 10 residuals
+"Cowpeas (whole, average) | Tissamaharama | KG | Retail",False,,,10,,only 10 residuals
+Eggplants | Tissamaharama | KG | Retail,False,,,10,,only 10 residuals
+Eggs | Tissamaharama | Unit | Retail,False,,,10,,only 10 residuals
+"Fish (dry, sprats) | Tissamaharama | KG | Retail",False,,,10,,only 10 residuals
+Fish (goldstripe sardinella) | Fish market-Peliyagoda | KG | Retail,False,,,10,,only 10 residuals
+Fish (sail fish) | Dehiattakandiya | KG | Retail,False,,,10,,only 10 residuals
+Fish (sail fish) | Fish market-Peliyagoda | KG | Retail,False,,,10,,only 10 residuals
+Fish (skipjack tuna) | Kurunegala | KG | Retail,False,,,10,,only 10 residuals
+Fish (skipjack tuna) | Tissamaharama | KG | Retail,False,,,10,,only 10 residuals
+Fish (trenched sardinella) | Fish market-Peliyagoda | KG | Retail,False,,,10,,only 10 residuals
+Fish (trenched sardinella) | Hanguranketha | KG | Retail,False,,,10,,only 10 residuals
+Fish (yellowfin tuna) | Hanguranketha | KG | Retail,False,,,10,,only 10 residuals
+Lentils | Tissamaharama | KG | Retail,False,,,10,,only 10 residuals
+"Meat (chicken, broiler) | Tissamaharama | KG | Retail",False,,,10,,only 10 residuals
+Onions (imported) | Tissamaharama | KG | Retail,False,,,10,,only 10 residuals
+Onions (red) | Keppetipola (DEC} | KG | Retail,False,,,10,,only 10 residuals
+"Onions (red, local) | Embilipitiya | KG | Retail",False,,,10,,only 10 residuals
+"Onions (red, local) | Mannar | KG | Retail",False,,,10,,only 10 residuals
+"Onions (red, local) | Trincomalee | KG | Retail",False,,,10,,only 10 residuals
+Papaya | Tissamaharama | KG | Retail,False,,,10,,only 10 residuals
+Pineapples | Kurunegala | KG | Retail,False,,,10,,only 10 residuals
+Pineapples | Tissamaharama | KG | Retail,False,,,10,,only 10 residuals
+Potatoes (imported) | Tissamaharama | KG | Retail,False,,,10,,only 10 residuals
+Potatoes (local) | Ampara | KG | Retail,False,,,10,,only 10 residuals
+Pumpkin | Tissamaharama | KG | Retail,False,,,10,,only 10 residuals
+Rice (medium grain) | Rathnapura | KG | Retail,False,,,10,,only 10 residuals
+Rice (white) | Vavuniya | KG | Retail,False,,,10,,only 10 residuals
+Snake gourd | Tissamaharama | KG | Retail,False,,,10,,only 10 residuals
+Sugar | Ampara | KG | Retail,False,,,10,,only 10 residuals
+Sugar | Anuradhapura | KG | Retail,False,,,10,,only 10 residuals
+Sugar | Badulla | KG | Retail,False,,,10,,only 10 residuals
+Sugar | Batticaloa | KG | Retail,False,,,10,,only 10 residuals
+Sugar | Galle | KG | Retail,False,,,10,,only 10 residuals
+Sugar | Gampaha | KG | Retail,False,,,10,,only 10 residuals
+Sugar | Hambantota | KG | Retail,False,,,10,,only 10 residuals
+Tomatoes | Tissamaharama | KG | Retail,False,,,10,,only 10 residuals
+"Cowpeas (whole, average) | Gampaha | KG | Retail",False,,,9,,only 9 residuals
+Eggplants | Gampaha | KG | Retail,False,,,9,,only 9 residuals
+Eggs | Gampaha | Unit | Retail,False,,,9,,only 9 residuals
+"Fish (dry, katta) | Thambuttegama | KG | Retail",False,,,9,,only 9 residuals
+"Fish (dry, sprats) | Gampaha | KG | Retail",False,,,9,,only 9 residuals
+Fish (skipjack tuna) | Thambuttegama | KG | Retail,False,,,9,,only 9 residuals
+Fish (trenched sardinella) | Ampara | KG | Retail,False,,,9,,only 9 residuals
+Fish (trenched sardinella) | Matara | KG | Retail,False,,,9,,only 9 residuals
+Fish (trenched sardinella) | Meegoda(DEC) | KG | Retail,False,,,9,,only 9 residuals
+Fish (trenched sardinella) | Thambuttegama | KG | Retail,False,,,9,,only 9 residuals
+Fish (trenched sardinella) | Tissamaharama | KG | Retail,False,,,9,,only 9 residuals
+Fish (yellowfin tuna) | Gampaha | KG | Retail,False,,,9,,only 9 residuals
+Fish (yellowfin tuna) | Thambuttegama | KG | Retail,False,,,9,,only 9 residuals
+Lentils | Gampaha | KG | Retail,False,,,9,,only 9 residuals
+"Meat (chicken, broiler) | Gampaha | KG | Retail",False,,,9,,only 9 residuals
+Onions (imported) | Gampaha | KG | Retail,False,,,9,,only 9 residuals
+Papaya | Gampaha | KG | Retail,False,,,9,,only 9 residuals
+Pineapples | Gampaha | KG | Retail,False,,,9,,only 9 residuals
+Pineapples | Nikaweratiya | KG | Retail,False,,,9,,only 9 residuals
+Potatoes (imported) | Gampaha | KG | Retail,False,,,9,,only 9 residuals
+Potatoes (local) | Economic Centre-Dambulla | KG | Wholesale,False,,,9,,only 9 residuals
+Potatoes (local) | Gampaha | KG | Retail,False,,,9,,only 9 residuals
+Pumpkin | Gampaha | KG | Retail,False,,,9,,only 9 residuals
+Rice (medium grain) | Gampaha | KG | Retail,False,,,9,,only 9 residuals
+Snake gourd | Gampaha | KG | Retail,False,,,9,,only 9 residuals
+Tomatoes | Gampaha | KG | Retail,False,,,9,,only 9 residuals
+Eggplants | Economic Centre - Peliyagoda | KG | Retail,False,,,8,,only 8 residuals
+Eggs | Economic Centre - Peliyagoda | Unit | Retail,False,,,8,,only 8 residuals
+"Fish (dry, katta) | Fish market-Peliyagoda | KG | Retail",False,,,8,,only 8 residuals
+"Fish (dry, katta) | Gampaha | KG | Retail",False,,,8,,only 8 residuals
+"Fish (dry, sprats) | Fish market-Peliyagoda | KG | Retail",False,,,8,,only 8 residuals
+Fish (goldstripe sardinella) | Gampaha | KG | Retail,False,,,8,,only 8 residuals
+Fish (jack) | Meegoda(DEC) | KG | Retail,False,,,8,,only 8 residuals
+Fish (sail fish) | Ampara | KG | Retail,False,,,8,,only 8 residuals
+Fish (sail fish) | Gampaha | KG | Retail,False,,,8,,only 8 residuals
+Fish (sail fish) | Thambuttegama | KG | Retail,False,,,8,,only 8 residuals
+Fish (skipjack tuna) | Meegoda(DEC) | KG | Retail,False,,,8,,only 8 residuals
+Fish (trenched sardinella) | Kilinochchi | KG | Retail,False,,,8,,only 8 residuals
+Fish (trenched sardinella) | Mannar | KG | Retail,False,,,8,,only 8 residuals
+Fish (yellowfin tuna) | Meegoda(DEC) | KG | Retail,False,,,8,,only 8 residuals
+Lentils | Economic Centre - Peliyagoda | KG | Retail,False,,,8,,only 8 residuals
+Lentils | Economic Centre-Pettah | KG | Wholesale,False,,,8,,only 8 residuals
+Onions (imported) | Economic Centre - Peliyagoda | KG | Retail,False,,,8,,only 8 residuals
+Onions (red) | Colombo City | KG | Retail,False,,,8,,only 8 residuals
+Onions (red) | Dehiattakandiya | KG | Retail,False,,,8,,only 8 residuals
+Onions (red) | Hanguranketha | KG | Retail,False,,,8,,only 8 residuals
+"Onions (red, imported) | Economic Centre - Peliyagoda | KG | Retail",False,,,8,,only 8 residuals
+"Onions (red, local) | Colombo City | KG | Retail",False,,,8,,only 8 residuals
+"Onions (red, local) | Economic Centre-Dambulla | KG | Wholesale",False,,,8,,only 8 residuals
+"Onions (red, local) | Kilinochchi | KG | Retail",False,,,8,,only 8 residuals
+Papaya | Economic Centre - Peliyagoda | KG | Retail,False,,,8,,only 8 residuals
+Pineapples | Ampara | KG | Retail,False,,,8,,only 8 residuals
+Pineapples | Economic Centre - Peliyagoda | KG | Retail,False,,,8,,only 8 residuals
+Potatoes (imported) | Economic Centre-Pettah | KG | Wholesale,False,,,8,,only 8 residuals
+Potatoes (local) | Dehiattakandiya | KG | Retail,False,,,8,,only 8 residuals
+Potatoes (local) | Economic Centre - Peliyagoda | KG | Retail,False,,,8,,only 8 residuals
+Potatoes (local) | Economic Centre-Pettah | KG | Wholesale,False,,,8,,only 8 residuals
+Potatoes (local) | Embilipitiya | KG | Retail,False,,,8,,only 8 residuals
+Pumpkin | Economic Centre - Peliyagoda | KG | Retail,False,,,8,,only 8 residuals
+Rice (medium grain) | Hambantota | KG | Retail,False,,,8,,only 8 residuals
+Rice (red) | Economic Centre-Maradagahamula | KG | Wholesale,False,,,8,,only 8 residuals
+Rice (red) | Economic Centre-Pettah | KG | Wholesale,False,,,8,,only 8 residuals
+Rice (white) | Economic Centre-Maradagahamula | KG | Wholesale,False,,,8,,only 8 residuals
+Rice (white) | Economic Centre-Pettah | KG | Wholesale,False,,,8,,only 8 residuals
+Rice (white) | Gampaha | KG | Retail,False,,,8,,only 8 residuals
+Rice (white) | Thambuttegama | KG | Retail,False,,,8,,only 8 residuals
+Snake gourd | Economic Centre - Peliyagoda | KG | Retail,False,,,8,,only 8 residuals
+Sugar | Jaffna | KG | Retail,False,,,8,,only 8 residuals
+Sugar | Kalutara | KG | Retail,False,,,8,,only 8 residuals
+Sugar | Kandy | KG | Retail,False,,,8,,only 8 residuals
+Sugar | Kegalle | KG | Retail,False,,,8,,only 8 residuals
+Sugar | Kilinochchi | KG | Retail,False,,,8,,only 8 residuals
+Sugar | Kurunegala | KG | Retail,False,,,8,,only 8 residuals
+Sugar | Mannar | KG | Retail,False,,,8,,only 8 residuals
+Sugar | Matale | KG | Retail,False,,,8,,only 8 residuals
+Sugar | Matara | KG | Retail,False,,,8,,only 8 residuals
+Sugar | Monaragala | KG | Retail,False,,,8,,only 8 residuals
+Sugar | Mulaitivu | KG | Retail,False,,,8,,only 8 residuals
+Sugar | Nuwara Eliya | KG | Retail,False,,,8,,only 8 residuals
+Sugar | Polonnaruwa | KG | Retail,False,,,8,,only 8 residuals
+Sugar | Puttalam | KG | Retail,False,,,8,,only 8 residuals
+Sugar | Rathnapura | KG | Retail,False,,,8,,only 8 residuals
+Sugar | Trincomalee | KG | Retail,False,,,8,,only 8 residuals
+Sugar | Vavuniya | KG | Retail,False,,,8,,only 8 residuals
+Tomatoes | Economic Centre - Peliyagoda | KG | Retail,False,,,8,,only 8 residuals
+Wheat flour | Kegalle | KG | Retail,False,,,8,,only 8 residuals
+Eggplants | Economic Centre-Dambulla | KG | Retail,False,,,7,,only 7 residuals
+Eggplants | Economic Centre-Pettah | KG | Wholesale,False,,,7,,only 7 residuals
+Eggs | Economic Centre-Pettah | Unit | Wholesale,False,,,7,,only 7 residuals
+"Fish (dry, katta) | Economic Centre-Pettah | KG | Wholesale",False,,,7,,only 7 residuals
+"Fish (dry, sprats) | Economic Centre-Pettah | KG | Wholesale",False,,,7,,only 7 residuals
+Fish (goldstripe sardinella) | Fish market-Negombo | KG | Retail,False,,,7,,only 7 residuals
+Fish (goldstripe sardinella) | Fish market-Negombo | KG | Wholesale,False,,,7,,only 7 residuals
+Fish (goldstripe sardinella) | Fish market-Peliyagoda | KG | Wholesale,False,,,7,,only 7 residuals
+Fish (jack) | Fish market-Negombo | KG | Retail,False,,,7,,only 7 residuals
+Fish (jack) | Fish market-Negombo | KG | Wholesale,False,,,7,,only 7 residuals
+Fish (jack) | Fish market-Peliyagoda | KG | Wholesale,False,,,7,,only 7 residuals
+Fish (jack) | Kurunegala | KG | Retail,False,,,7,,only 7 residuals
+Fish (jack) | Nuwara Eliya | KG | Retail,False,,,7,,only 7 residuals
+Fish (jack) | Rathnapura | KG | Retail,False,,,7,,only 7 residuals
+Fish (jack) | Thambuttegama | KG | Retail,False,,,7,,only 7 residuals
+Fish (sail fish) | Fish market-Negombo | KG | Retail,False,,,7,,only 7 residuals
+Fish (sail fish) | Fish market-Negombo | KG | Wholesale,False,,,7,,only 7 residuals
+Fish (sail fish) | Fish market-Peliyagoda | KG | Wholesale,False,,,7,,only 7 residuals
+Fish (skipjack tuna) | Fish market-Negombo | KG | Retail,False,,,7,,only 7 residuals
+Fish (skipjack tuna) | Fish market-Negombo | KG | Wholesale,False,,,7,,only 7 residuals
+Fish (skipjack tuna) | Fish market-Peliyagoda | KG | Wholesale,False,,,7,,only 7 residuals
+Fish (trenched sardinella) | Bandarawela | KG | Retail,False,,,7,,only 7 residuals
+Fish (trenched sardinella) | Fish market-Negombo | KG | Retail,False,,,7,,only 7 residuals
+Fish (trenched sardinella) | Fish market-Negombo | KG | Wholesale,False,,,7,,only 7 residuals
+Fish (trenched sardinella) | Fish market-Peliyagoda | KG | Wholesale,False,,,7,,only 7 residuals
+Fish (trenched sardinella) | Gampaha | KG | Retail,False,,,7,,only 7 residuals
+Fish (trenched sardinella) | Rathnapura | KG | Retail,False,,,7,,only 7 residuals
+Fish (yellowfin tuna) | Fish market-Negombo | KG | Retail,False,,,7,,only 7 residuals
+Fish (yellowfin tuna) | Fish market-Negombo | KG | Wholesale,False,,,7,,only 7 residuals
+Fish (yellowfin tuna) | Fish market-Peliyagoda | KG | Wholesale,False,,,7,,only 7 residuals
+Onions (red) | Nuwara Eliya | KG | Retail,False,,,7,,only 7 residuals
+Onions (red) | Thambuttegama | KG | Retail,False,,,7,,only 7 residuals
+"Onions (red, imported) | Ampara | KG | Retail",False,,,7,,only 7 residuals
+"Onions (red, imported) | Badulla | KG | Retail",False,,,7,,only 7 residuals
+"Onions (red, imported) | Colombo City | KG | Retail",False,,,7,,only 7 residuals
+"Onions (red, imported) | Dammbagalla | KG | Retail",False,,,7,,only 7 residuals
+"Onions (red, imported) | Dehiattakandiya | KG | Retail",False,,,7,,only 7 residuals
+"Onions (red, imported) | Economic Centre-Dambulla | KG | Wholesale",False,,,7,,only 7 residuals
+"Onions (red, imported) | Hanguranketha | KG | Retail",False,,,7,,only 7 residuals
+"Onions (red, imported) | Kegalle | KG | Retail",False,,,7,,only 7 residuals
+"Onions (red, local) | Batticaloa | KG | Retail",False,,,7,,only 7 residuals
+"Onions (red, local) | Economic Centre-Dambulla | KG | Retail",False,,,7,,only 7 residuals
+"Onions (red, local) | Economic Centre-Pettah | KG | Wholesale",False,,,7,,only 7 residuals
+Papaya | Economic Centre-Pettah | KG | Wholesale,False,,,7,,only 7 residuals
+Pineapples | Puttalam | KG | Retail,False,,,7,,only 7 residuals
+Potatoes (local) | Economic Centre-Dambulla | KG | Retail,False,,,7,,only 7 residuals
+Potatoes (local) | Hanguranketha | KG | Retail,False,,,7,,only 7 residuals
+Potatoes (local) | Monaragala | KG | Retail,False,,,7,,only 7 residuals
+Pumpkin | Economic Centre-Dambulla | KG | Retail,False,,,7,,only 7 residuals
+Pumpkin | Economic Centre-Pettah | KG | Wholesale,False,,,7,,only 7 residuals
+Rice (medium grain) | Economic Centre-Maradagahamula | KG | Wholesale,False,,,7,,only 7 residuals
+Rice (medium grain) | Economic Centre-Pettah | KG | Wholesale,False,,,7,,only 7 residuals
+Rice (red nadu) | Economic Centre-Maradagahamula | KG | Wholesale,False,,,7,,only 7 residuals
+Rice (red nadu) | Economic Centre-Pettah | KG | Wholesale,False,,,7,,only 7 residuals
+Snake gourd | Economic Centre-Dambulla | KG | Retail,False,,,7,,only 7 residuals
+Snake gourd | Economic Centre-Pettah | KG | Wholesale,False,,,7,,only 7 residuals
+Sugar | Economic Centre-Pettah | KG | Wholesale,False,,,7,,only 7 residuals
+Tomatoes | Economic Centre-Dambulla | KG | Retail,False,,,7,,only 7 residuals
+Tomatoes | Economic Centre-Pettah | KG | Wholesale,False,,,7,,only 7 residuals
+"Cowpeas (whole, average) | Keppetipola (DEC} | KG | Retail",False,,,6,,only 6 residuals
+"Cowpeas (whole, average) | Nuwara Eliya | KG | Retail",False,,,6,,only 6 residuals
+Eggplants | Mullativu | KG | Retail,False,,,6,,only 6 residuals
+Eggs | Mullativu | Unit | Retail,False,,,6,,only 6 residuals
+"Fish (dry, katta) | Mullativu | KG | Retail",False,,,6,,only 6 residuals
+"Fish (dry, sprats) | Mullativu | KG | Retail",False,,,6,,only 6 residuals
+Fish (goldstripe sardinella) | Mullativu | KG | Retail,False,,,6,,only 6 residuals
+Fish (jack) | Bandarawela | KG | Retail,False,,,6,,only 6 residuals
+Fish (jack) | Mullativu | KG | Retail,False,,,6,,only 6 residuals
+Fish (skipjack tuna) | Mullativu | KG | Retail,False,,,6,,only 6 residuals
+Fish (trenched sardinella) | Mullativu | KG | Retail,False,,,6,,only 6 residuals
+Fish (yellowfin tuna) | Tissamaharama | KG | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Ampara | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Anuradhapura | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Badulla | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Batticaloa | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Galle | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Gampaha | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Hambantota | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Jaffna | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Kalutara | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Kandy | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Kegalle | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Kilinochchi | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Kurunegala | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Mannar | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Matale | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Matara | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Monaragala | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Mulaitivu | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Nuwara Eliya | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Polonnaruwa | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Puttalam | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Rathnapura | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Trincomalee | L | Retail,False,,,6,,only 6 residuals
+Fuel (diesel) | Vavuniya | L | Retail,False,,,6,,only 6 residuals
+Fuel (petrol-gasoline) | Ampara | L | Retail,False,,,6,,only 6 residuals
+Fuel (petrol-gasoline) | Anuradhapura | L | Retail,False,,,6,,only 6 residuals
+Fuel (petrol-gasoline) | Badulla | L | Retail,False,,,6,,only 6 residuals
+Fuel (petrol-gasoline) | Batticaloa | L | Retail,False,,,6,,only 6 residuals
+Fuel (petrol-gasoline) | Galle | L | Retail,False,,,6,,only 6 residuals
+Fuel (petrol-gasoline) | Gampaha | L | Retail,False,,,6,,only 6 residuals
+Fuel (petrol-gasoline) | Hambantota | L | Retail,False,,,6,,only 6 residuals
+Fuel (petrol-gasoline) | Jaffna | L | Retail,False,,,6,,only 6 residuals
+Fuel (petrol-gasoline) | Kalutara | L | Retail,False,,,6,,only 6 residuals
+Fuel (petrol-gasoline) | Kandy | L | Retail,False,,,6,,only 6 residuals
+Fuel (petrol-gasoline) | Kurunegala | L | Retail,False,,,6,,only 6 residuals
+Fuel (petrol-gasoline) | Matale | L | Retail,False,,,6,,only 6 residuals
+Fuel (petrol-gasoline) | Matara | L | Retail,False,,,6,,only 6 residuals
+Fuel (petrol-gasoline) | Monaragala | L | Retail,False,,,6,,only 6 residuals
+Fuel (petrol-gasoline) | Nuwara Eliya | L | Retail,False,,,6,,only 6 residuals
+Fuel (petrol-gasoline) | Polonnaruwa | L | Retail,False,,,6,,only 6 residuals
+Fuel (petrol-gasoline) | Puttalam | L | Retail,False,,,6,,only 6 residuals
+Fuel (petrol-gasoline) | Trincomalee | L | Retail,False,,,6,,only 6 residuals
+Fuel (petrol-gasoline) | Vavuniya | L | Retail,False,,,6,,only 6 residuals
+Lentils | Mullativu | KG | Retail,False,,,6,,only 6 residuals
+"Meat (chicken, broiler) | Mullativu | KG | Retail",False,,,6,,only 6 residuals
+Onions (imported) | Mullativu | KG | Retail,False,,,6,,only 6 residuals
+"Onions (red, imported) | Anuradhapura | KG | Retail",False,,,6,,only 6 residuals
+"Onions (red, imported) | Batticaloa | KG | Retail",False,,,6,,only 6 residuals
+"Onions (red, imported) | Galle | KG | Retail",False,,,6,,only 6 residuals
+"Onions (red, imported) | Hambantota | KG | Retail",False,,,6,,only 6 residuals
+"Onions (red, imported) | Kalutara | KG | Retail",False,,,6,,only 6 residuals
+"Onions (red, imported) | Kandy | KG | Retail",False,,,6,,only 6 residuals
+"Onions (red, imported) | Keppetipola (DEC} | KG | Retail",False,,,6,,only 6 residuals
+"Onions (red, imported) | Matale | KG | Retail",False,,,6,,only 6 residuals
+"Onions (red, imported) | Matara | KG | Retail",False,,,6,,only 6 residuals
+"Onions (red, imported) | Monaragala | KG | Retail",False,,,6,,only 6 residuals
+"Onions (red, imported) | Nuwara Eliya | KG | Retail",False,,,6,,only 6 residuals
+"Onions (red, local) | Dehiattakandiya | KG | Retail",False,,,6,,only 6 residuals
+"Onions (red, local) | Economic Centre - Peliyagoda | KG | Retail",False,,,6,,only 6 residuals
+"Onions (red, local) | Matale | KG | Retail",False,,,6,,only 6 residuals
+"Onions (red, local) | Meegoda(DEC) | KG | Retail",False,,,6,,only 6 residuals
+"Onions (red, local) | Thambuttegama | KG | Retail",False,,,6,,only 6 residuals
+Papaya | Mullativu | KG | Retail,False,,,6,,only 6 residuals
+Pineapples | Badulla | KG | Retail,False,,,6,,only 6 residuals
+Pineapples | Galle | KG | Retail,False,,,6,,only 6 residuals
+Potatoes (imported) | Economic Centre - Peliyagoda | KG | Retail,False,,,6,,only 6 residuals
+Potatoes (imported) | Mullativu | KG | Retail,False,,,6,,only 6 residuals
+Potatoes (local) | Kurunegala | KG | Retail,False,,,6,,only 6 residuals
+Pumpkin | Mullativu | KG | Retail,False,,,6,,only 6 residuals
+Rice (medium grain) | Kalutara | KG | Retail,False,,,6,,only 6 residuals
+Rice (white) | Mullativu | KG | Retail,False,,,6,,only 6 residuals
+Rice (white) | Tissamaharama | KG | Retail,False,,,6,,only 6 residuals
+Snake gourd | Mullativu | KG | Retail,False,,,6,,only 6 residuals
+Tomatoes | Mullativu | KG | Retail,False,,,6,,only 6 residuals
+Coconut | Thambuttegama | Unit | Retail,False,,,5,,only 5 residuals
+"Cowpeas (whole, average) | Galenbindunuwewa | KG | Retail",False,,,5,,only 5 residuals
+"Cowpeas (whole, average) | Mullativu | KG | Retail",False,,,5,,only 5 residuals
+Fish (goldstripe sardinella) | Rathnapura | KG | Retail,False,,,5,,only 5 residuals
+Fish (jack) | Monaragala | KG | Retail,False,,,5,,only 5 residuals
+Fish (sail fish) | Puttalam | KG | Retail,False,,,5,,only 5 residuals
+Fish (trenched sardinella) | Hambantota | KG | Retail,False,,,5,,only 5 residuals
+Onions (red) | Meegoda(DEC) | KG | Retail,False,,,5,,only 5 residuals
+Onions (red) | Mullativu | KG | Retail,False,,,5,,only 5 residuals
+"Onions (red, imported) | Galenbindunuwewa | KG | Retail",False,,,5,,only 5 residuals
+"Onions (red, imported) | Kurunegala | KG | Retail",False,,,5,,only 5 residuals
+"Onions (red, imported) | Rathnapura | KG | Retail",False,,,5,,only 5 residuals
+"Onions (red, imported) | Trincomalee | KG | Retail",False,,,5,,only 5 residuals
+"Onions (red, local) | Gampaha | KG | Retail",False,,,5,,only 5 residuals
+"Onions (red, local) | Hanguranketha | KG | Retail",False,,,5,,only 5 residuals
+"Onions (red, local) | Kandy | KG | Retail",False,,,5,,only 5 residuals
+"Onions (red, local) | Monaragala | KG | Retail",False,,,5,,only 5 residuals
+"Onions (red, local) | Polonnaruwa | KG | Retail",False,,,5,,only 5 residuals
+Potatoes (local) | Polonnaruwa | KG | Retail,False,,,5,,only 5 residuals
+Rice (medium grain) | Bandarawela | KG | Retail,False,,,5,,only 5 residuals
+Rice (medium grain) | Tissamaharama | KG | Retail,False,,,5,,only 5 residuals
+Rice (white) | Badulla | KG | Retail,False,,,5,,only 5 residuals
+Rice (white) | Hanguranketha | KG | Retail,False,,,5,,only 5 residuals
+"Cowpeas (whole, average) | Nikaweratiya | KG | Retail",False,,,4,,only 4 residuals
+"Fish (dry, katta) | Tissamaharama | KG | Retail",False,,,4,,only 4 residuals
+Fish (goldstripe sardinella) | Badulla | KG | Retail,False,,,4,,only 4 residuals
+Fish (jack) | Matara | KG | Retail,False,,,4,,only 4 residuals
+Onions (red) | Trincomalee | KG | Retail,False,,,4,,only 4 residuals
+"Onions (red, imported) | Embilipitiya | KG | Retail",False,,,4,,only 4 residuals
+"Onions (red, imported) | Nikaweratiya | KG | Retail",False,,,4,,only 4 residuals
+"Onions (red, local) | Dammbagalla | KG | Retail",False,,,4,,only 4 residuals
+"Onions (red, local) | Galle | KG | Retail",False,,,4,,only 4 residuals
+"Onions (red, local) | Vavuniya | KG | Retail",False,,,4,,only 4 residuals
+Potatoes (local) | Matale | KG | Retail,False,,,4,,only 4 residuals
+"Cowpeas (whole, average) | Puttalam | KG | Retail",False,,,3,,only 3 residuals
+Fish (goldstripe sardinella) | Ampara | KG | Retail,False,,,3,,only 3 residuals
+Fish (goldstripe sardinella) | Tissamaharama | KG | Retail,False,,,3,,only 3 residuals
+Fish (jack) | Dehiattakandiya | KG | Retail,False,,,3,,only 3 residuals
+Fish (jack) | Hanguranketha | KG | Retail,False,,,3,,only 3 residuals
+Onions (imported) | Economic Centre-Pettah | KG | Wholesale,False,,,3,,only 3 residuals
+Onions (red) | Anuradhapura | KG | Retail,False,,,3,,only 3 residuals
+Onions (red) | Matale | KG | Retail,False,,,3,,only 3 residuals
+Onions (red) | Monaragala | KG | Retail,False,,,3,,only 3 residuals
+"Onions (red, imported) | Economic Centre-Dambulla | KG | Retail",False,,,3,,only 3 residuals
+"Onions (red, imported) | Economic Centre-Pettah | KG | Wholesale",False,,,3,,only 3 residuals
+"Onions (red, imported) | Polonnaruwa | KG | Retail",False,,,3,,only 3 residuals
+"Onions (red, imported) | Thambuttegama | KG | Retail",False,,,3,,only 3 residuals
+"Onions (red, imported) | Tissamaharama | KG | Retail",False,,,3,,only 3 residuals
+"Onions (red, local) | Badulla | KG | Retail",False,,,3,,only 3 residuals
+"Onions (red, local) | Hambantota | KG | Retail",False,,,3,,only 3 residuals
+"Onions (red, local) | Keppetipola (DEC} | KG | Retail",False,,,3,,only 3 residuals
+"Onions (red, local) | Matara | KG | Retail",False,,,3,,only 3 residuals
+Pineapples | Mullativu | KG | Retail,False,,,3,,only 3 residuals
+Rice (medium grain) | Mullativu | KG | Retail,False,,,3,,only 3 residuals
+Eggplants | Economic Centre-Pettah | KG | Retail,False,,,2,,only 2 residuals
+Eggs | Economic Centre-Pettah | Unit | Retail,False,,,2,,only 2 residuals
+"Fish (dry, katta) | Economic Centre-Pettah | KG | Retail",False,,,2,,only 2 residuals
+"Fish (dry, sprats) | Economic Centre-Pettah | KG | Retail",False,,,2,,only 2 residuals
+Fish (goldstripe sardinella) | Polonnaruwa | KG | Retail,False,,,2,,only 2 residuals
+Fish (yellowfin tuna) | Jaffna | KG | Retail,False,,,2,,only 2 residuals
+Fuel (petrol-gasoline) | Kegalle | L | Retail,False,,,2,,only 2 residuals
+Fuel (petrol-gasoline) | Kilinochchi | L | Retail,False,,,2,,only 2 residuals
+Fuel (petrol-gasoline) | Mannar | L | Retail,False,,,2,,only 2 residuals
+Fuel (petrol-gasoline) | Mulaitivu | L | Retail,False,,,2,,only 2 residuals
+Fuel (petrol-gasoline) | Rathnapura | L | Retail,False,,,2,,only 2 residuals
+Lentils | Economic Centre-Pettah | KG | Retail,False,,,2,,only 2 residuals
+Onions (imported) | Economic Centre-Pettah | KG | Retail,False,,,2,,only 2 residuals
+"Onions (red, imported) | Bandarawela | KG | Retail",False,,,2,,only 2 residuals
+"Onions (red, imported) | Economic Centre-Pettah | KG | Retail",False,,,2,,only 2 residuals
+"Onions (red, imported) | Kilinochchi | KG | Retail",False,,,2,,only 2 residuals
+"Onions (red, imported) | Vavuniya | KG | Retail",False,,,2,,only 2 residuals
+"Onions (red, local) | Ampara | KG | Retail",False,,,2,,only 2 residuals
+"Onions (red, local) | Anuradhapura | KG | Retail",False,,,2,,only 2 residuals
+"Onions (red, local) | Bandarawela | KG | Retail",False,,,2,,only 2 residuals
+"Onions (red, local) | Economic Centre-Pettah | KG | Retail",False,,,2,,only 2 residuals
+"Onions (red, local) | Kalutara | KG | Retail",False,,,2,,only 2 residuals
+"Onions (red, local) | Kurunegala | KG | Retail",False,,,2,,only 2 residuals
+"Onions (red, local) | Nikaweratiya | KG | Retail",False,,,2,,only 2 residuals
+"Onions (red, local) | Nuwara Eliya | KG | Retail",False,,,2,,only 2 residuals
+"Onions (red, local) | Tissamaharama | KG | Retail",False,,,2,,only 2 residuals
+Papaya | Economic Centre-Pettah | KG | Retail,False,,,2,,only 2 residuals
+Pineapples | Economic Centre-Pettah | KG | Retail,False,,,2,,only 2 residuals
+Pineapples | Economic Centre-Pettah | KG | Wholesale,False,,,2,,only 2 residuals
+Pineapples | Monaragala | KG | Retail,False,,,2,,only 2 residuals
+Potatoes (imported) | Economic Centre-Pettah | KG | Retail,False,,,2,,only 2 residuals
+Potatoes (local) | Dammbagalla | KG | Retail,False,,,2,,only 2 residuals
+Potatoes (local) | Economic Centre-Pettah | KG | Retail,False,,,2,,only 2 residuals
+Potatoes (local) | Trincomalee | KG | Retail,False,,,2,,only 2 residuals
+Pumpkin | Economic Centre-Pettah | KG | Retail,False,,,2,,only 2 residuals
+Rice (medium grain) | Economic Centre-Pettah | KG | Retail,False,,,2,,only 2 residuals
+Rice (red nadu) | Economic Centre-Pettah | KG | Retail,False,,,2,,only 2 residuals
+Rice (red) | Economic Centre-Pettah | KG | Retail,False,,,2,,only 2 residuals
+Rice (white) | Economic Centre-Pettah | KG | Retail,False,,,2,,only 2 residuals
+Snake gourd | Economic Centre-Pettah | KG | Retail,False,,,2,,only 2 residuals
+Sugar | Economic Centre-Pettah | KG | Retail,False,,,2,,only 2 residuals
+Tomatoes | Economic Centre-Pettah | KG | Retail,False,,,2,,only 2 residuals
+"Fish (dry, sprats) | Vavuniya | KG | Retail",False,,,1,,only 1 residuals
+Fish (jack) | Hambantota | KG | Retail,False,,,1,,only 1 residuals
+Fish (jack) | Tissamaharama | KG | Retail,False,,,1,,only 1 residuals
+Fish (sail fish) | Tissamaharama | KG | Retail,False,,,1,,only 1 residuals
+Onions (red) | Ampara | KG | Retail,False,,,1,,only 1 residuals
+Onions (red) | Gampaha | KG | Retail,False,,,1,,only 1 residuals
+Onions (red) | Kalutara | KG | Retail,False,,,1,,only 1 residuals
+"Onions (red, imported) | Gampaha | KG | Retail",False,,,1,,only 1 residuals
+"Onions (red, imported) | Mannar | KG | Retail",False,,,1,,only 1 residuals
+"Onions (red, imported) | Meegoda(DEC) | KG | Retail",False,,,1,,only 1 residuals
+"Onions (red, local) | Galenbindunuwewa | KG | Retail",False,,,1,,only 1 residuals
+"Onions (red, local) | Kegalle | KG | Retail",False,,,1,,only 1 residuals
+"Onions (red, local) | Rathnapura | KG | Retail",False,,,1,,only 1 residuals
+Pineapples | Kalutara | KG | Retail,False,,,1,,only 1 residuals
+Potatoes (local) | Badulla | KG | Retail,False,,,1,,only 1 residuals
+Potatoes (local) | Thambuttegama | KG | Retail,False,,,1,,only 1 residuals

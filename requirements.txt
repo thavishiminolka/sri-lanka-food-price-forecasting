@@ -1,0 +1,29 @@
+# Ensemble Learning for Sri Lankan Food Price Analysis and Forecasting
+# Pinned to >= the versions the project was built and tested with.
+
+# --- core data handling ---
+pandas>=2.1
+numpy>=1.26
+pyarrow>=14.0            # parquet for the processed data
+
+# --- modelling ---
+scikit-learn>=1.4        # RandomForest, Ridge, LinearRegression, GridSearchCV, TimeSeriesSplit
+xgboost>=2.0             # XGBRegressor (boosting)
+statsmodels>=0.14        # ARIMA for the hybrid's residual model
+
+# --- visualisation ---
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.18
+
+# --- dashboard ---
+streamlit>=1.31
+
+# --- persistence and I/O ---
+joblib>=1.3
+requests>=2.31           # optional: attempts the HDX download
+
+# --- notebook (not needed for the dashboard) ---
+jupyter>=1.0
+ipykernel>=6.29
+nbformat>=5.9

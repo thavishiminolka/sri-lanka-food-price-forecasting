@@ -1,0 +1,21 @@
+{
+  "n_rows_before": 34262,
+  "required_features": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "roll_mean_3",
+    "roll_std_3",
+    "exp_mean",
+    "exp_std",
+    "diff_1",
+    "pct_change_1"
+  ],
+  "n_rows_after": 26188,
+  "n_rows_dropped": 8074,
+  "pct_rows_kept": 76.43,
+  "n_series": 1413,
+  "date_min": "2004-04-01",
+  "date_max": "2025-09-01",
+  "reason": "A row needs at least three consecutive prior monthly observations in its own series before lag_1..lag_3 and the 3-month rolling statistics exist."
+}
